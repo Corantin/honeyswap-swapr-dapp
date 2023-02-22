@@ -119,7 +119,6 @@ export class EcoBridge {
 
   public getSupportedBridges = () => {
     const supportedBridges = selectSupportedBridges(this.store.getState())
-
     supportedBridges.forEach(bridge => {
       this.bridges[bridge.bridgeId].getBridgingMetadata()
     })
