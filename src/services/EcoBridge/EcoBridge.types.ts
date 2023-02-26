@@ -90,6 +90,7 @@ export interface BridgeDetails {
   fee?: string
   receiveAmount?: string
   requestId?: number
+  routeId?: string
 }
 
 export type SupportedBridges = {

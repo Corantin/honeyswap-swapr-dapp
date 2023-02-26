@@ -92,6 +92,10 @@ export const BridgeModal = ({
       setIsWarning(false)
       setBridgeName('OmniBridge')
     }
+    if (activeBridge === 'lifi') {
+      setIsWarning(false)
+      setBridgeName('Lifi Bridge')
+    }
   }, [activeBridge, status, symbol, t, typedValue])
 
   const onDismiss = () => {
