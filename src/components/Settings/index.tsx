@@ -1,6 +1,6 @@
 import { transparentize } from 'polished'
 import { useState } from 'react'
-import { Code, Info, MessageCircle, Settings as SettingsIcon, X } from 'react-feather'
+import { Code, MessageCircle, Settings as SettingsIcon, X, Twitter } from 'react-feather'
 import { Text } from 'rebass'
 import styled from 'styled-components'
 
@@ -176,6 +176,10 @@ const Divider = styled.div<{ horizontal?: boolean }>`
   height: ${props => (props.horizontal ? '100%' : 'auto')};
 `
 
+const BlueLink = styled.a`
+  color: dodgerblue !important;
+`
+
 const CODE_LINK = 'https://github.com/Corantin/honeyswap-swapr-dapp'
 
 export function Settings({ simple }: { simple?: boolean }) {
@@ -306,13 +310,13 @@ export function Settings({ simple }: { simple?: boolean }) {
                     <Divider />
                     <RowBetween width="100%" marginTop="12px" marginBottom="12px">
                       <MenuItem
-                        href="https://1hive.org/"
+                        href="https://twitter.com/1HiveOrg"
                         rel="noopener noreferrer"
                         target="_blank"
                         data-testid="about-hyperlink"
                       >
-                        <Info size={14} />
-                        1hive.org
+                        <Twitter size={14} />
+                        Twitter
                       </MenuItem>
                       <MenuItem href={CODE_LINK} data-testid="code-hyperlink">
                         <Code size={14} />
@@ -323,11 +327,25 @@ export function Settings({ simple }: { simple?: boolean }) {
                         Discord
                       </MenuItem>
                     </RowBetween>
-                    <RowBetween alignItems="center" marginBottom="8px">
+                    <RowBetween alignItems="center">
                       <SwaprVersionLogo />
                       <Divider horizontal style={{ height: 48 }} />
-                      <TYPE.Body fontWeight={700} fontSize="8px" letterSpacing="3px" color="white">
-                        A 1hive PRODUCT
+                      <TYPE.Body
+                        fontWeight={700}
+                        fontSize="8px"
+                        letterSpacing="3px"
+                        color="white"
+                        marginLeft="32px"
+                        flexGrow={1}
+                      >
+                        A{' '}
+                        <BlueLink href="https://1hive.org/" target="_blank">
+                          1HIVE
+                        </BlueLink>{' '}
+                        PRODUCT BASED ON{' '}
+                        <BlueLink href="https://twitter.com/SwaprEth" target="_blank">
+                          SWAPR
+                        </BlueLink>
                       </TYPE.Body>
                     </RowBetween>
                   </>

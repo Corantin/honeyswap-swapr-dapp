@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
-import packageJson from '../../../package.json'
 import logoImage from '../../assets/images/logo_white.svg'
 import { breakpoints } from '../../utils/theme'
 
 const Logo = styled.img.attrs({ src: logoImage })`
+  margin: 16px;
   height: 40px;
 
   @media screen and (max-width: ${breakpoints.s}) {
