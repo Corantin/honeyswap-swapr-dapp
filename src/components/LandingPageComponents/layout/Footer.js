@@ -75,7 +75,7 @@ const StyledFooter = styled(Layout)`
           .footer-link-list {
             .footer-link-item {
               margin-bottom: 12px;
-              font-size: 14px;
+              font-size: 16px;
               line-height: 22px;
               font-weight: 200;
               opacity: 0.5;

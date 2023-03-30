@@ -10,7 +10,7 @@ import { SearchInput } from '../SearchModal/shared'
 
 const SearchInputStyled = styled(SearchInput)<{ error: boolean }>`
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding: ${({ error }) => error && '15px 19px'};
   && {

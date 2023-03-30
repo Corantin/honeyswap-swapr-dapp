@@ -47,7 +47,7 @@ export const DisclaimerTextWrapper = styled.div<{ isWarning: boolean }>`
 `
 export const DisclaimerText = styled.p`
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 24px;
   text-align: left;
   line-height: 17px;

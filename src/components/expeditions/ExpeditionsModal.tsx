@@ -30,23 +30,10 @@ export default function ExpeditionsModal({ onDismiss }: { onDismiss: () => void 
     <Modal maxWidth={630} onDismiss={onDismiss} isOpen={open}>
       <ContentWrapper gap="lg">
         <UpperAutoColumn gap={'32px'}>
-          <Row justifyContent={'center'} gap={'8px'}>
-            <img src={SwprLogo} alt="SwprLogo" style={{ height: '40px' }} />
-            <TYPE.LargeHeader>Swapr Expeditions</TYPE.LargeHeader>
-          </Row>
           <Row>
             <Text>
-              Embark on a journey through space-time. In Swapr expeditions, you will traverse the lavender sea, making
-              incredible discoveries along the way.
-            </Text>
-          </Row>
-          <Row>
-            <Text>Get ready, Expeditions is launching very soon.</Text>
-          </Row>
-          <Row>
-            <Text>
-              Follow Swapr <ExternalLink href="https://twitter.com/swapreth">Twitter</ExternalLink> or{' '}
-              <ExternalLink href="https://discord.gg/4QXEJQkvHH">Discord</ExternalLink> to get updates on Expeditions.
+              Follow 1hive <ExternalLink href="https://twitter.com/1HiveOrg">Twitter</ExternalLink> or{' '}
+              <ExternalLink href="https://discord.gg/rruDSegpP4">Discord</ExternalLink>
             </Text>
           </Row>
         </UpperAutoColumn>

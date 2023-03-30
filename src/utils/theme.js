@@ -58,7 +58,7 @@ export const gradients = {
   cta: 'linear-gradient(266.97deg, #f1e265 5.64%, rgba(219, 219, 140, 0.96) 53.85%, #f1e265 97.29%)',
   heroMainText: 'linear-gradient(270deg, #FFFFFF 1.98%, #DCD8FE 95.72%)',
   glow: 'radial-gradient(closest-side, rgba(51, 55, 10, 1) 20%, rgba(20, 10, 55, 0) 100%)',
-  yellowDimDark: 'linear-gradient(256.45deg,rgb(131 152 15 / 20%) 7%,rgb(82 82 60 / 0%) 66%)',
+  yellowDimDark: 'linear-gradient(256.45deg, rgb(65, 68, 47 / 20%) 7%, rgb(82 82 60 / 0%) 66%)',
   yellowDim:
     'linear-gradient(118.9deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(0, 0, 0, 0) 132.78%), rgba(84, 88, 55, 0.7);',
 }

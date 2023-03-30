@@ -176,7 +176,7 @@ const Divider = styled.div<{ horizontal?: boolean }>`
   height: ${props => (props.horizontal ? '100%' : 'auto')};
 `
 
-const CODE_LINK = 'https://github.com/levelkdev/dxswap-dapp'
+const CODE_LINK = 'https://github.com/Corantin/honeyswap-swapr-dapp'
 
 export function Settings({ simple }: { simple?: boolean }) {
   const open = useModalOpen(simple ? ApplicationModal.SIMPLE_SETTINGS : ApplicationModal.SETTINGS)
@@ -306,19 +306,19 @@ export function Settings({ simple }: { simple?: boolean }) {
                     <Divider />
                     <RowBetween width="100%" marginTop="12px" marginBottom="12px">
                       <MenuItem
-                        href="https://dxdao.eth.limo/"
+                        href="https://1hive.org/"
                         rel="noopener noreferrer"
                         target="_blank"
                         data-testid="about-hyperlink"
                       >
                         <Info size={14} />
-                        About
+                        1hive.org
                       </MenuItem>
                       <MenuItem href={CODE_LINK} data-testid="code-hyperlink">
                         <Code size={14} />
                         Code
                       </MenuItem>
-                      <MenuItem href="https://discord.com/invite/4QXEJQkvHH" data-testid="discord-hyperlink">
+                      <MenuItem href="https://discord.gg/rruDSegpP4" data-testid="discord-hyperlink">
                         <MessageCircle size={14} />
                         Discord
                       </MenuItem>
@@ -327,7 +327,7 @@ export function Settings({ simple }: { simple?: boolean }) {
                       <SwaprVersionLogo />
                       <Divider horizontal style={{ height: 48 }} />
                       <TYPE.Body fontWeight={700} fontSize="8px" letterSpacing="3px" color="white">
-                        A DXDAO PRODUCT
+                        A 1hive PRODUCT
                       </TYPE.Body>
                     </RowBetween>
                   </>

@@ -101,7 +101,7 @@ const Dots = styled.div<{ status: BridgeTransactionStatus }>`
       : theme.yellow3};
 
   &:after {
-    font-size: 14px;
+    font-size: 16px;
     content: '\\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7 \\00B7';
   }
 `

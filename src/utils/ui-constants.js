@@ -317,7 +317,7 @@ export const CommunityLinksContent = {
       content: 'Join in on community discussion on the Swapr Discord.',
       button: {
         label: 'JOIN DISCORD',
-        href: 'https://discord.gg/4QXEJQkvHH',
+        href: 'https://discord.gg/rruDSegpP4',
       },
     },
     {
@@ -402,19 +402,15 @@ export const FooterContent = {
       footerLinks: [
         {
           label: 'Discord',
-          href: 'https://discord.gg/4QXEJQkvHH',
+          href: 'https://discord.gg/rruDSegpP4',
         },
         {
           label: 'Twitter',
-          href: 'https://twitter.com/SwaprEth',
-        },
-        {
-          label: 'Keybase',
-          href: 'https://keybase.io/team/dx_dao',
+          href: 'https://twitter.com/1HiveOrg',
         },
         {
           label: 'Forum',
-          href: 'https://daotalk.org/c/dx-dao/15',
+          href: 'https://forum.1hive.org/',
         },
       ],
     },

@@ -147,7 +147,7 @@ export function Account() {
           </Flex>
           <Flex flexDirection="column" justifyContent="center" marginLeft={isMobile ? '16px' : '24px'}>
             <Box sx={{ mb: 1 }}>
-              <Text as="h1" fontSize={[4, 5]} sx={{ color: '#f6f7ba', mb: 2, textTransform: 'uppercase' }}>
+              <Text as="h1" fontSize={[4, 5]} sx={{ color: '#ffffff', mb: 2, textTransform: 'uppercase' }}>
                 {accountName ?? '--'}
               </Text>
               <FullAccount>{account}</FullAccount>
@@ -160,8 +160,14 @@ export function Account() {
               </StyledLink>
             </DetailActionWrapper>
             <CallToActionWrapper>
-              <Button onClick={toggleWalletSwitcherPopover}>{t('changeWallet')}</Button>
-              {active && <Button onClick={deactivate}>{t('disconnect')}</Button>}
+              <Button onClick={toggleWalletSwitcherPopover} backgroundColor="#242420 !important">
+                {t('changeWallet')}
+              </Button>
+              {active && (
+                <Button onClick={deactivate} backgroundColor="#242420 !important">
+                  {t('disconnect')}
+                </Button>
+              )}
             </CallToActionWrapper>
           </Flex>
         </Flex>

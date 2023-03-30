@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import packageJson from '../../../package.json'
-import logoImage from '../../assets/images/swapr_white_no_badge.svg'
+import logoImage from '../../assets/images/logo_white.svg'
 import { breakpoints } from '../../utils/theme'
 
 const Logo = styled.img.attrs({ src: logoImage })`
@@ -34,7 +34,6 @@ export function SwaprVersionLogo() {
   return (
     <RelativeContainer>
       <Logo />
-      <Badge>{packageJson.version}</Badge>
     </RelativeContainer>
   )
 }

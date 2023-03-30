@@ -48,7 +48,7 @@ export const SelectionListName = styled(Text)<{
 }>`
   margin: 0;
   font-weight: ${({ isSelected }) => (isSelected ? '600' : '500')};
-  font-size: 14px;
+  font-size: 16px;
   color: ${({ isSelected, theme }) => (isSelected ? theme.text1 : theme.text3)};
   flex: ${({ flex }) => flex || '45%'};
 `

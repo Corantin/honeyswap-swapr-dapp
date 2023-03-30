@@ -31,7 +31,7 @@ export const MaxExpiryTime = styled.button`
   color: #70724d;
   border: none;
   cursor: pointer;
-  background-color: #383833;
+  background-color: #3c3c3c;
   border-radius: 5px;
   text-transform: uppercase;
   padding: 3px 8px;

@@ -38,7 +38,7 @@ const FadeTransactions = css`
 
 const TitleBase = css`
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: ${({ theme }) => theme.text4};
   text-transform: uppercase;
 `
@@ -90,7 +90,7 @@ export const PairTab = styled.div<{ size?: string }>`
 `
 
 export const PairValue = styled.div`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: ${({ theme }) => theme.text3};
 `
@@ -204,7 +204,7 @@ export const NoDataMessage = styled.p`
   color: ${({ theme }) => theme.yellow2};
   text-align: center;
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 16px;
 
   & > span {
     font-weight: 700;

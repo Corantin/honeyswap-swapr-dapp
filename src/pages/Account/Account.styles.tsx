@@ -87,7 +87,7 @@ export const GridCard = styled(Flex)<{ status?: string }>`
     }
     flex-wrap: wrap;
     gap: 12px 4px;
-    font-size: 14px;
+    font-size: 16px;
   `};
   background: ${({ status }) => {
     switch (status) {

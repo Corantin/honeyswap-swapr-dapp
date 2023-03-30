@@ -61,7 +61,7 @@ export function colors(darkMode: boolean): Colors {
     bg3: darkMode ? '#4f4d40' : '#EDEEF2',
     bg4: darkMode ? '#686956' : '#CED0D9',
     bg5: darkMode ? '#84846c' : '#888D9B',
-    bg6: darkMode ? '#292921' : '#888D9B',
+    bg6: darkMode ? '#323232' : '#888D9B',
     bg7: '#403f2d',
     bg8: '#242419',
     bg9: '#171b26;',
@@ -116,7 +116,7 @@ export function colors(darkMode: boolean): Colors {
     // darkest // dark 1.1
     darkest: '#212116',
     dark1: '#212429',
-    dark2: '#212429',
+    dark2: '#171a1e',
   }
 }
 
@@ -405,7 +405,7 @@ body {
 }
 
 .custom-toast-body a{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .Toastify__toast {
