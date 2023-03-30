@@ -55,7 +55,7 @@ export const SwapTokenIconWrapper = styled.div`
 `
 
 export const SwapTokenWrapper = styled(Flex)`
-  color: #8780bf;
+  color: #afbf80;
   align-items: center;
   &:hover {
     color: #736f96;

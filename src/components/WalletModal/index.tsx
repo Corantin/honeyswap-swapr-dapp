@@ -5,7 +5,6 @@ import { AlertTriangle } from 'react-feather'
 import { usePrevious } from 'react-use'
 import styled from 'styled-components'
 
-import { ReactComponent as DxDaoBanner } from '../../assets/images/DxDaoProductBanner.svg'
 import { ReactComponent as Close } from '../../assets/images/x.svg'
 import { useUnsupportedChainIdError } from '../../hooks'
 import { useWalletSwitcherPopoverToggle } from '../../state/application/hooks'
@@ -209,9 +208,6 @@ export default function WalletModal({
             tryActivation={tryActivation}
           />
         </ContentWrapper>
-        <Blurb as="a" href="https://dxdao.eth.limo/" rel="noopener noreferrer" target="_blank">
-          <DxDaoBanner />
-        </Blurb>
       </UpperSection>
     )
   }

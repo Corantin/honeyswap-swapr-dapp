@@ -126,7 +126,7 @@ export function LimitTransactionRow({ transaction }: LimitTransactionRowProps) {
       </TransactionDetails>
 
       <TypeDetails>
-        <Box color="#8780BF" fontWeight="600">
+        <Box color="#afbf80" fontWeight="600">
           {type}
         </Box>
         <Box fontWeight="600">CoW</Box>

@@ -228,7 +228,7 @@ const StyledStats = styled(Layout)`
         clip-path: ${props =>
           props.isChartActive ? 'polygon(0 0, 2px 0, 100% 100%, 0 100%);' : 'polygon(0 0, 2px 0, 2px 0, 0 0);'};
         width: 1px;
-        background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
       &:before {
         left: 0;
@@ -237,7 +237,7 @@ const StyledStats = styled(Layout)`
         width: 180%;
         clip-path: ${props =>
           props.isChartActive ? 'polygon(0 0, 100% 0, 100% 2px, 0 2px);' : 'polygon(0 0, 0 0, 0 2px, 0 2px);'};
-        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
     }
     .trades {
@@ -249,7 +249,7 @@ const StyledStats = styled(Layout)`
         width: 100%;
         -webkit-clip-path: ${props =>
           props.isChartActive ? 'polygon(0 0, 100% 0, 100% 2px, 0 2px);' : 'polygon(0 0, 0 0, 0 2px, 0 2px);'};
-        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
     }
     .total-fees-collected {
@@ -261,7 +261,7 @@ const StyledStats = styled(Layout)`
         clip-path: ${props =>
           props.isChartActive ? 'polygon(0 0, 100% 0, 100% 2px, 0 2px);' : 'polygon(0 0, 0 0, 0 2px, 0 2px);'};
         width: 100%;
-        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
     }
     .swpr-price {
@@ -273,7 +273,7 @@ const StyledStats = styled(Layout)`
         width: 100%;
         clip-path: ${props =>
           props.isChartActive ? 'polygon(0 0, 100% 0, 100% 2px, 0 2px);' : 'polygon(0 0, 0 0, 0 2px, 0 2px);'};
-        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
     }
     .tvl {
@@ -284,7 +284,7 @@ const StyledStats = styled(Layout)`
         -webkit-clip-path: ${props =>
           props.isChartActive ? 'polygon(0 0, 2px 0, 2px 100%, 0 100%)' : 'polygon(0 0, 100% 0, 100% 0, 0 0)'};
         width: 1px;
-        background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
       &:before {
         left: 0;
@@ -293,7 +293,7 @@ const StyledStats = styled(Layout)`
         width: 100%;
         clip-path: ${props =>
           props.isChartActive ? 'polygon(0 0, 100% 0, 100% 2px, 0 2px);' : 'polygon(0 0, 0 0, 0 2px, 0 2px);'};
-        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
     }
     .routing-through {
@@ -303,7 +303,7 @@ const StyledStats = styled(Layout)`
         left: 0;
         height: ${props => `${props.isChartActive ? `100%` : `0px`}`};
         width: 1px;
-        background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
       .routing-through-companies {
         margin-top: 43px;
@@ -344,7 +344,7 @@ const StyledStats = styled(Layout)`
         position: absolute;
       }
       h3 {
-        color: #8780bf;
+        color: #afbf80;
         font-weight: 300;
         margin-bottom: 16px;
         letter-spacing: 1px;
@@ -414,7 +414,7 @@ const StyledStats = styled(Layout)`
             height: 100%;
             -webkit-clip-path: ${props =>
               props.isChartActive ? 'polygon(0 0, 100% 0, 100% 100%, 0 100%);' : 'polygon(0 0, 100% 0, 100%, 0 0);'};
-            background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+            background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
           }
         }
         &.tvl {
@@ -424,7 +424,7 @@ const StyledStats = styled(Layout)`
             width: 100%;
             -webkit-clip-path: ${props =>
               props.isChartActive ? 'polygon(0 0, 100% 0, 100% 2px, 0 2px);' : 'polygon(0 0, 0 0, 0 2px, 0 2px);'};
-            background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+            background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
           }
         }
         &.swpr-price {
@@ -435,7 +435,7 @@ const StyledStats = styled(Layout)`
             width: 2px;
             -webkit-clip-path: ${props =>
               props.isChartActive ? 'polygon(0 0, 100% 0, 100% 100%, 0 100%);' : 'polygon(0 0, 100% 0, 100%, 0 0);'};
-            background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+            background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
           }
           .value {
             overflow: hidden;
@@ -451,7 +451,7 @@ const StyledStats = styled(Layout)`
             height: 200%;
             top: 0;
             width: 1px;
-            background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+            background: linear-gradient(180deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
           }
         }
       }

@@ -193,7 +193,7 @@ const StyledHero = styled(Layout)`
           width: 100%;
           bottom: 14px;
           height: 1px;
-          background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+          background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
         }
       }
       .label {
@@ -209,7 +209,7 @@ const StyledHero = styled(Layout)`
         width: 100%;
         bottom: -14px;
         height: 1px;
-        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #8780bf 51.04%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(90deg, rgba(185, 191, 128, 0) 0%, #afbf80 51.04%, rgba(185, 191, 128, 0) 100%);
       }
       .marquee {
         min-width: unset;

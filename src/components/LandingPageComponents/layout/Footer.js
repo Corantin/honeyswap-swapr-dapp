@@ -116,7 +116,7 @@ const StyledFooter = styled(Layout)`
         bottom: 0;
         height: 1px;
         width: 100%;
-        background: linear-gradient(270deg, rgba(185, 191, 128, 0) 0.56%, #8780bf 51.32%, rgba(185, 191, 128, 0) 100%);
+        background: linear-gradient(270deg, rgba(185, 191, 128, 0) 0.56%, #afbf80 51.32%, rgba(185, 191, 128, 0) 100%);
       }
     }
     @media screen and (max-width: ${breakpoints.l}) {

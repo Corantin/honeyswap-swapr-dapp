@@ -11,7 +11,7 @@ export const StyledInnerWrapper = styled.div`
   align-items: flex-start;
   padding: 12px 16px;
   gap: 10px;
-  background: #1d202f;
+  background: #383833;
   border-radius: 8px;
   position: relative;
 `
@@ -36,7 +36,7 @@ export const StyledLabel = styled.label`
   line-height: 12px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8c83c0;
+  color: #bfc083;
   margin-bottom: 12px;
 `
 
