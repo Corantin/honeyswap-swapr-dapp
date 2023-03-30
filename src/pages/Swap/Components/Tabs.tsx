@@ -94,7 +94,7 @@ export function Tabs() {
           Swap
         </Button>
         <LimitOrderTab className={activeTab === SwapTab.LIMIT_ORDER ? 'active' : ''} setActiveTab={setActiveTab} />
-        <Button
+        {/* <Button
           title="Bridge Swap"
           onClick={() => {
             dispatch(ecoBridgeUIActions.setBridgeSwapStatus(true))
@@ -104,7 +104,7 @@ export function Tabs() {
         >
           <StyledBridge height={11} />
           {t('tabs.bridgeSwap')}
-        </Button>
+        </Button> */}
       </TabsRow>
       <ChartTabs setActiveChartTab={setActiveChartTab} activeChartTab={activeChartTab} />
     </TabsColumn>

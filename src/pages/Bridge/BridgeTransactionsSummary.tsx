@@ -37,7 +37,7 @@ const Header = styled(Row)`
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
 `
 
 const ColumnBridging = styled.div`
@@ -98,7 +98,7 @@ const Dots = styled.div<{ status: BridgeTransactionStatus }>`
       ? theme.green2
       : status === 'failed' || status === 'cancelled'
       ? theme.red2
-      : theme.purple3};
+      : theme.yellow3};
 
   &:after {
     font-size: 14px;
@@ -126,7 +126,7 @@ const TextTo = styled(Link)<{ status: BridgeTransactionStatus }>`
       ? theme.green2
       : status === 'failed' || status === 'cancelled'
       ? theme.red2
-      : theme.purple3};
+      : theme.yellow3};
 `
 interface BridgeTransactionsSummaryProps {
   transactions: BridgeTransactionSummary[]

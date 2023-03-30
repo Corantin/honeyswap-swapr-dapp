@@ -167,6 +167,6 @@ export const CancelIcon = styled(XCircle)`
 export const StyledSwitch = styled(Repeat)`
   width: 12px;
   height: 12px;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
   margin-left: 4px;
 `

@@ -144,7 +144,7 @@ const FarmingBadge = styled.div<{ isGreyed?: boolean }>`
   border: solid 1px;
   border-color: ${({ isGreyed, theme }) => (isGreyed ? `transparent` : `${theme.green2}`)};
   div {
-    color: ${({ isGreyed, theme }) => (isGreyed ? theme.purple2 : theme.green2)};
+    color: ${({ isGreyed, theme }) => (isGreyed ? theme.white : theme.green2)};
   }
   border-radius: 6px;
   width: fit-content;
@@ -158,7 +158,7 @@ const FarmingBadge = styled.div<{ isGreyed?: boolean }>`
   gap: 4px;
   svg {
     > path {
-      fill: ${({ isGreyed, theme }) => (isGreyed ? theme.purple2 : theme.green2)};
+      fill: ${({ isGreyed, theme }) => (isGreyed ? theme.yellow2 : theme.green2)};
     }
   }
   font-weight: 700;

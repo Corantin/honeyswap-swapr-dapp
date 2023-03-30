@@ -48,7 +48,7 @@ export const RecipientField = ({ recipient }: RecipientFieldProps) => {
 
   return (
     <div>
-      <TYPE.SubHeader lineHeight={'11px'} color={'purple3'}>
+      <TYPE.SubHeader lineHeight={'11px'} color={'yellow3'}>
         {t('recipientField.recipient')}
       </TYPE.SubHeader>
       <SearchInputStyled

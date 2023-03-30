@@ -44,7 +44,7 @@ const View = styled.div`
   margin-left: auto;
   background-color: ${({ theme }) => theme.dark1};
   border: solid 2px transparent;
-  color: ${({ theme }) => theme.purple2};
+  color: ${({ theme }) => theme.yellow2};
   border-radius: 12px;
   white-space: nowrap;
   margin-left: 8px;

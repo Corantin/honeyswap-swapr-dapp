@@ -64,7 +64,7 @@ export const ResetFilterIconContainer = styled(Flex)`
 export const ResetFilterIcon = styled(X)`
   width: 12px;
   height: 12px;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
 `
 
 export const StyledMediumHeader = styled(TYPE.MediumHeader)`

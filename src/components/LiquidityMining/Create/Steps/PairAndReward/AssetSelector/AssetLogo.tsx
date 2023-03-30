@@ -56,15 +56,15 @@ export const Circle = styled.div<{
   top: ${({ top }) => top && top}px;
   width: ${({ size }) => size}px;
   height: ${({ size }) => size}px;
-  border: ${({ active }) => (active ? 'none' : '1px solid #2A2F42')};
+  border: ${({ active }) => (active ? 'none' : '1px solid #40422a')};
   background: ${({ active }) =>
-    active ? 'linear-gradient(135deg, rgba(118, 52, 255, 0.7) 16.33%, rgba(35, 0, 102, 0) 95.92%)' : '#3C38641A'};
+    active ? 'linear-gradient(135deg, rgba(235, 255, 52, 0.7) 16.33%, rgba(35, 0, 102, 0) 95.92%)' : '#6164381a'};
   box-shadow: ${({ active }) =>
     active
       ? 'inset 5.17256px 8.62093px 25.8628px rgba(255, 255, 255, 0.16), inset 9.56367px 3.18789px 15.9394px rgba(255, 255, 255, 0.1);'
-      : 'inset 0px 1.55659px 9.33954px rgba(165, 164, 255, 0.08),  inset 9.33954px 3.11318px 15.5659px rgba(143, 141, 255, 0.1);'};
+      : 'inset 0px 1.55659px 9.33954px rgba(253, 255, 164, 0.08),  inset 9.33954px 3.11318px 15.5659px rgba(255, 253, 141, 0.1);'};
 
-  filter: drop-shadow(18px 0px 60px rgba(175, 135, 255, 0.3));
+  filter: drop-shadow(18px 0px 60px rgba(255, 247, 135, 0.3));
   backdrop-filter: ${({ active }) => (active ? 'blur(22.4144px)' : 'blur(14px)')};
   background-color: ${({ active }) => active && '#000000f5'};
   border-radius: 255.031px;

@@ -66,6 +66,15 @@ const Marginer = styled.div`
   margin-top: 5rem;
 `
 
+const Footer = styled.div`
+  font-size: 12px;
+  text-align: center;
+  width: 420px;
+  margin: auto;
+  color: #fffa;
+  padding-bottom: 16px;
+`
+
 export default function App() {
   const { chainId } = useActiveWeb3React()
   const location = useLocation()
@@ -108,6 +117,17 @@ export default function App() {
                   </SpaceBg>
                   <Marginer />
                 </BodyWrapper>
+                <Footer>
+                  “That which is not good for the{' '}
+                  <span role="img" aria-label="bee">
+                    🐝
+                  </span>
+                  -hive cannot be good for the{' '}
+                  <span role="img" aria-label="bee">
+                    🐝
+                  </span>
+                  .” —Marcus Aurelius
+                </Footer>
               </AppWrapper>
             </Web3ReactManager>
             <ToastContainer

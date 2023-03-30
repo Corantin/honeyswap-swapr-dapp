@@ -64,7 +64,7 @@ export function Swap() {
         setActiveChartTab,
       }}
     >
-      <Hero showMarquee={!isPro}>
+      <Hero showMarquee={false}>
         <AppBodyContainer>
           <AdvancedViewWrapper>
             <Tabs />
@@ -73,7 +73,7 @@ export function Swap() {
           </AdvancedViewWrapper>
         </AppBodyContainer>
       </Hero>
-      {!isPro && <LandingSections />}
+      {/* {!isPro && <LandingSections />} */}
     </SwapTabContext.Provider>
   )
 }

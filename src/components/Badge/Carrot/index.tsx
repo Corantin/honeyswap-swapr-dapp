@@ -7,10 +7,10 @@ const KpiBadge = styled.div<{ isGreyed: boolean }>`
   height: 16px;
   border: solid 1px;
   border-color: ${props => (props.isGreyed ? `transparent` : `${props.theme.orange1}`)};
-  color: ${props => (props.isGreyed ? props.theme.purple2 : props.theme.orange1)};
+  color: ${props => (props.isGreyed ? props.theme.white : props.theme.orange1)};
   svg {
     > path {
-      fill: ${props => (props.isGreyed ? props.theme.purple2 : props.theme.orange1)};
+      fill: ${props => (props.isGreyed ? props.theme.yellow2 : props.theme.orange1)};
     }
   }
   background-color: ${props => props.isGreyed && props.theme.bg3};

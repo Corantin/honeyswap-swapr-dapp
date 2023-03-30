@@ -59,7 +59,7 @@ const Title = styled.p`
   font-size: 18px;
   line-height: 22px;
   letter-spacing: -0.01em;
-  color: ${({ theme }) => theme.purple2};
+  color: ${({ theme }) => theme.yellow2};
 `
 
 const Row = styled(RowBetween)`

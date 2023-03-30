@@ -19,5 +19,9 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
     "editor.rulers": [120]
+  },
+  "i18next.i18nPaths": "c:/Projects/honeyswap-swapr-dapp/public/locales",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

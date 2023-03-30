@@ -4,16 +4,16 @@ import styled from 'styled-components'
 import './Switch.css'
 
 const StyledLabel = styled.label<{ isOn: boolean; isRed: boolean }>`
-  ${({ isRed, isOn }) => isRed && !isOn && 'outline: 1px solid #464366;outline-offset: -1px;'};
+  ${({ isRed, isOn }) => isRed && !isOn && 'outline: 1px solid #626643;outline-offset: -1px;'};
   background: ${({ isOn, isRed, theme }) =>
-    isOn && isRed ? '#F02E51' : !isOn && isRed ? '#3933584D' : isOn ? `${theme.mainPurple}` : `${theme.purple5}`};
+    isOn && isRed ? '#F02E51' : !isOn && isRed ? '#3933584D' : isOn ? `${theme.mainPurple}` : `${theme.yellow5}`};
 `
 const StyledText = styled(Text)<{ isOn: boolean }>`
-  color: ${({ theme, isOn }) => (isOn ? theme.text2 : theme.purple2)};
+  color: ${({ theme, isOn }) => (isOn ? theme.text2 : theme.yellow2)};
   text-transform: uppercase;
 `
 const StyledSpan = styled.span<{ isOn: boolean; isRed: boolean }>`
-  background: ${({ isOn, isRed }) => (isOn && isRed ? 'black' : isOn ? '#fff' : '#c0baf6')};
+  background: ${({ isOn, isRed }) => (isOn && isRed ? 'black' : isOn ? '#fff' : '#f5f6ba')};
 `
 interface SwitchProps {
   isOn: boolean

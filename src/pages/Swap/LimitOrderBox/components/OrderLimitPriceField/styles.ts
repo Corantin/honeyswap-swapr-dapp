@@ -51,7 +51,7 @@ export const SwapTokenIconWrapper = styled.div`
   height: 22px;
   background: rgba(104, 110, 148, 0.3);
   border-radius: 4.25926px;
-  color: #bcb3f0;
+  color: #70724d;
 `
 
 export const SwapTokenWrapper = styled(Flex)`
@@ -65,7 +65,7 @@ export const SwapTokenWrapper = styled(Flex)`
   }
 `
 export const ToggleCurrencyButton = styled.span`
-  color: #464366;
+  color: #626643;
   cursor: pointer;
 `
 

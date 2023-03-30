@@ -81,11 +81,11 @@ export function ImportList({ onBack, onDismiss }: ImportListProps) {
               </RowFixed>
               {chainId && (
                 <ExternalLink
-                  color="purple4"
+                  color="yellow4"
                   style={{ fontWeight: 400 }}
                   href={`https://tokenlists.org/token-list?url=${listURI}`}
                 >
-                  <TYPE.Main color="purple4" fontSize="14px" lineHeight="17px">
+                  <TYPE.Main color="yellow4" fontSize="14px" lineHeight="17px">
                     View on token lists explorer
                   </TYPE.Main>
                 </ExternalLink>

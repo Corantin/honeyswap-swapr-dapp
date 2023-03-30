@@ -71,7 +71,7 @@ const StyledFeatureItem = styled.div`
     bottom: 0;
     width: 389px;
     height: 1px;
-    background: linear-gradient(90deg, black, #8780bf, black);
+    background: linear-gradient(90deg, black, #bfb180, black);
   }
   &:nth-child(even) {
     top: 140px;

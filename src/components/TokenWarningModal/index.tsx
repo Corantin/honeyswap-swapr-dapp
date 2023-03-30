@@ -75,11 +75,11 @@ export function TokenWarningCard({ token, list }: TokenWarningCardProps) {
         </TYPE.Main>
         {chainId && (
           <ExternalLink
-            color="purple4"
+            color="yellow4"
             style={{ fontWeight: 400 }}
             href={getExplorerLink(chainId, token.address, 'token')}
           >
-            <TYPE.Main color="purple4" fontSize="14px" lineHeight="17px" title={token.address}>
+            <TYPE.Main color="yellow4" fontSize="14px" lineHeight="17px" title={token.address}>
               {shortenAddress(token.address)} ({t('viewOnBlockExplorer')})
             </TYPE.Main>
           </ExternalLink>

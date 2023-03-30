@@ -32,7 +32,7 @@ export const CurrencySelect = styled.button<{ selected: boolean; disableCurrency
   ${({ disabled, theme }) =>
     disabled &&
     `
-    background-color: ${theme.purple5};
+    background-color: ${theme.yellow5};
     color: ${transparentize(0.28, theme.purpleBase)};
     cursor: not-allowed;
     box-shadow: none;

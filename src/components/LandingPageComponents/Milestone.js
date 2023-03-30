@@ -96,11 +96,11 @@ const StyledMilestone = styled.li`
         width: 1px;
         left: -36px;
         content: '';
-        background: rgba(135, 128, 191, 0.5);
+        background: rgba(191, 188, 128, 0.5);
       }
       &.past-milestone {
         &:after {
-          background: linear-gradient(90.22deg, #3c0fef 0.62%, #b300ff 105.85%);
+          background: linear-gradient(90.22deg, #efd50f 0.62%, #ffd500 105.85%);
         }
       }
     }
@@ -111,17 +111,17 @@ const StyledMilestone = styled.li`
     }
     &.past-milestone {
       &:after {
-        background: linear-gradient(90.22deg, #3c0fef 0.62%, #b300ff 105.85%);
+        background: linear-gradient(90.22deg, #efd50f 0.62%, #ffd500 105.85%);
       }
       & + .milestone {
         &:after {
-          background: #ab01fe;
+          background: 237, 254, 1;
         }
       }
     }
     & + .milestone {
       &:after {
-        background: rgba(135, 128, 191, 0.5);
+        background: rgba(191, 188, 128, 0.5);
       }
     }
     &:after {
@@ -129,7 +129,7 @@ const StyledMilestone = styled.li`
         position: absolute;
         width: 1px;
         height: 46px;
-        background: rgba(135, 128, 191, 0.5);
+        background: rgba(191, 188, 128, 0.5);
         content: '';
         left: -36px;
         bottom: -46px;
@@ -149,7 +149,7 @@ const StyledMilestone = styled.li`
         content: '';
         width: 1px;
         height: 74px;
-        background: rgba(135, 128, 191, 0.5);
+        background: rgba(191, 188, 128, 0.5);
         left: -36px;
         top: -75px;
         /* transform-origin: 50% 0; */
@@ -226,18 +226,18 @@ const StyledMilestone = styled.li`
       opacity: 0;
     }
     .title {
-      color: rgba(110, 104, 157, 1);
+      color: rgba(156, 157, 104, 1);
       font-size: 20px;
       font-weight: 400;
       margin-bottom: 24px;
       display: inline-block;
-      color: #b7b5cb;
+      color: #bfb180;
     }
     .milestone-line {
       height: calc(100%);
       left: -12px;
       width: 1px;
-      background: linear-gradient(0deg, #8780bf 0%, rgba(135, 128, 191, 0) 100%);
+      background: linear-gradient(0deg, #b9bf80 0%, rgba(191, 188, 128, 0) 100%);
       /* position: absolute; */
       bottom: 0px;
       position: relative;
@@ -252,7 +252,7 @@ const StyledMilestone = styled.li`
       .milestone-feature {
         font-size: 12px;
         line-height: 21px;
-        color: #b7b5cb;
+        color: #c9cbb5;
         font-weight: 200;
         position: relative;
         /* margin-bottom: 4px; */
@@ -265,7 +265,7 @@ const StyledMilestone = styled.li`
           width: 6px;
           height: 6px;
           border-radius: 10px;
-          border: 1px solid rgba(110, 104, 157, 0.4);
+          border: 1px solid rgba(153, 157, 104, 0.4);
         }
       }
       .feature-list-underlay {
@@ -295,7 +295,7 @@ const StyledMilestone = styled.li`
           letter-spacing: 0.2em;
           padding: 0 3px;
           margin-top: 3px;
-          border: 1px solid rgba(46, 23, 242, 1);
+          border: 1px solid rgba(220, 242, 23, 1);
           border-radius: 4px;
           width: fit-content;
           margin-left: 24px;
@@ -314,7 +314,7 @@ const StyledMilestone = styled.li`
     bottom: -12px;
     left: -12px;
     border-radius: 24px;
-    border: 1px solid rgba(200, 194, 255, 1);
+    border: 1px solid rgba(249, 255, 194, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,7 +342,7 @@ const StyledMilestone = styled.li`
     height: 2px;
     width: 100%;
     left: 0;
-    background: rgba(135, 128, 191, 0.5);
+    background: rgba(186, 191, 128, 0.5);
     @media screen and (max-width: 959px) {
       height: 100%;
       width: 1px;
@@ -352,27 +352,27 @@ const StyledMilestone = styled.li`
   &.past-milestone {
     .milestone-content {
       .title {
-        color: #6e689d;
+        color: #9d9b68;
       }
       .milestone-features {
         .milestone-feature {
-          color: #6e689d;
+          color: #989d68;
         }
       }
     }
     .milestone-pointer {
-      border-color: rgba(135, 128, 191, 1);
+      border-color: rgba(191, 188, 128, 1);
       .milestone-pointer-inner {
-        background: rgba(197, 194, 223, 1);
+        background: rgba(222, 223, 194, 1);
         box-shadow: unset;
       }
     }
     .milestone-line {
-      background: rgba(135, 128, 191, 0.25);
+      background: rgba(191, 188, 128, 0.25);
     }
     &:after,
     &:before {
-      background: linear-gradient(90.22deg, #3c0fef 0.62%, #b300ff 105.85%) !important;
+      background: linear-gradient(90.22deg, #efd50f 0.62%, #ffd500 105.85%) !important;
     }
     /* &:before {
             background: linear-gradient(90deg, rgba(60, 15, 239, 1),rgba(179, 0, 255, 1));
@@ -396,7 +396,7 @@ const StyledMilestone = styled.li`
       position: absolute;
       width: 1000px;
       height: 2px;
-      background: rgba(135, 128, 191, 0.5);
+      background: rgba(191, 188, 128, 0.5);
       left: 100%;
       content: '';
       top: calc(100% + 54px);
@@ -423,7 +423,7 @@ const StyledMilestone = styled.li`
       width: 1px;
       position: absolute;
       top: 0;
-      background: linear-gradient(180deg, #8780bf 0%, rgba(135, 128, 191, 0) 100%);
+      background: linear-gradient(180deg, #b9bf80 0%, rgba(191, 188, 128, 0) 100%);
     }
   }
 `

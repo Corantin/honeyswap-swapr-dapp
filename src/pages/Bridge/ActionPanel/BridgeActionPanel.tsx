@@ -107,7 +107,7 @@ export const BridgeActionPanel = ({
         {label}
         {isLoading && (
           <div style={{ marginLeft: '5px', color: 'red' }}>
-            <Loader stroke="#C0BAF6" />
+            <Loader stroke="#f0f6ba" />
           </div>
         )}
       </BridgeButton>

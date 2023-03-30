@@ -61,7 +61,7 @@ export const Trade = ({
       </Flex>
       <Text>{amountOut}</Text>
       {price && <Text>{price}</Text>}
-      <Text sx={{ textTransform: 'uppercase', textAlign: 'right', color: '#BCB3F0' }}>
+      <Text sx={{ textTransform: 'uppercase', textAlign: 'right', color: '#70724d' }}>
         {DateTime.fromMillis(timestampInMilliseconds).toFormat('HH:mm:ss')}
       </Text>
     </TradeWrapper>

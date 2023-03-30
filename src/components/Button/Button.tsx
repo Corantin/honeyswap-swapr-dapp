@@ -42,7 +42,7 @@ export const Base = styled(RebassButton)<BaseProps>`
   border-radius: ${({ borderRadius }) => (borderRadius ? borderRadius : '12px')};
   outline: none;
   border: none;
-  color: ${({ theme }) => theme.white};
+  color: ${({ theme }) => theme.gray1};
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -71,7 +71,7 @@ export const ButtonPrimary = styled(Base)`
     background-color: ${({ theme }) => darken(0.1, theme.primary1)};
   }
   &:disabled {
-    background-color: ${({ theme }) => theme.purple5};
+    background-color: ${({ theme }) => theme.yellow5};
     color: ${({ theme }) => transparentize(0.28, theme.purpleBase)};
     cursor: not-allowed;
     box-shadow: none;
@@ -97,7 +97,7 @@ export const ButtonSecondary = styled(Base)`
 `
 
 export const ButtonGrey = styled(Base)`
-  border: 1px solid #2a2f42;
+  border: 1px solid #42422a;
   background-color: ${props => props.theme.bg1And2};
   color: ${({ theme }) => theme.text5};
   font-size: 16px;
@@ -111,13 +111,13 @@ export const ButtonGrey = styled(Base)`
 
 export const ButtonPurpleDim = styled(Base)`
   padding: 8px 24px;
-  border: 1px solid ${({ theme }) => theme.purple5};
+  border: 1px solid ${({ theme }) => theme.yellow5};
 
   font-size: 12px;
   font-weight: 600;
   color: ${({ theme }) => theme.text4};
 
-  background: ${gradients.purpleDim};
+  background: ${gradients.yellowDim};
   backdrop-filter: blur(25px);
   background-blend-mode: overlay, normal;
 
@@ -171,8 +171,8 @@ export const ButtonDark1 = styled(Base)`
     background-color: ${({ theme }) => theme.dark1};
   }
 `
-export const ButtonPurple = styled(Base)`
-  background: linear-gradient(90deg, #2e17f2 -24.77%, #fb52a1 186.93%);
+export const ButtonYellow = styled(Base)`
+  background: linear-gradient(90deg, #302f22 -24.77%, #fbf852 186.93%);
   color: ${({ theme }) => theme.white};
   padding: 8.5px 26px;
   width: fit-content;
@@ -354,7 +354,7 @@ export function ButtonExternalLink({
     >
       {children}
       <Box ml={2}>
-        <ArrowUpRight size="14px" color={theme.purple2} />
+        <ArrowUpRight size="14px" color={theme.yellow2} />
       </Box>
     </ButtonPurpleDim>
   )
@@ -423,12 +423,12 @@ export const AddSWPRToMetamaskButton = styled(Base)<{ active?: boolean }>`
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: ${props => (props.active ? props.theme.white : '#c0baf7')};
+  color: ${props => (props.active ? props.theme.white : '#eef7ba')};
   background: ${props =>
-    props.active ? `linear-gradient(90deg, ${props.theme.primary1} -24.77%, #fb52a1 186.93%)` : props.theme.bg8};
+    props.active ? `linear-gradient(90deg, ${props.theme.primary1} -24.77%, #58583f 186.93%)` : props.theme.bg8};
   border-radius: 8px;
   border: none;
-  box-shadow: ${props => (props.active ? '0px 0px 42px rgba(165, 58, 196, 0.35)' : 'none')};
+  box-shadow: ${props => (props.active ? '0px 0px 42px rgba(196, 194, 58, 0.35)' : 'none')};
 `
 
 export const StyledButtonsArray = [
@@ -438,7 +438,7 @@ export const StyledButtonsArray = [
   ButtonGrey,
   ButtonInvisible,
   ButtonDark1,
-  ButtonPurple,
+  ButtonYellow,
   ButtonDark2,
   ButtonOutlined,
   ButtonEmpty,

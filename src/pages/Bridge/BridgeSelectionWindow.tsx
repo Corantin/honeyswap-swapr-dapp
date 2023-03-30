@@ -57,7 +57,7 @@ export const BridgeSelectionWindow = () => {
 
       {!availableBridges.length && (
         <Box sx={{ margin: '15px 0', width: '100%' }}>
-          <Text sx={{ textAlign: 'center', color: '#464366' }}>No available bridges</Text>
+          <Text sx={{ textAlign: 'center', color: '#626643' }}>No available bridges</Text>
         </Box>
       )}
     </>

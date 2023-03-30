@@ -72,13 +72,13 @@ export const SearchInput = styled.input<{ fontSize?: string; fontWeight?: number
   font-weight: ${({ fontWeight }) => (fontWeight ? fontWeight : 'normal')};
 
   ::placeholder {
-    color: ${({ theme }) => theme.purple5};
+    color: ${({ theme }) => theme.yellow5};
   }
 `
 export const Separator = styled.div`
   width: 100%;
   height: 1px;
-  background-color: ${({ theme }) => transparentize(0.5, theme.purple5)};
+  background-color: ${({ theme }) => transparentize(0.5, theme.yellow5)};
 `
 
 export const SeparatorDark = styled.div`

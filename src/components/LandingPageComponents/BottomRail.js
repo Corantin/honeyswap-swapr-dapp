@@ -234,14 +234,14 @@ const StyledBottomRail = styled.section`
         &:first-child {
           width: calc(50% - (180px / 2));
           height: 5px;
-          background: rgba(135, 128, 191, 0.1);
+          background: rgba(185, 191, 128, 0.1);
           top: 0;
           left: 0;
         }
         &:nth-child(2) {
           left: calc(50% - (180px / 2));
           height: 5px;
-          background: rgba(135, 128, 191, 0.1);
+          background: rgba(185, 191, 128, 0.1);
           top: 0;
           width: 190px;
           transform-origin: 0 50%;
@@ -250,7 +250,7 @@ const StyledBottomRail = styled.section`
         &:last-child {
           width: calc(50% - (180px / 2));
           height: 5px;
-          background: rgba(135, 128, 191, 0.1);
+          background: rgba(185, 191, 128, 0.1);
           top: 60px;
           right: 0;
         }

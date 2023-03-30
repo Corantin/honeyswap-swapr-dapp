@@ -96,7 +96,7 @@ const PurpleText = styled.div`
   font-size: 10px;
   line-height: 12px;
   letter-spacing: 0.08em;
-  color: ${({ theme }) => theme.purple3};
+  color: ${({ theme }) => theme.yellow3};
 `
 const StyledArrow = styled(ArrowDown)`
   width: 100%;

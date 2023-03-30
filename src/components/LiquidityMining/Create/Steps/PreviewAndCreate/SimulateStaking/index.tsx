@@ -58,7 +58,7 @@ const SimulateOption = styled.div<{ isActive: boolean }>`
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: ${props => (props.isActive ? props.theme.text2 : props.theme.lightPurple2)};
+  color: ${props => (props.isActive ? props.theme.text2 : props.theme.yellow2)};
   ${props => props.isActive && 'text-decoration: underline; text-underline-offset: 7px;'};
 `
 const StyledNumericalInput = styled(NumericalInput)<{ value: string }>`

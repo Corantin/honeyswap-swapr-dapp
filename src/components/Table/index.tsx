@@ -13,7 +13,7 @@ export const Th = styled.th<{ align?: string }>`
   line-height: 12px;
   text-transform: uppercase;
   text-align: ${({ align }) => align || 'left'};
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
 
   &:first-child,
   &:last-child {

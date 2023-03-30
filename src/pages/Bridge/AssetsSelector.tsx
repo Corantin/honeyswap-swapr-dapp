@@ -25,7 +25,7 @@ const SmallLabel = styled.p`
   line-height: 11px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.purple2};
+  color: ${({ theme }) => theme.yellow2};
 `
 
 const Row = styled(RowBetween)`

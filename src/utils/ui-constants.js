@@ -462,13 +462,13 @@ export const FooterContent = {
     },
   ],
   footerCta: {
-    label: 'GO TO SWAPR',
+    label: 'GO TO HONEYSWAP',
     href: '#',
   },
 }
 
 export const StatsContent = {
-  title: 'Swapr Stats',
+  title: 'Honeyswap Stats',
   stats: [
     {
       title: 'TOTAL VOLUME',

@@ -9,10 +9,10 @@ export const SpaceBg = ({ children, isAdvancedTradeMode }: { children: ReactNode
   <StyledHero id="liquidity-hero" className="hero-active" isAdvancedTradeMode={isAdvancedTradeMode}>
     <div className="inner-hero">
       <AppBodyContainer>{children}</AppBodyContainer>
-      <div className="hero-background">
+      {/* <div className="hero-background">
         <div className="hero-image hero-image-right"></div>
         <div className="hero-image hero-image-left"></div>
-      </div>
+      </div> */}
     </div>
   </StyledHero>
 )
@@ -36,7 +36,6 @@ const StyledHero = styled.div<{ isAdvancedTradeMode: boolean }>`
   .inner-hero {
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 240px);
     width: 100%;
   }
   &:not(.hero-active) {
@@ -113,7 +112,7 @@ const StyledHero = styled.div<{ isAdvancedTradeMode: boolean }>`
     transition: 1s ease-in-out all;
     /* transition: 0.25s ease-in-out transform; */
   }
-  ${({ isAdvancedTradeMode }) =>
+  /* ${({ isAdvancedTradeMode }) =>
     !isAdvancedTradeMode &&
     `
     .hero-image-right {
@@ -136,7 +135,7 @@ const StyledHero = styled.div<{ isAdvancedTradeMode: boolean }>`
       @media screen and (min-width: 1680px) {
         width: 102%;
       }
-    }`}
+    }`} */
 
   @media screen and (max-width: ${breakpoints.md}) {
     .inner-hero {

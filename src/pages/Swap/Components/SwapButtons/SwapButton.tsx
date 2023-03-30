@@ -16,9 +16,8 @@ import {
 import { useActiveWeb3React } from '../../../../hooks'
 import { shuffle } from '../../../../utils/shuffleArray'
 
-const StyledSwapButton = styled(ButtonPrimary)<{ gradientColor: string }>`
-  background-image: ${({ gradientColor, disabled }) =>
-    !disabled && gradientColor && `linear-gradient(90deg, #2E17F2 19.74%, ${gradientColor} 120.26%)`};
+const StyledSwapButton = styled(ButtonPrimary)<{ background: string }>`
+  background-color: ${({ background, disabled }) => !disabled && background};
 
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     padding: 1rem 0.5rem;
@@ -26,7 +25,7 @@ const StyledSwapButton = styled(ButtonPrimary)<{ gradientColor: string }>`
 `
 
 const StyledSwapLoadingButton = styled(ButtonPrimary)`
-  background-image: linear-gradient(90deg, #4c4c76 19.74%, #292942 120.26%);
+  background-color: #353841;
   cursor: 'wait';
   padding: 16px;
 
@@ -111,7 +110,7 @@ export const SwapButton = ({
   }
 
   return (
-    <StyledSwapButton gradientColor={platformName && ROUTABLE_PLATFORM_STYLE[platformName].gradientColor} {...rest}>
+    <StyledSwapButton background={platformName && ROUTABLE_PLATFORM_STYLE[platformName].color} {...rest}>
       <Text marginLeft={2}>
         {swapInputError ? (
           SWAP_INPUT_ERRORS_MESSAGE[swapInputError]
@@ -147,7 +146,7 @@ export const SwapLoadingButton = () => {
     : RoutablePlatformKeysByNetwork[ChainId.MAINNET]
 
   return (
-    <StyledSwapLoadingButton>
+    <StyledSwapLoadingButton disabled>
       <Text marginRight={[0, 2]}>{t('button.findingBestPrice')}</Text>
       <RotatingLogo className={`loading-rotation-${routablePlatforms.length}`}>
         {shuffle(routablePlatforms).map((key: string) => (
