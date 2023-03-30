@@ -10,10 +10,13 @@ import { ButtonAddonsWrapper, InnerWrapper, Input, InputGroup, Label } from './I
 export const ExpiryUnitButton = styled.span<{
   isActive: boolean
 }>`
-  color: #626643;
+  color: #70724d;
   cursor: pointer;
-  ${({ isActive }) => isActive && `color: #626643;`};
+  ${({ isActive }) => isActive && `color: #90966f;`};
   min-height: 22px;
+  &:hover {
+    ${({ isActive }) => !isActive && `color: #90966f;`};
+  }
 `
 
 const ExpiryLabels = styled(Label)`
@@ -25,15 +28,15 @@ const ExpiryLabels = styled(Label)`
 
 export const MaxExpiryTime = styled.button`
   font-size: 11px;
-  color: #bebf80;
+  color: #70724d;
   border: none;
   cursor: pointer;
-  background-color: #45452d;
+  background-color: #383833;
   border-radius: 5px;
   text-transform: uppercase;
   padding: 3px 8px;
   &:hover {
-    color: #96956f;
+    color: #90966f;
   }
 `
 

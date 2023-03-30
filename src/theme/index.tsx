@@ -55,16 +55,16 @@ export function colors(darkMode: boolean): Colors {
     text6: '#afb18c',
 
     // backgrounds / greys
-    bg1: darkMode ? '#292921' : '#FFFFFF',
+    bg1: darkMode ? '#1d1f24' : '#FFFFFF',
     bg1And2: darkMode ? '#212429' : '#FFFFFF',
-    bg2: darkMode ? '#36352c' : '#F7F8FA',
+    bg2: darkMode ? '#2c2f36' : '#F7F8FA',
     bg3: darkMode ? '#4f4d40' : '#EDEEF2',
     bg4: darkMode ? '#686956' : '#CED0D9',
     bg5: darkMode ? '#84846c' : '#888D9B',
     bg6: darkMode ? '#292921' : '#888D9B',
     bg7: '#403f2d',
     bg8: '#242419',
-    bg9: '#26261f',
+    bg9: '#171b26;',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
@@ -98,7 +98,7 @@ export function colors(darkMode: boolean): Colors {
     yellow6: '#FFE27087',
     blue1: '#2172E5',
     dark4: '#9c9e7e',
-    gray1: '#343434',
+    gray1: '#9d9d9d',
     purple: '#2E17F2',
 
     // dont wanna forget these blue yet
@@ -116,7 +116,7 @@ export function colors(darkMode: boolean): Colors {
     // darkest // dark 1.1
     darkest: '#212116',
     dark1: '#212429',
-    dark2: '#383838',
+    dark2: '#212429',
   }
 }
 
