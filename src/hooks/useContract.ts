@@ -103,6 +103,9 @@ export function useENSRegistrarContract(withSignerIfPossible?: boolean): Contrac
       case ChainId.MAINNET:
       case ChainId.RINKEBY:
         address = '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e'
+      case ChainId.ZKSYNC_Era_MAINNET:
+      case ChainId.ZKSYNC_Era_TESTNET:
+        address = '' // TODO: zkSync
         break
     }
   }

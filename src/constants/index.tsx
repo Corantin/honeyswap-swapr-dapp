@@ -217,7 +217,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
   ],
   [ChainId.BSC_TESTNET]: [],
   [ChainId.ZKSYNC_Era_MAINNET]: [],
-  [ChainId.ZKSYNC_Era_TESTNET]: [],
+  [ChainId.ZKSYNC_Era_TESTNET]: [], // TODO: zkSync
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
