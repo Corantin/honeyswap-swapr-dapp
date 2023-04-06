@@ -9,6 +9,7 @@ import styled from 'styled-components'
 import ArbitrumLogo from '../../assets/images/arbitrum-one-logo.svg'
 import BSCLogo from '../../assets/images/binance-chain-logo.svg'
 import EthereumLogo from '../../assets/images/ethereum-logo.svg'
+import ZkSyncLogo from '../../assets/images/logos/ZkSync.svg'
 import GnosisLogo from '../../assets/images/gnosis-chain-logo.svg'
 import OptimismLogo from '../../assets/images/optimism-logo.svg'
 import PolygonMaticLogo from '../../assets/images/polygon-matic-logo.svg'
@@ -34,7 +35,8 @@ const ChainLogo: any = {
   [ChainId.OPTIMISM_MAINNET]: OptimismLogo,
   [ChainId.OPTIMISM_GOERLI]: OptimismLogo,
   [ChainId.ARBITRUM_GOERLI]: ArbitrumLogo,
-  [ChainId.BSC_MAINNET]: BSCLogo,
+  [ChainId.ZKSYNC_Era_MAINNET]: ZkSyncLogo,
+  [ChainId.ZKSYNC_Era_TESTNET]: ZkSyncLogo,
 }
 
 const View = styled.div`

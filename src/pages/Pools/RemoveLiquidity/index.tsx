@@ -501,7 +501,7 @@ export default function RemoveLiquidity() {
 
   return (
     <>
-      <PageMetaData title="Liquidity | Swapr" />
+      <PageMetaData title="Liquidity | Honeyswap" />
       <AppBody>
         <PoolLiquidityHeader creating={false} adding={false} />
         <Wrapper>

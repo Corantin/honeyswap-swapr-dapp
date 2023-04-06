@@ -28,6 +28,8 @@ export function getProModeEventNameByChainId(chainId?: ChainId): string {
     [ChainId.BSC_TESTNET]: 'proMode/bsc-testnet/15seconds',
     [ChainId.OPTIMISM_MAINNET]: 'proMode/optimism/15seconds',
     [ChainId.OPTIMISM_GOERLI]: 'proMode/optimism-goerli/15seconds',
+    [ChainId.ZKSYNC_Era_MAINNET]: 'proMode/zksync-mainnet/15seconds',
+    [ChainId.ZKSYNC_Era_TESTNET]: 'proMode/zksync-testnet/15seconds',
   }[chainId]
 }
 

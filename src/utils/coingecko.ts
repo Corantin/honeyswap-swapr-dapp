@@ -40,6 +40,8 @@ const COINGECKO_ASSET_PLATFORM: { [chainId in ChainId]: string | null } = {
   [ChainId.OPTIMISM_GOERLI]: null,
   [ChainId.BSC_MAINNET]: 'binance-smart-chain',
   [ChainId.BSC_TESTNET]: null,
+  [ChainId.ZKSYNC_Era_MAINNET]: null,
+  [ChainId.ZKSYNC_Era_TESTNET]: null,
 }
 
 export const COINGECKO_NATIVE_CURRENCY: Record<number, string> = {

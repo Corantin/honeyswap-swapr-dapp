@@ -128,7 +128,7 @@ export function Account() {
 
   return (
     <>
-      <PageMetaData title={`${accountName ?? 'User account'} | Swapr`} />
+      <PageMetaData title={`${accountName ?? 'User account'} | Honeyswap`} />
       <PageWrapper>
         <Flex sx={{ mb: 4 }}>
           <Flex>

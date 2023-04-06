@@ -316,7 +316,7 @@ export default function AddLiquidity() {
 
   return (
     <>
-      <PageMetaData title={`${isCreate ? 'Create a pair' : 'Add Liquidity'} | Swapr`} />
+      <PageMetaData title={`${isCreate ? 'Create a pair' : 'Add Liquidity'} | Honeyswap`} />
       <AppBody>
         <PoolLiquidityHeader creating={isCreate} adding={true} />
         <Wrapper>

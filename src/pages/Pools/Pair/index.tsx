@@ -66,7 +66,7 @@ export default function Pair() {
 
   return (
     <>
-      <PageMetaData title={`${tokenPair} Liquidity pool stats | Swapr`} />
+      <PageMetaData title={`${tokenPair} Liquidity pool stats | Honeyswap`} />
       <PageWrapper>
         <Box paddingX={2}>
           <TitleRow>

@@ -318,7 +318,7 @@ export default function Bridge() {
 
   return (
     <>
-      <PageMetaData title="Bridge | Swapr" />
+      <PageMetaData title="Bridge | Honeyswap" />
       <Wrapper>
         <Tabs
           isCollecting={isCollecting}

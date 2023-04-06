@@ -216,7 +216,7 @@ export default function CreateLiquidityMining() {
 
   return (
     <>
-      <PageMetaData title="Create a Rewards Campaign | Swapr" />
+      <PageMetaData title="Create a Rewards Campaign | Honeyswap" />
       <PageWrapper>
         <AutoColumn gap="40px">
           <AutoColumn gap="8px">

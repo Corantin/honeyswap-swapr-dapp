@@ -512,7 +512,7 @@ export function LimitOrderForm({ account, provider, chainId }: LimitOrderFormPro
 
   return (
     <>
-      <PageMetaData title="Limit | Swapr" />
+      <PageMetaData title="Limit | Honeyswap" />
       <AppBody>
         <ConfirmLimitOrderModal
           onConfirm={placeLimitOrder}

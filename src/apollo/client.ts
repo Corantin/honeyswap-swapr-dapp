@@ -13,6 +13,8 @@ export const subgraphClientsUris: { [chainId in SWPRSupportedChains]: string } =
   [ChainId.GOERLI]: 'https://api.thegraph.com/subgraphs/name/dxgraphs/swapr-goerli',
   [ChainId.ARBITRUM_RINKEBY]: 'https://api.thegraph.com/subgraphs/name/dxgraphs/swapr-arbitrum-rinkeby-v2',
   [ChainId.ARBITRUM_GOERLI]: '', // FIXME: fix this once the subgraph is deployed
+  [ChainId.ZKSYNC_Era_MAINNET]: '', // TODO: ZKSYNC
+  [ChainId.ZKSYNC_Era_TESTNET]: '', // TODO: ZKSYNC
 }
 
 const setupApolloClient = (network: SWPRSupportedChains) =>
@@ -34,6 +36,8 @@ export const subgraphClients: {
   [ChainId.GOERLI]: setupApolloClient(ChainId.GOERLI),
   [ChainId.ARBITRUM_RINKEBY]: setupApolloClient(ChainId.ARBITRUM_RINKEBY),
   [ChainId.ARBITRUM_GOERLI]: setupApolloClient(ChainId.ARBITRUM_GOERLI), // FIXME: fix this once the subgraph is deployed
+  [ChainId.ZKSYNC_Era_MAINNET]: setupApolloClient(ChainId.ZKSYNC_Era_MAINNET),
+  [ChainId.ZKSYNC_Era_TESTNET]: setupApolloClient(ChainId.ZKSYNC_Era_TESTNET),
 }
 
 export const immediateSubgraphClients: { [chainId in SWPRSupportedChains]: GraphQLClient } = {
@@ -44,6 +48,8 @@ export const immediateSubgraphClients: { [chainId in SWPRSupportedChains]: Graph
   [ChainId.ARBITRUM_ONE]: new GraphQLClient(subgraphClientsUris[ChainId.ARBITRUM_ONE]),
   [ChainId.ARBITRUM_RINKEBY]: new GraphQLClient(subgraphClientsUris[ChainId.ARBITRUM_RINKEBY]),
   [ChainId.ARBITRUM_GOERLI]: new GraphQLClient(subgraphClientsUris[ChainId.ARBITRUM_GOERLI]), // FIXME: fix this once the subgraph is deployed
+  [ChainId.ZKSYNC_Era_MAINNET]: new GraphQLClient(subgraphClientsUris[ChainId.ZKSYNC_Era_MAINNET]),
+  [ChainId.ZKSYNC_Era_TESTNET]: new GraphQLClient(subgraphClientsUris[ChainId.ZKSYNC_Era_TESTNET]),
 }
 
 export const immediateCarrotSubgraphClients: { [chainId: number]: GraphQLClient } = {
@@ -71,12 +77,16 @@ export const subgraphBlocksClientsUris: { [chainId in SWPRSupportedChains]: stri
   [ChainId.GOERLI]: 'https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks',
   [ChainId.ARBITRUM_RINKEBY]: 'https://api.thegraph.com/subgraphs/name/dodoex/arbitrum-one-blocks',
   [ChainId.ARBITRUM_GOERLI]: '', // FIXME: fix this once the subgraph is deployed
+  [ChainId.ZKSYNC_Era_MAINNET]: '', // TODO: ZKSYNC
+  [ChainId.ZKSYNC_Era_TESTNET]: '', // TODO: ZKSYNC
 }
 
 export const subgraphPriceClientsUris: { [chainId: number]: string } = {
   [ChainId.MAINNET]: 'https://api.thegraph.com/subgraphs/name/dxgraphs/swapr-price-mainnet',
   [ChainId.ARBITRUM_ONE]: 'https://api.thegraph.com/subgraphs/name/dxgraphs/swapr-price-arbitrum-on',
   [ChainId.XDAI]: 'https://api.thegraph.com/subgraphs/name/dxgraphs/swapr-price-xdai',
+  [ChainId.ZKSYNC_Era_MAINNET]: '', // TODO: ZKSYNC
+  [ChainId.ZKSYNC_Era_TESTNET]: '', // TODO: ZKSYNC
 }
 
 const setupBlocksApolloClient = (network: SWPRSupportedChains) =>
@@ -96,6 +106,8 @@ export const subgraphBlocksClients: {
   [ChainId.GOERLI]: setupBlocksApolloClient(ChainId.GOERLI),
   [ChainId.ARBITRUM_RINKEBY]: setupBlocksApolloClient(ChainId.ARBITRUM_RINKEBY),
   [ChainId.ARBITRUM_GOERLI]: setupBlocksApolloClient(ChainId.ARBITRUM_GOERLI), // FIXME: fix this once the subgraph is deployed
+  [ChainId.ZKSYNC_Era_MAINNET]: setupBlocksApolloClient(ChainId.ZKSYNC_Era_MAINNET), 
+  [ChainId.ZKSYNC_Era_TESTNET]: setupBlocksApolloClient(ChainId.ZKSYNC_Era_TESTNET), 
 }
 
 const setupBaseApolloClient = (uri: string) =>

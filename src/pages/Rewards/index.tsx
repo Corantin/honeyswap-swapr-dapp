@@ -121,7 +121,7 @@ export default function Rewards() {
 
   return (
     <>
-      <PageMetaData title="Rewards | Swapr" />
+      <PageMetaData title="Rewards | Honeyswap" />
       <PageWrapper>
         <AutoColumn gap="lg" justify="center">
           <AutoColumn gap="lg" style={{ width: '100%' }}>

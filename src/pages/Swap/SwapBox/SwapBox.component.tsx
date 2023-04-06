@@ -323,7 +323,7 @@ export function SwapBox() {
 
   return (
     <>
-      <PageMetaData title="Swap | Swapr" />
+      <PageMetaData title="Swap | Honeyswap" />
       <TokenWarningModal
         isOpen={
           (!urlLoadedChainId || chainId === urlLoadedChainId) &&

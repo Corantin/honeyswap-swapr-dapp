@@ -39,6 +39,8 @@ export const injected = new InjectedConnector({
     ChainId.OPTIMISM_MAINNET,
     ChainId.OPTIMISM_GOERLI,
     ChainId.BSC_MAINNET,
+    ChainId.ZKSYNC_Era_MAINNET,
+    ChainId.ZKSYNC_Era_TESTNET,
   ],
 })
 

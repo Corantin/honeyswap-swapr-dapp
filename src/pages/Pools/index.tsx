@@ -117,7 +117,7 @@ function Title({
 
   return (
     <>
-      <PageMetaData title="Liquidity | Swapr" />
+      <PageMetaData title="Liquidity | Honeyswap" />
       <TitleRow style={{ marginTop: '1rem' }} padding={'0'}>
         <Flex alignItems="center" justifyContent="space-between" marginBottom={[3, 0]}>
           {aggregatedDataFilter === PairsFilterType.MY ? (

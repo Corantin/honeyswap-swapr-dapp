@@ -330,7 +330,10 @@ function Header() {
             {t('bridge')}
             <HeaderLinkBadge label="BETA" />
           </HeaderLink> */}
-          <HeaderLink id="vote-nav-link" href="https://1hive.org/">
+          <HeaderLink
+            id="vote-nav-link"
+            href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155"
+          >
             {t('governance')}
             <Text ml="4px" fontSize="13px">
               ↗
