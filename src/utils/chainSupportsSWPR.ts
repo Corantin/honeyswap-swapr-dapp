@@ -7,6 +7,8 @@ export type SWPRUnsupportedChains =
   | ChainId.OPTIMISM_GOERLI
   | ChainId.BSC_MAINNET
   | ChainId.BSC_TESTNET
+  | ChainId.RINKEBY
+
 export type SWPRSupportedChains = Exclude<ChainId, SWPRUnsupportedChains>
 
 export const chainSupportsSWPR = (chainId?: ChainId) => {

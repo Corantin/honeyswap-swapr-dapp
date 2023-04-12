@@ -12,8 +12,8 @@ export function getChainNameByChainId(chainId: ChainId): string {
     [ChainId.ARBITRUM_GOERLI]: 'arbitrum-goerli',
     [ChainId.ARBITRUM_RINKEBY]: 'arbitrum-rinkeby',
     [ChainId.BSC_MAINNET]: 'bsc',
-    [ChainId.ZKSYNC_Era_MAINNET]: 'zkSync Era Mainnet',
-    [ChainId.ZKSYNC_Era_TESTNET]: 'zkSync Era Testnet',
+    [ChainId.ZKSYNC_ERA_MAINNET]: 'zkSync Era Mainnet',
+    [ChainId.ZKSYNC_ERA_TESTNET]: 'zkSync Era Testnet',
   }[chainId]
 }
 
@@ -34,7 +34,7 @@ export function getProModeEventNameByChainId(chainId?: ChainId): string {
     [ChainId.BSC_TESTNET]: 'proMode/bsc-testnet/15seconds',
     [ChainId.OPTIMISM_MAINNET]: 'proMode/optimism/15seconds',
     [ChainId.OPTIMISM_GOERLI]: 'proMode/optimism-goerli/15seconds',
-    [ChainId.ZKSYNC_Era_MAINNET]: 'proMode/zksync-mainnet/15seconds',
-    [ChainId.ZKSYNC_Era_TESTNET]: 'proMode/zksync-testnet/15seconds',
+    [ChainId.ZKSYNC_ERA_MAINNET]: 'proMode/zksync-mainnet/15seconds',
+    [ChainId.ZKSYNC_ERA_TESTNET]: 'proMode/zksync-testnet/15seconds',
   }[chainId]
 }

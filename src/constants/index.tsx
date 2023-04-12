@@ -106,13 +106,14 @@ export const PRE_SELECT_OUTPUT_CURRENCY_ID: { [chainId in ChainId]: string } = {
   [ChainId.POLYGON]: WETH[ChainId.POLYGON].address,
   [ChainId.OPTIMISM_MAINNET]: OP[ChainId.OPTIMISM_MAINNET].address,
   [ChainId.BSC_MAINNET]: BNB.address!,
+  [ChainId.BSC_TESTNET]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.ARBITRUM_RINKEBY]: '',
   [ChainId.GOERLI]: '',
   [ChainId.ARBITRUM_GOERLI]: '',
   [ChainId.OPTIMISM_GOERLI]: '',
-  [ChainId.ZKSYNC_Era_MAINNET]: '',
-  [ChainId.ZKSYNC_Era_TESTNET]: '',
+  [ChainId.ZKSYNC_ERA_MAINNET]: '',
+  [ChainId.ZKSYNC_ERA_TESTNET]: '',
 }
 
 // used to construct intermediary pairs for trading
@@ -164,8 +165,8 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     USDT[ChainId.BSC_MAINNET],
   ],
   [ChainId.BSC_TESTNET]: [],
-  [ChainId.ZKSYNC_Era_MAINNET]: [],
-  [ChainId.ZKSYNC_Era_TESTNET]: [],
+  [ChainId.ZKSYNC_ERA_MAINNET]: [],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [],
 }
 
 // used for display in the default list when adding liquidity (native currency is already shown
@@ -216,8 +217,8 @@ export const SUGGESTED_BASES: ChainTokenList = {
     USDT[ChainId.BSC_MAINNET],
   ],
   [ChainId.BSC_TESTNET]: [],
-  [ChainId.ZKSYNC_Era_MAINNET]: [],
-  [ChainId.ZKSYNC_Era_TESTNET]: [], // TODO: zkSync
+  [ChainId.ZKSYNC_ERA_MAINNET]: [],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [], // TODO: zkSync
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -240,8 +241,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.GOERLI]: [WETH[ChainId.OPTIMISM_MAINNET]],
   [ChainId.BSC_MAINNET]: [Token.WBNB[ChainId.BSC_MAINNET]],
   [ChainId.BSC_TESTNET]: [Token.WBNB[ChainId.BSC_TESTNET]],
-  [ChainId.ZKSYNC_Era_MAINNET]: [WETH[ChainId.ZKSYNC_Era_MAINNET]],
-  [ChainId.ZKSYNC_Era_TESTNET]: [WETH[ChainId.ZKSYNC_Era_TESTNET]],
+  [ChainId.ZKSYNC_ERA_MAINNET]: [WETH[ChainId.ZKSYNC_ERA_MAINNET]],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [WETH[ChainId.ZKSYNC_ERA_TESTNET]],
 }
 
 export const PINNED_PAIRS: {
@@ -495,8 +496,8 @@ export const NETWORK_DETAIL: { [chainId: number]: NetworkDetails } = {
     rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545/'],
     blockExplorerUrls: ['https://testnet.bscscan.com/'],
   },
-  [ChainId.ZKSYNC_Era_MAINNET]: {
-    chainId: `0x${ChainId.ZKSYNC_Era_MAINNET.toString(16)}`,
+  [ChainId.ZKSYNC_ERA_MAINNET]: {
+    chainId: `0x${ChainId.ZKSYNC_ERA_MAINNET.toString(16)}`,
     chainName: 'ZkSync Era Mainnet',
     nativeCurrency: {
       name: Currency.ETHER.name || 'Ether',
@@ -506,8 +507,8 @@ export const NETWORK_DETAIL: { [chainId: number]: NetworkDetails } = {
     rpcUrls: ['https://mainnet.era.zksync.io'],
     blockExplorerUrls: ['https://explorer.zksync.io/'],
   },
-  [ChainId.ZKSYNC_Era_TESTNET]: {
-    chainId: `0x${ChainId.ZKSYNC_Era_TESTNET.toString(16)}`,
+  [ChainId.ZKSYNC_ERA_TESTNET]: {
+    chainId: `0x${ChainId.ZKSYNC_ERA_TESTNET.toString(16)}`,
     chainName: 'ZkSync Era Testnet',
     nativeCurrency: {
       name: Currency.ETHER.name || 'Ether',
@@ -523,7 +524,7 @@ export const NETWORK_OPTIONAL_DETAIL: {
   [chainId: number]: NetworkOptionalDetails
 } = {
   [ChainId.MAINNET]: {
-    partnerChainId: ChainId.ZKSYNC_Era_MAINNET,
+    partnerChainId: ChainId.ZKSYNC_ERA_MAINNET,
     isArbitrum: false,
   },
   [ChainId.XDAI]: {
@@ -554,18 +555,18 @@ export const NETWORK_OPTIONAL_DETAIL: {
     isArbitrum: false,
   },
   [ChainId.GOERLI]: {
-    partnerChainId: ChainId.ZKSYNC_Era_TESTNET,
+    partnerChainId: ChainId.ZKSYNC_ERA_TESTNET,
     isArbitrum: false,
   },
   [ChainId.ARBITRUM_GOERLI]: {
     partnerChainId: ChainId.GOERLI,
     isArbitrum: true,
   },
-  [ChainId.ZKSYNC_Era_MAINNET]: {
+  [ChainId.ZKSYNC_ERA_MAINNET]: {
     partnerChainId: ChainId.MAINNET,
     isArbitrum: false,
   },
-  [ChainId.ZKSYNC_Era_TESTNET]: {
+  [ChainId.ZKSYNC_ERA_TESTNET]: {
     partnerChainId: ChainId.GOERLI,
     isArbitrum: false,
   },
@@ -646,8 +647,8 @@ export const RoutablePlatformKeysByNetwork = {
     RoutablePlatform.ONE_INCH.name,
   ],
   [ChainId.BSC_TESTNET]: [],
-  [ChainId.ZKSYNC_Era_MAINNET]: [], // TODO: ZKSYNC
-  [ChainId.ZKSYNC_Era_TESTNET]: [], // TODO: ZKSYNC
+  [ChainId.ZKSYNC_ERA_MAINNET]: [], // TODO: ZKSYNC
+  [ChainId.ZKSYNC_ERA_TESTNET]: [], // TODO: ZKSYNC
 }
 
 export const ROUTABLE_PLATFORM_STYLE: {
@@ -807,7 +808,7 @@ export const TESTNETS = [
   ChainId.OPTIMISM_GOERLI,
   ChainId.GOERLI,
   ChainId.BSC_TESTNET,
-  ChainId.ZKSYNC_Era_TESTNET,
+  ChainId.ZKSYNC_ERA_TESTNET,
 ]
 
 export const SHOW_TESTNETS = false

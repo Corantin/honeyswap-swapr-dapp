@@ -49,3 +49,6 @@ mochawesome-report
 !src/pages/Swap/LimitOrderBox/generated/**/*
 storybook-static
 
+# yalc
+yalc.lock
+.yalc/
