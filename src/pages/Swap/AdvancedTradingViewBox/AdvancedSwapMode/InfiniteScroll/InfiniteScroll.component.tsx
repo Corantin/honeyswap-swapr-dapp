@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@swapr/sdk'
+import { ChainId, Token } from '@honeyswapr/sdk'
 
 import { Trans } from 'react-i18next'
 import { default as Scroll } from 'react-infinite-scroll-component'

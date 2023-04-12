@@ -1,5 +1,5 @@
 import { JsonRpcProvider } from '@ethersproject/providers'
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { INFURA_PROJECT_ID } from '../../connectors'
 import { NETWORK_DETAIL } from '../../constants'

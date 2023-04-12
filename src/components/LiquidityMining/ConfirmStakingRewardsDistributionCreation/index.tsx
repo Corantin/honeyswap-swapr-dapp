@@ -1,4 +1,4 @@
-import { Pair, Token, TokenAmount } from '@swapr/sdk'
+import { Pair, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useCallback } from 'react'
 

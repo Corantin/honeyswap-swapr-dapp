@@ -1,4 +1,4 @@
-import { SingleSidedLiquidityMiningCampaign } from '@swapr/sdk'
+import { SingleSidedLiquidityMiningCampaign } from '@honeyswapr/sdk'
 
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'

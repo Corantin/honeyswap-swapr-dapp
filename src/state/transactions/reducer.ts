@@ -1,4 +1,4 @@
-import { BaseRoutablePlatform, ChainId, RoutablePlatform, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { BaseRoutablePlatform, ChainId, RoutablePlatform, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { createReducer } from '@reduxjs/toolkit'
 

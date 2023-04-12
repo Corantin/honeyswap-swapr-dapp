@@ -1,4 +1,4 @@
-import { Token } from '@swapr/sdk'
+import { Token } from '@honeyswapr/sdk'
 
 import _Decimal from 'decimal.js-light'
 import { UTCTimestamp } from 'lightweight-charts'

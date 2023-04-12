@@ -1,4 +1,4 @@
-import { CurrencyAmount, Percent, RoutablePlatform, Trade, TradeType, UniswapV2Trade } from '@swapr/sdk'
+import { CurrencyAmount, Percent, RoutablePlatform, Trade, TradeType, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { ChevronsDown } from 'react-feather'

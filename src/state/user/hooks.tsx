@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token } from '@swapr/sdk'
+import { ChainId, Pair, Token } from '@honeyswapr/sdk'
 
 import { createSelector } from '@reduxjs/toolkit'
 import { useCallback, useMemo } from 'react'

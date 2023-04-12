@@ -1,4 +1,4 @@
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import { Fragment, ReactNode, useCallback, useEffect, useMemo, useState } from 'react'
 

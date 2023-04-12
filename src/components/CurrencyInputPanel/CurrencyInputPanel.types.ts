@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, Pair, Percent } from '@swapr/sdk'
+import { ChainId, Currency, CurrencyAmount, Pair, Percent } from '@honeyswapr/sdk'
 
 import { CurrencyWrapperSource } from '../CurrencyLogo'
 

@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { useEffect, useState } from 'react'
 

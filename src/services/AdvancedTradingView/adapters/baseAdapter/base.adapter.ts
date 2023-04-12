@@ -1,4 +1,4 @@
-import { ChainId, Pair, Token, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { ChainId, Pair, Token, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { request, RequestOptions } from 'graphql-request'
 

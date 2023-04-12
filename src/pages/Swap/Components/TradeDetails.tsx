@@ -1,4 +1,4 @@
-import { CoWTrade, CurveTrade, Trade, UniswapV2RoutablePlatform, ZeroXTrade } from '@swapr/sdk'
+import { CoWTrade, CurveTrade, Trade, UniswapV2RoutablePlatform, ZeroXTrade } from '@honeyswapr/sdk'
 
 import { useState } from 'react'
 import { Trans } from 'react-i18next'

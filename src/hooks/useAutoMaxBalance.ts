@@ -1,4 +1,4 @@
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import { useCallback, useLayoutEffect, useState } from 'react'
 import { unstable_batchedUpdates as batchedUpdates } from 'react-dom'

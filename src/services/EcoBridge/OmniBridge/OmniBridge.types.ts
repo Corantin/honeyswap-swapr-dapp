@@ -1,5 +1,5 @@
 import { TransactionReceipt } from '@ethersproject/abstract-provider'
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { EntityState } from '@reduxjs/toolkit'
 import { BigNumber } from 'ethers'

@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@swapr/sdk'
+import { ChainId, Token } from '@honeyswapr/sdk'
 
 import { configureStore, Store } from '@reduxjs/toolkit'
 

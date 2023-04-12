@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { Pair, Price, Token } from '@swapr/sdk'
+import { Pair, Price, Token } from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { useMemo } from 'react'

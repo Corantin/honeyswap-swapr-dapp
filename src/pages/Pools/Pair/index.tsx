@@ -1,4 +1,4 @@
-import { JSBI, Pair as PairType, Percent } from '@swapr/sdk'
+import { JSBI, Pair as PairType, Percent } from '@honeyswapr/sdk'
 
 import { useCallback, useState } from 'react'
 import { ChevronDown } from 'react-feather'

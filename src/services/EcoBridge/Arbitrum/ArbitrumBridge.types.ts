@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { EntityState } from '@reduxjs/toolkit'
 import { TokenInfo, TokenList } from '@uniswap/token-lists'

@@ -1,4 +1,4 @@
-import { TokenAmount } from '@swapr/sdk'
+import { TokenAmount } from '@honeyswapr/sdk'
 
 import { createContext, Dispatch, SetStateAction } from 'react'
 

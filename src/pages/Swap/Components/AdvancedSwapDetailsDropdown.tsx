@@ -1,4 +1,4 @@
-import { ChainId, RoutablePlatform, Trade } from '@swapr/sdk'
+import { ChainId, RoutablePlatform, Trade } from '@honeyswapr/sdk'
 
 import { formatUnits } from 'ethers/lib/utils'
 import { transparentize } from 'polished'

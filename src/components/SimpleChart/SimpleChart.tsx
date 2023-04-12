@@ -1,4 +1,4 @@
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import { Repeat as RepeatIcon } from 'react-feather'
 import { useTranslation } from 'react-i18next'

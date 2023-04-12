@@ -1,4 +1,4 @@
-import { ChainId, SWPR } from '@swapr/sdk'
+import { ChainId, SWPR } from '@honeyswapr/sdk'
 
 // Includes chains on which swpr has its infrastructure
 export type SWPRUnsupportedChains =

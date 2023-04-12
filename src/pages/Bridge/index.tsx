@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount } from '@swapr/sdk'
+import { ChainId, CurrencyAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

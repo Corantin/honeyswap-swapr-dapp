@@ -4244,6 +4244,43 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@honeyswap/sdk@file:.yalc/@honeyswap/sdk::locator=%40swapr%2Ffrontend%40workspace%3A.":
+  version: 1.8.2
+  resolution: "@honeyswap/sdk@file:.yalc/@honeyswap/sdk#.yalc/@honeyswap/sdk::hash=947ac2&locator=%40swapr%2Ffrontend%40workspace%3A."
+  dependencies:
+    "@cowprotocol/cow-sdk": ^1.0.2-RC.0
+    "@ethersproject/abi": ^5.6.4
+    "@ethersproject/address": ^5.4.0
+    "@ethersproject/bignumber": ^5.4.0
+    "@ethersproject/constants": ^5.4.0
+    "@ethersproject/contracts": ^5.4.0
+    "@ethersproject/networks": ^5.6.4
+    "@ethersproject/providers": ^5.4.0
+    "@ethersproject/solidity": ^5.4.0
+    "@ethersproject/transactions": ^5.4.0
+    "@ethersproject/units": ^5.4.0
+    "@swapr/core": ^0.3.20
+    "@swapr/periphery": ^0.3.23
+    "@uniswap/smart-order-router": ^2.9.3
+    big.js: ^5.2.2
+    dayjs: ^1.11.0
+    debug: ^4.3.4
+    decimal.js-light: ^2.5.1
+    graphql-request: ^4.3.0
+    jsbi: ^3.1.1
+    lodash.flatmap: ^4.5.0
+    memoizee: ^0.4.15
+    node-fetch: 2
+    tiny-invariant: ^1.2.0
+    tiny-warning: ^1.0.3
+    toformat: ^2.0.0
+    tslib: ^2.3.1
+  peerDependencies:
+    ethers: ^5.4.0
+  checksum: a9b6aef3420108d0056d026ae3e2096962277b20be4b4fdfb90c1be86a21df73bcdd4eb61acd42887d72429853b9bbcfa8915fb43069db27d569de2c2e7d0817
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.8":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -7663,6 +7700,7 @@ __metadata:
     "@graphql-codegen/typescript": 2.8.7
     "@graphql-codegen/typescript-operations": ^3.0.0
     "@graphql-codegen/typescript-react-apollo": ^3.3.7
+    "@honeyswap/sdk": "file:.yalc/@honeyswap/sdk"
     "@openapitools/openapi-generator-cli": ^2.5.1
     "@popperjs/core": ^2.11.6
     "@reach/dialog": ^0.18.0
@@ -7685,7 +7723,6 @@ __metadata:
     "@storybook/testing-library": ^0.0.13
     "@swapr/core": ^0.3.19
     "@swapr/periphery": ^0.3.22
-    "@swapr/sdk": 1.8.1
     "@synthetixio/synpress": ^2.3.3
     "@tanstack/react-query": 4.24.6
     "@testing-library/cypress": ^8.0.3
@@ -7821,43 +7858,6 @@ __metadata:
   dependencies:
     "@swapr/core": ^0.3.17
   checksum: 05460fe4813928c769183802e204aa8c41e56893522a6ffa2c37d1ec3a6987f865af247b3f14a34a70695e58416c6454d0311e29a5b2a42bd85c5e707b328cf8
-  languageName: node
-  linkType: hard
-
-"@swapr/sdk@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@swapr/sdk@npm:1.8.1"
-  dependencies:
-    "@cowprotocol/cow-sdk": ^1.0.2-RC.0
-    "@ethersproject/abi": ^5.6.4
-    "@ethersproject/address": ^5.4.0
-    "@ethersproject/bignumber": ^5.4.0
-    "@ethersproject/constants": ^5.4.0
-    "@ethersproject/contracts": ^5.4.0
-    "@ethersproject/networks": ^5.6.4
-    "@ethersproject/providers": ^5.4.0
-    "@ethersproject/solidity": ^5.4.0
-    "@ethersproject/transactions": ^5.4.0
-    "@ethersproject/units": ^5.4.0
-    "@swapr/core": ^0.3.20
-    "@swapr/periphery": ^0.3.23
-    "@uniswap/smart-order-router": ^2.9.3
-    big.js: ^5.2.2
-    dayjs: ^1.11.0
-    debug: ^4.3.4
-    decimal.js-light: ^2.5.1
-    graphql-request: ^4.3.0
-    jsbi: ^3.1.1
-    lodash.flatmap: ^4.5.0
-    memoizee: ^0.4.15
-    node-fetch: 2
-    tiny-invariant: ^1.2.0
-    tiny-warning: ^1.0.3
-    toformat: ^2.0.0
-    tslib: ^2.3.1
-  peerDependencies:
-    ethers: ^5.4.0
-  checksum: 60c1f71211328d6b7ab3fd627b317bb4eef54bf73c2b05d6e9abebd69d745f5f737b47b677e20affdc353afeb73b14c8ba4d98e4caa15d5f8d5e15a4ecbb58fc
   languageName: node
   linkType: hard
 

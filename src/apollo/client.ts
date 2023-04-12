@@ -1,6 +1,6 @@
-import { ChainId } from '@swapr/sdk'
-
 import { ApolloClient, InMemoryCache, NormalizedCacheObject } from '@apollo/client'
+import { ChainId } from '@honeyswapr/sdk'
+
 import { GraphQLClient } from 'graphql-request'
 
 import { SWPRSupportedChains } from '../utils/chainSupportsSWPR'
@@ -31,7 +31,7 @@ export const subgraphClients: {
   [ChainId.XDAI]: setupApolloClient(ChainId.XDAI),
   [ChainId.ARBITRUM_ONE]: setupApolloClient(ChainId.ARBITRUM_ONE),
   // testnets
-  [ChainId.RINKEBY]: setupApolloClient(ChainId.RINKEBY),
+  // [ChainId.RINKEBY]: setupApolloClient(ChainId.RINKEBY),
   [ChainId.GOERLI]: setupApolloClient(ChainId.GOERLI),
   [ChainId.ARBITRUM_RINKEBY]: setupApolloClient(ChainId.ARBITRUM_RINKEBY),
   [ChainId.ARBITRUM_GOERLI]: setupApolloClient(ChainId.ARBITRUM_GOERLI), // FIXME: fix this once the subgraph is deployed
@@ -41,7 +41,7 @@ export const subgraphClients: {
 
 export const immediateSubgraphClients: { [chainId in SWPRSupportedChains]: GraphQLClient } = {
   [ChainId.MAINNET]: new GraphQLClient(subgraphClientsUris[ChainId.MAINNET]),
-  [ChainId.RINKEBY]: new GraphQLClient(subgraphClientsUris[ChainId.RINKEBY]),
+  // [ChainId.RINKEBY]: new GraphQLClient(subgraphClientsUris[ChainId.RINKEBY]),
   [ChainId.GOERLI]: new GraphQLClient(subgraphClientsUris[ChainId.GOERLI]),
   [ChainId.XDAI]: new GraphQLClient(subgraphClientsUris[ChainId.XDAI]),
   [ChainId.ARBITRUM_ONE]: new GraphQLClient(subgraphClientsUris[ChainId.ARBITRUM_ONE]),
@@ -72,7 +72,7 @@ export const subgraphBlocksClientsUris: { [chainId in SWPRSupportedChains]: stri
   [ChainId.ARBITRUM_ONE]: 'https://api.thegraph.com/subgraphs/name/dodoex/arbitrum-one-blocks',
   [ChainId.GNOSIS]: 'https://api.thegraph.com/subgraphs/name/1hive/xdai-blocks',
   // testnests
-  [ChainId.RINKEBY]: 'https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks',
+  // [ChainId.RINKEBY]: 'https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks',
   [ChainId.GOERLI]: 'https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks',
   [ChainId.ARBITRUM_RINKEBY]: 'https://api.thegraph.com/subgraphs/name/dodoex/arbitrum-one-blocks',
   [ChainId.ARBITRUM_GOERLI]: '', // FIXME: fix this once the subgraph is deployed
@@ -101,7 +101,7 @@ export const subgraphBlocksClients: {
   [ChainId.XDAI]: setupBlocksApolloClient(ChainId.XDAI),
   [ChainId.ARBITRUM_ONE]: setupBlocksApolloClient(ChainId.ARBITRUM_ONE),
   // testnets
-  [ChainId.RINKEBY]: setupBlocksApolloClient(ChainId.RINKEBY),
+  // [ChainId.RINKEBY]: setupBlocksApolloClient(ChainId.RINKEBY),
   [ChainId.GOERLI]: setupBlocksApolloClient(ChainId.GOERLI),
   [ChainId.ARBITRUM_RINKEBY]: setupBlocksApolloClient(ChainId.ARBITRUM_RINKEBY),
   [ChainId.ARBITRUM_GOERLI]: setupBlocksApolloClient(ChainId.ARBITRUM_GOERLI), // FIXME: fix this once the subgraph is deployed

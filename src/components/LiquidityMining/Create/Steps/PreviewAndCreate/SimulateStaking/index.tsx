@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { Pair, Price, Token, TokenAmount } from '@swapr/sdk'
+import { Pair, Price, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Flex } from 'rebass'

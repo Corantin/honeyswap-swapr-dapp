@@ -1,7 +1,7 @@
 import { TransactionReceipt } from '@ethersproject/providers'
-import { ChainId } from '@swapr/sdk'
-
 import { L2ToL1MessageStatus } from '@arbitrum/sdk'
+import { ChainId } from '@honeyswapr/sdk'
+
 import { PayloadAction } from '@reduxjs/toolkit'
 
 import { ArbitrumBridgeTxn, ArbitrumBridgeTxnsState } from '../../../state/bridgeTransactions/types'

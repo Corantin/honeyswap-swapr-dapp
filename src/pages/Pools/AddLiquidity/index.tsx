@@ -1,6 +1,14 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { TransactionResponse } from '@ethersproject/providers'
-import { ChainId, Currency, currencyEquals, JSBI, Percent, TokenAmount, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import {
+  ChainId,
+  Currency,
+  currencyEquals,
+  JSBI,
+  Percent,
+  TokenAmount,
+  UniswapV2RoutablePlatform,
+} from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'

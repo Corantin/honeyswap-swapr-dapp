@@ -36,6 +36,7 @@
   "dependencies": {
     "@apollo/client": "^3.7.5",
     "@arbitrum/sdk": "3.0.0-beta.12",
+    "@honeyswapr/sdk": "1.8.2",
     "@popperjs/core": "^2.11.6",
     "@reach/dialog": "^0.18.0",
     "@reach/portal": "^0.17.0",
@@ -44,7 +45,6 @@
     "@reduxjs/toolkit": "^1.9.2",
     "@swapr/core": "^0.3.19",
     "@swapr/periphery": "^0.3.22",
-    "@swapr/sdk": "file:.yalc/@swapr/sdk",
     "@tanstack/react-query": "4.24.6",
     "@types/react-helmet": "^6.1.6",
     "@uniswap/smart-order-router": "^2.9.3",

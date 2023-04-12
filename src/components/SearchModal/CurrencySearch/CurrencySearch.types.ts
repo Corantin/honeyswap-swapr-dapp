@@ -1,4 +1,4 @@
-import { Currency, Token } from '@swapr/sdk'
+import { Currency, Token } from '@honeyswapr/sdk'
 
 import { TokenAddressMap } from '../../../state/lists/hooks'
 

@@ -1,4 +1,4 @@
-import { LiquidityMiningCampaign, Pair } from '@swapr/sdk'
+import { LiquidityMiningCampaign, Pair } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

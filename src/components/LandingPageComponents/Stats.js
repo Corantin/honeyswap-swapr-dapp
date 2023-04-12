@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { gql } from 'graphql-request'
 import TextyAnim from 'rc-texty'

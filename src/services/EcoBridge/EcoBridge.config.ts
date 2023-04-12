@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { ArbitrumBridge } from './Arbitrum/ArbitrumBridge'
 import { Connext } from './Connext/Connext'

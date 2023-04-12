@@ -18,7 +18,7 @@ import {
   WETH,
   WMATIC,
   WXDAI,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { AbstractConnector } from '@web3-react/abstract-connector'
 import { providers } from 'ethers'
@@ -112,6 +112,7 @@ export const PRE_SELECT_OUTPUT_CURRENCY_ID: { [chainId in ChainId]: string } = {
   [ChainId.GOERLI]: '',
   [ChainId.ARBITRUM_GOERLI]: '',
   [ChainId.OPTIMISM_GOERLI]: '',
+  [ChainId.BSC_TESTNET]: '',
   [ChainId.ZKSYNC_ERA_MAINNET]: '',
   [ChainId.ZKSYNC_ERA_TESTNET]: '',
 }

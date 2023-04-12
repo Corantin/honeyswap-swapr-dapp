@@ -1,8 +1,8 @@
 import { getAddress } from '@ethersproject/address'
 import { parseUnits } from '@ethersproject/units'
-import { KpiToken, Price, PricedToken, PricedTokenAmount, Token } from '@swapr/sdk'
-
 import { gql, useQuery } from '@apollo/client'
+import { KpiToken, Price, PricedToken, PricedTokenAmount, Token } from '@honeyswapr/sdk'
+
 import { Decimal } from 'decimal.js-light'
 import { useMemo } from 'react'
 

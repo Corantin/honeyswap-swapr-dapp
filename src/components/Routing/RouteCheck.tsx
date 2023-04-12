@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { useActiveWeb3React } from '../../hooks'
 import { chainSupportsSWPR } from '../../utils/chainSupportsSWPR'

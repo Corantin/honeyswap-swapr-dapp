@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { AbstractConnector } from '@web3-react/abstract-connector'
 import { InjectedConnector } from '@web3-react/injected-connector'
@@ -7,7 +7,6 @@ import { Text } from 'rebass'
 import styled from 'styled-components'
 
 import ArbitrumLogo from '../../assets/images/arbitrum-one-logo.svg'
-import BSCLogo from '../../assets/images/binance-chain-logo.svg'
 import EthereumLogo from '../../assets/images/ethereum-logo.svg'
 import GnosisLogo from '../../assets/images/gnosis-chain-logo.svg'
 import ZkSyncLogo from '../../assets/images/logos/ZkSync.svg'

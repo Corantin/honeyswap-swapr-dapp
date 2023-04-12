@@ -1,6 +1,6 @@
 import { Web3Provider } from '@ethersproject/providers'
 import { parseUnits } from '@ethersproject/units'
-import { ChainId, Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@swapr/sdk'
+import { ChainId, Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import dayjs from 'dayjs'
 import dayjsUTCPlugin from 'dayjs/plugin/utc'

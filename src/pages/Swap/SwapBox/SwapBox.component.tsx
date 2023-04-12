@@ -1,4 +1,4 @@
-import { CoWTrade, Currency, CurrencyAmount, JSBI, Token } from '@swapr/sdk'
+import { CoWTrade, Currency, CurrencyAmount, JSBI, Token } from '@honeyswapr/sdk'
 
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'

@@ -1,4 +1,4 @@
-import { ChainId, DXD, SWPR, WETH } from '@swapr/sdk'
+import { ChainId, DXD, SWPR, WETH } from '@honeyswapr/sdk'
 
 import { Box } from 'rebass'
 

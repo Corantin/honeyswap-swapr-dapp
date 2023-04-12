@@ -1,5 +1,5 @@
 import { TransactionResponse } from '@ethersproject/providers'
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

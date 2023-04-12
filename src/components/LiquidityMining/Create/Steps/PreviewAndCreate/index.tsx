@@ -5,7 +5,7 @@ import {
   SingleSidedLiquidityMiningCampaign,
   Token,
   TokenAmount,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { useEffect, useState } from 'react'
 import { Box, Flex } from 'rebass'

@@ -1,4 +1,4 @@
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import { Navigate } from 'react-router-dom'
 import styled from 'styled-components'

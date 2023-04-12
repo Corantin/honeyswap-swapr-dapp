@@ -1,4 +1,4 @@
-import { Pair } from '@swapr/sdk'
+import { Pair } from '@honeyswapr/sdk'
 
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'

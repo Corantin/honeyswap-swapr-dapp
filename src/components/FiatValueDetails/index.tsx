@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Percent } from '@swapr/sdk'
+import { CurrencyAmount, JSBI, Percent } from '@honeyswapr/sdk'
 
 import styled from 'styled-components'
 

@@ -1,4 +1,4 @@
-import { Trade, TradeType, UniswapV2Trade } from '@swapr/sdk'
+import { Trade, TradeType, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'

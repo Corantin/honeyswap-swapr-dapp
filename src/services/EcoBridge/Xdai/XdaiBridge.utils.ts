@@ -1,5 +1,5 @@
 import { formatUnits } from '@ethersproject/units'
-import { ChainId, Currency, DAI } from '@swapr/sdk'
+import { ChainId, Currency, DAI } from '@honeyswapr/sdk'
 
 import { utils } from 'ethers'
 

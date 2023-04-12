@@ -1,6 +1,6 @@
-import { ChainId, CoWTrade } from '@swapr/sdk'
-
 import contractNetworks from '@cowprotocol/contracts/networks.json'
+import { ChainId, CoWTrade } from '@honeyswapr/sdk'
+
 import { useCallback, useEffect, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 

@@ -1,4 +1,4 @@
-import { PricedTokenAmount, TokenAmount } from '@swapr/sdk'
+import { PricedTokenAmount, TokenAmount } from '@honeyswapr/sdk'
 
 import { useState } from 'react'
 import styled from 'styled-components'

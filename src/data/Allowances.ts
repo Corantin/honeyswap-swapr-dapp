@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token, TokenAmount } from '@swapr/sdk'
+import { CurrencyAmount, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { BigNumber, constants } from 'ethers'
 import { useMemo } from 'react'

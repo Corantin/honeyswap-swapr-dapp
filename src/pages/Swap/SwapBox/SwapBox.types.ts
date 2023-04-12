@@ -1,4 +1,4 @@
-import type { Trade } from '@swapr/sdk'
+import type { Trade } from '@honeyswapr/sdk'
 
 export type SwapData = {
   showConfirm: boolean

@@ -1,4 +1,4 @@
-import { JSBI, Pair, Token, TokenAmount } from '@swapr/sdk'
+import { JSBI, Pair, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useState } from 'react'
 

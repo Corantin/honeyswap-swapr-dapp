@@ -1,4 +1,4 @@
-import { SWPR_CONVERTER_ADDRESS, TokenAmount } from '@swapr/sdk'
+import { SWPR_CONVERTER_ADDRESS, TokenAmount } from '@honeyswapr/sdk'
 
 import { useCallback } from 'react'
 import styled from 'styled-components'

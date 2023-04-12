@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import BNBLogo from '../../assets/images/bnb-logo.png'
 import EtherLogo from '../../assets/images/ether-logo.png'

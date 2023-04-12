@@ -1,9 +1,9 @@
 import type { Signer } from '@ethersproject/abstract-signer'
-import { ChainId, CoWTrade } from '@swapr/sdk'
 
 import contractNetworks from '@cowprotocol/contracts/networks.json'
 import { OrderKind as CoWOrderKind } from '@cowprotocol/cow-sdk'
 import type { UnsignedOrder } from '@cowprotocol/cow-sdk/dist/utils/sign'
+import { ChainId, CoWTrade } from '@honeyswapr/sdk'
 
 import cowAppData from '../generated/cow-app-data/app-data.json'
 import { LimitOrderKind, SerializableLimitOrder, SerializableSignedLimitOrder } from '../interfaces'

@@ -1,10 +1,10 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import ArbitrumLogo from '../../assets/images/arbitrum-one-logo.svg'
 import BinanceChainLogo from '../../assets/images/binance-chain-logo.svg'
 import EthereumLogo from '../../assets/images/ethereum-logo.svg'
 import GnosisLogo from '../../assets/images/gnosis-chain-logo.svg'
-import ZkSyncChainLogo from '../../assets/images/logos/zksync-logo.svg'
+import ZkSyncChainLogo from '../../assets/images/logos/ZkSync.svg'
 import OptimismLogo from '../../assets/images/optimism-logo.svg'
 import PolygonMaticLogo from '../../assets/images/polygon-matic-logo.svg'
 import { NetworkOptionsPreset, NetworkSwitcherTags } from './NetworkSwitcher.types'

@@ -1,6 +1,6 @@
-import { TokenAmount } from '@swapr/sdk'
-
 import { SigningResult } from '@cowprotocol/cow-sdk/dist/utils/sign'
+import { TokenAmount } from '@honeyswapr/sdk'
+
 /**
  * @description An EVM-compatible address
  */

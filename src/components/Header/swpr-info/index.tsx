@@ -1,4 +1,4 @@
-import { TokenAmount } from '@swapr/sdk'
+import { TokenAmount } from '@honeyswapr/sdk'
 
 import Skeleton from 'react-loading-skeleton'
 import styled from 'styled-components'

@@ -1,4 +1,4 @@
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import { transparentize } from 'polished'
 import { CSSProperties } from 'react'

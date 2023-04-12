@@ -1,4 +1,4 @@
-import { Percent, TokenAmount } from '@swapr/sdk'
+import { Percent, TokenAmount } from '@honeyswapr/sdk'
 
 import { Flex } from 'rebass'
 

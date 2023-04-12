@@ -1,4 +1,4 @@
-import { Pair } from '@swapr/sdk'
+import { Pair } from '@honeyswapr/sdk'
 
 import { useState } from 'react'
 import { Flex } from 'rebass'

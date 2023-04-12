@@ -1,4 +1,4 @@
-import { Pair, Percent } from '@swapr/sdk'
+import { Pair, Percent } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

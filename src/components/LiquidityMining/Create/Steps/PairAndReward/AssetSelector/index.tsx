@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@swapr/sdk'
+import { Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useEffect, useMemo, useState } from 'react'
 import { Box, Flex } from 'rebass'

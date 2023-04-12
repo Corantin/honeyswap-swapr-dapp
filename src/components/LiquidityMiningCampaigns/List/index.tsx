@@ -1,4 +1,4 @@
-import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@swapr/sdk'
+import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@honeyswapr/sdk'
 
 import { useEffect, useRef, useState } from 'react'
 import { Box, Flex, Text } from 'rebass'

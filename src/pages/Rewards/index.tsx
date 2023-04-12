@@ -1,4 +1,4 @@
-import { Pair } from '@swapr/sdk'
+import { Pair } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { ChevronDown } from 'react-feather'

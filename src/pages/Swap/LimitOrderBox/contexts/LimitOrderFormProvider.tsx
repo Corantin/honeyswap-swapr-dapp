@@ -1,5 +1,5 @@
-import { ChainId, Token, USDC } from '@swapr/sdk'
-import { wrappedCurrency } from '@swapr/sdk/dist/entities/trades/utils'
+import { ChainId, Token, USDC } from '@honeyswapr/sdk'
+import { wrappedCurrency } from '@honeyswapr/sdk/dist/entities/trades/utils'
 
 import { formatUnits } from 'ethers/lib/utils'
 import { ReactNode, useContext, useLayoutEffect, useRef, useState } from 'react'

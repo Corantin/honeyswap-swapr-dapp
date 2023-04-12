@@ -1,4 +1,4 @@
-import { ChainId, SWPR } from '@swapr/sdk'
+import { ChainId, SWPR } from '@honeyswapr/sdk'
 import { useWeb3React } from '@web3-react/core'
 import { useEffect, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'

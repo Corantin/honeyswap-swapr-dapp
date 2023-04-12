@@ -11,7 +11,7 @@ import {
   Token,
   TokenAmount,
   Trade,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { createSelector } from '@reduxjs/toolkit'
 import { useWhatChanged } from '@simbathesailor/use-what-changed'

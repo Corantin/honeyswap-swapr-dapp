@@ -1,4 +1,4 @@
-import { ChainId, Currency, Trade } from '@swapr/sdk'
+import { ChainId, Currency, Trade } from '@honeyswapr/sdk'
 
 import { queryClient } from '..'
 

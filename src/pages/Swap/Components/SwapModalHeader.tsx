@@ -1,4 +1,4 @@
-import { Trade, TradeType, UniswapV2Trade } from '@swapr/sdk'
+import { Trade, TradeType, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { isAddress } from 'ethers/lib/utils'
 import { useMemo } from 'react'

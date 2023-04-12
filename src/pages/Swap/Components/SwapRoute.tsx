@@ -1,4 +1,4 @@
-import { UniswapV2Trade } from '@swapr/sdk'
+import { UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { Fragment, memo } from 'react'
 import { ChevronRight } from 'react-feather'

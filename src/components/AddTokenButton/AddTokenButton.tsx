@@ -1,4 +1,4 @@
-import { SWPR } from '@swapr/sdk'
+import { SWPR } from '@honeyswapr/sdk'
 
 import { useCallback, useMemo } from 'react'
 

@@ -8,7 +8,7 @@ import {
   SingleSidedLiquidityMiningCampaign,
   Token,
   TokenAmount,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { useMemo } from 'react'

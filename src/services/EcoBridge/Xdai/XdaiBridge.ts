@@ -1,7 +1,7 @@
 import { Contract, ContractTransaction } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
 import { formatUnits, parseUnits } from '@ethersproject/units'
-import { ChainId, Currency, DAI } from '@swapr/sdk'
+import { ChainId, Currency, DAI } from '@honeyswapr/sdk'
 
 import { TokenInfo, TokenList } from '@uniswap/token-lists'
 import { BigNumber } from 'ethers'

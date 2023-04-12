@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { providers } from 'ethers'
@@ -22,6 +22,8 @@ export const network = new CustomNetworkConnector({
     [ChainId.OPTIMISM_MAINNET]: 'https://mainnet.optimism.io',
     [ChainId.OPTIMISM_GOERLI]: 'https://goerli.optimism.io',
     [ChainId.BSC_MAINNET]: 'https://bsc-dataseed.binance.org/',
+    [ChainId.ZKSYNC_ERA_MAINNET]: 'https://goerli.explorer.zksync.io/',
+    [ChainId.ZKSYNC_ERA_TESTNET]: 'https://testnet.era.zksync.dev',
   },
   defaultChainId: ChainId.MAINNET,
 })
@@ -53,6 +55,8 @@ export const walletConnect = new CustomWalletConnectConnector({
     [ChainId.ARBITRUM_ONE]: 'https://arb1.arbitrum.io/rpc',
     [ChainId.XDAI]: 'https://rpc.gnosischain.com/',
     [ChainId.MAINNET]: `https://mainnet.infura.io/v3/${INFURA_PROJECT_ID}`,
+    [ChainId.ZKSYNC_ERA_MAINNET]: 'https://mainnet.era.zksync.io',
+    [ChainId.ZKSYNC_ERA_TESTNET]: 'https://testnet.era.zksync.dev',
   },
   bridge: 'https://bridge.walletconnect.org',
   qrcode: true,

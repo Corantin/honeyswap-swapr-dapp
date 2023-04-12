@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Percent, Route, Token, TokenAmount, TradeType, UniswapV2Trade } from '@swapr/sdk'
+import { ChainId, JSBI, Pair, Percent, Route, Token, TokenAmount, TradeType, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { computeTradePriceBreakdown } from './prices'
 

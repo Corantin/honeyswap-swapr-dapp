@@ -1,4 +1,4 @@
-import { ChainId, DAI, USDC, USDT, WBTC, WETH } from '@swapr/sdk'
+import { ChainId, DAI, USDC, USDT, WBTC, WETH } from '@honeyswapr/sdk'
 
 import { ZERO_ADDRESS } from '../../../constants'
 import { ConnextToken } from './Connext.types'

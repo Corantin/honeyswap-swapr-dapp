@@ -1,4 +1,4 @@
-import { Token } from '@swapr/sdk'
+import { Token } from '@honeyswapr/sdk'
 
 import { ChangeEvent, RefObject, useCallback, useMemo, useRef, useState } from 'react'
 import { Box, Flex } from 'rebass'

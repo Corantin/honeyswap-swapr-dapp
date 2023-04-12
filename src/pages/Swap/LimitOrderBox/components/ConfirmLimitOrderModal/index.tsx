@@ -1,4 +1,4 @@
-import { CurrencyAmount } from '@swapr/sdk'
+import { CurrencyAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useContext } from 'react'
 

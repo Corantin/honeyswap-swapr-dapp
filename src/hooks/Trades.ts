@@ -7,7 +7,7 @@ import {
   Trade,
   UniswapV2RoutablePlatform,
   UniswapV2Trade,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

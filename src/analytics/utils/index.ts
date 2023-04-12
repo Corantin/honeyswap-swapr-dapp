@@ -1,4 +1,4 @@
-import { ChainId, Trade } from '@swapr/sdk'
+import { ChainId, Trade } from '@honeyswapr/sdk'
 
 import { BridgeTransactionSummary } from '../../state/bridgeTransactions/types'
 import { ChartOption } from '../../state/user/reducer'

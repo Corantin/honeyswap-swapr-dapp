@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { CurrencyAmount, USD } from '@swapr/sdk'
+import { CurrencyAmount, USD } from '@honeyswapr/sdk'
 
 import { BigNumber } from 'ethers'
 import { useMemo } from 'react'

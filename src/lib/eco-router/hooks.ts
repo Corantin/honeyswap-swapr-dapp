@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Percent, Trade } from '@swapr/sdk'
+import { Currency, CurrencyAmount, Percent, Trade } from '@honeyswapr/sdk'
 
 import { useEffect, useState } from 'react'
 

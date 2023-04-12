@@ -1,4 +1,4 @@
-import { Trade, UniswapV2Trade } from '@swapr/sdk'
+import { Trade, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { Settings } from 'react-feather'
 import styled from 'styled-components'

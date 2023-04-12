@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { useTranslation } from 'react-i18next'
 import { Flex, Text } from 'rebass'

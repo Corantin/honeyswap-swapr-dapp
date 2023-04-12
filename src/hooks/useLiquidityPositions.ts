@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { CurrencyAmount, KpiToken, Pair, Percent, Token, TokenAmount, USD } from '@swapr/sdk'
+import { CurrencyAmount, KpiToken, Pair, Percent, Token, TokenAmount, USD } from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { ethers } from 'ethers'

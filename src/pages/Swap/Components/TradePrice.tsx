@@ -1,4 +1,4 @@
-import { Price } from '@swapr/sdk'
+import { Price } from '@honeyswapr/sdk'
 
 import { transparentize } from 'polished'
 import styled from 'styled-components'

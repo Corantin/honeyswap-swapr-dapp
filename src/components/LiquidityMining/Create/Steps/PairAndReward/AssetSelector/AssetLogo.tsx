@@ -1,4 +1,4 @@
-import { Token } from '@swapr/sdk'
+import { Token } from '@honeyswapr/sdk'
 
 import styled from 'styled-components'
 

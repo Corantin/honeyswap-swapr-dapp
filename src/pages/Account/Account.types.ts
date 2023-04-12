@@ -1,4 +1,4 @@
-import { type ChainId } from '@swapr/sdk'
+import { type ChainId } from '@honeyswapr/sdk'
 
 import { type BridgeList } from '../../services/EcoBridge/EcoBridge.types'
 import { type BridgeTransactionLog } from '../../state/bridgeTransactions/types'

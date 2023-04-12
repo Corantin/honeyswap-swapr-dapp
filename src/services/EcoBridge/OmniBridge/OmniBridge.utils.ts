@@ -1,5 +1,5 @@
 import { Provider, TransactionReceipt } from '@ethersproject/abstract-provider'
-import { ChainId, MULTICALL2_ABI, MULTICALL2_ADDRESS, WETH } from '@swapr/sdk'
+import { ChainId, MULTICALL2_ABI, MULTICALL2_ADDRESS, WETH } from '@honeyswapr/sdk'
 
 import { BigNumber, Contract, ContractTransaction, Signer, utils } from 'ethers'
 import { BytesLike, formatUnits } from 'ethers/lib/utils'

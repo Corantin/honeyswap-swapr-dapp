@@ -1,5 +1,5 @@
 import { JsonRpcProvider, Web3Provider } from '@ethersproject/providers'
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { Store } from '@reduxjs/toolkit'
 import { TokenList } from '@uniswap/token-lists'

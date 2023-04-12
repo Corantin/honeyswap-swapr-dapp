@@ -1,4 +1,4 @@
-import { Pair, Token, TokenAmount } from '@swapr/sdk'
+import { Pair, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { getAddress, parseUnits } from 'ethers/lib/utils'
 import { useMemo } from 'react'

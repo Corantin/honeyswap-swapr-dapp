@@ -1,4 +1,4 @@
-import { Pair, PricedTokenAmount, Token, TokenAmount } from '@swapr/sdk'
+import { Pair, PricedTokenAmount, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useState } from 'react'
 import { AlertTriangle } from 'react-feather'

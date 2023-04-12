@@ -1,4 +1,4 @@
-import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@swapr/sdk'
+import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { ChevronLeft, Repeat } from 'react-feather'

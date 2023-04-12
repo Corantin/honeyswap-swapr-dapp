@@ -1,4 +1,4 @@
-import { Pair, PricedTokenAmount, Token } from '@swapr/sdk'
+import { Pair, PricedTokenAmount, Token } from '@honeyswapr/sdk'
 
 import { useCallback } from 'react'
 import { Box, Flex } from 'rebass'

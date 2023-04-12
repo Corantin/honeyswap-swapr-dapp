@@ -1,4 +1,4 @@
-import { Currency, Token } from '@swapr/sdk'
+import { Currency, Token } from '@honeyswapr/sdk'
 
 import { useCallback, useState } from 'react'
 import { ChevronDown, Plus, X } from 'react-feather'

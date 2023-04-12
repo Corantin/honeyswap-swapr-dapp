@@ -4,7 +4,7 @@ import {
   parseBigintIsh,
   SingleSidedLiquidityMiningCampaign,
   TokenAmount,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'

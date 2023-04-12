@@ -1,4 +1,4 @@
-import { Currency, Token } from '@swapr/sdk'
+import { Currency, Token } from '@honeyswapr/sdk'
 
 export function currencyId(currency: Currency): string {
   if (Currency.isNative(currency)) return currency.symbol || ''

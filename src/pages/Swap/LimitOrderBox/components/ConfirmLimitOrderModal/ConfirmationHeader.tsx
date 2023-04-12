@@ -1,4 +1,4 @@
-import { CurrencyAmount, TokenAmount } from '@swapr/sdk'
+import { CurrencyAmount, TokenAmount } from '@honeyswapr/sdk'
 
 import { ArrowDown } from 'react-feather'
 import styled from 'styled-components'

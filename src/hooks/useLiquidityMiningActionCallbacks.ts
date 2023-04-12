@@ -1,6 +1,6 @@
 import { TransactionResponse } from '@ethersproject/providers'
 import { parseUnits } from '@ethersproject/units'
-import { TokenAmount } from '@swapr/sdk'
+import { TokenAmount } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

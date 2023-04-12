@@ -1,4 +1,4 @@
-import { Token } from '@swapr/sdk'
+import { Token } from '@honeyswapr/sdk'
 
 import { TokenList } from '@uniswap/token-lists'
 import { useState } from 'react'
