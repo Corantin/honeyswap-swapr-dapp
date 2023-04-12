@@ -1,4 +1,4 @@
-import { Trade } from '@swapr/sdk'
+import { Trade } from '@honeyswapr/sdk'
 
 import debugFactory from 'debug'
 import { useEffect, useRef, useState } from 'react'

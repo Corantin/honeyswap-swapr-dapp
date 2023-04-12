@@ -5,7 +5,7 @@ import useCopyClipboard from '../../hooks/useCopyClipboard'
 import { LinkStyledButton } from '../../theme'
 
 const Button = styled(LinkStyledButton)`
-  color: ${({ theme }) => theme.text4};
+  color: ${({ theme }) => theme.text2};
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -16,9 +16,9 @@ const Button = styled(LinkStyledButton)`
   :focus,
   :hover {
     text-decoration: none;
-    color: ${({ theme }) => theme.text2};
+    color: ${({ theme }) => theme.text1};
     & svg {
-      color: ${({ theme }) => theme.text2};
+      color: ${({ theme }) => theme.text1};
     }
   }
 `

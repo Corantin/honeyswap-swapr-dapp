@@ -1,4 +1,4 @@
-import { Fraction, SWPR } from '@swapr/sdk'
+import { Fraction, SWPR } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 import Skeleton from 'react-loading-skeleton'

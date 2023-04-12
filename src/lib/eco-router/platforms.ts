@@ -1,4 +1,4 @@
-import { ChainId, RoutablePlatform, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { ChainId, RoutablePlatform, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 /**
  * List of Uniswap V2 platform that support current chain

@@ -1,4 +1,4 @@
-import { CoWTrade, Currency, Trade, UniswapV2Trade } from '@swapr/sdk'
+import { CoWTrade, Currency, Trade, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { Dispatch, SetStateAction, useCallback, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'

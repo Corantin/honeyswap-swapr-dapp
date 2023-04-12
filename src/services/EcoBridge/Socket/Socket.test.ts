@@ -1,4 +1,4 @@
-import { ChainId, Currency, DAI, USDC, WETH } from '@swapr/sdk'
+import { ChainId, Currency, DAI, USDC, WETH } from '@honeyswapr/sdk'
 
 import { MATIC, SOCKET_NATIVE_TOKEN_ADDRESS } from '../../../constants'
 import { overrideTokensAddresses } from './Socket.utils'

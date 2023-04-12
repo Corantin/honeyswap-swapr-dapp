@@ -1,4 +1,4 @@
-import { ChainId, Currency, DAI, USDC, USDT, WBTC } from '@swapr/sdk'
+import { ChainId, Currency, DAI, USDC, USDT, WBTC } from '@honeyswapr/sdk'
 
 export const MainPage = 'Governance Main Page'
 export const PairPage = 'Governance Pair Page'

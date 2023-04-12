@@ -1,4 +1,4 @@
-import { Currency, Token } from '@swapr/sdk'
+import { Currency, Token } from '@honeyswapr/sdk'
 
 import { TokenList } from '@uniswap/token-lists'
 import { ReactNode } from 'react'

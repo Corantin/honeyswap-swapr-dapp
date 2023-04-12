@@ -13,8 +13,8 @@ const basicPalette = {
   white: '#FFFFFF',
   background: 'rgba(12, 11, 18, 1)',
   accent: themeConfig.randomAccent ? colorList[getRandomInt(colorList.length - 1)] : themeConfig.accent,
-  blueGray: 'rgba(135, 128, 191, 1)',
-  gray: 'rgba(183, 181, 203, 1)',
+  blueGray: 'rgba(177, 191, 128, 1)',
+  gray: 'rgba(202, 203, 181, 1)',
 }
 
 function getRandomInt(max) {
@@ -53,15 +53,14 @@ export const boxShadow = {
 }
 
 export const gradients = {
-  primary: 'linear-gradient(270deg, #FFFFFF 1.98%, #DCD8FE 95.72%)',
-  primaryLabel: 'linear-gradient(90.22deg, #3C0FEF 0.62%, #B300FF 105.85%)',
-  cta: 'linear-gradient(266.97deg, #D74DFF 5.64%, #8E38FF 53.85%, #4C1DFF 97.29%)',
+  primary: 'linear-gradient(270deg, rgba(88, 88, 78, 0.25), rgba(219, 219, 140, 0.96))',
+  primaryLabel: 'linear-gradient(90.22deg, #24292d 0.62%, #f1e265 105.85%)',
+  cta: 'linear-gradient(266.97deg, #f1e265 5.64%, rgba(219, 219, 140, 0.96) 53.85%, #f1e265 97.29%)',
   heroMainText: 'linear-gradient(270deg, #FFFFFF 1.98%, #DCD8FE 95.72%)',
-  glow: 'radial-gradient(closest-side, rgba(20, 10, 55, 1) 20%, rgba(20, 10, 55, 0) 100%)',
-  purpleDimDark:
-    'linear-gradient(143.3deg,rgba(46,23,242,0.5) -185.11%,rgba(46,23,242,0) 49.63%),linear-gradient(113.18deg,#c0baf638 -0.1%,rgba(0,0,0,0) 98.9%),rgba(57,51,88,0.3)',
-  purpleDim:
-    'linear-gradient(118.9deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(0, 0, 0, 0) 132.78%), rgba(61, 55, 88, 0.7);',
+  glow: 'radial-gradient(closest-side, rgba(51, 55, 10, 1) 20%, rgba(20, 10, 55, 0) 100%)',
+  yellowDimDark: 'linear-gradient(256.45deg, rgb(65, 68, 47 / 20%) 7%, rgb(82 82 60 / 0%) 66%)',
+  yellowDim:
+    'linear-gradient(118.9deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(0, 0, 0, 0) 132.78%), rgba(84, 88, 55, 0.7);',
 }
 
 export default theme

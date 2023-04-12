@@ -1,4 +1,4 @@
-import { SWPR, Token } from '@swapr/sdk'
+import { SWPR, Token } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

@@ -1,7 +1,6 @@
 import { Provider } from '@ethersproject/abstract-provider'
 import { JsonRpcSigner } from '@ethersproject/providers'
 import { formatUnits, parseEther, parseUnits } from '@ethersproject/units'
-import { ChainId, Currency } from '@swapr/sdk'
 
 import {
   Erc20Bridger,
@@ -13,6 +12,7 @@ import {
 } from '@arbitrum/sdk'
 import { ERC20 } from '@arbitrum/sdk/dist/lib/abi/ERC20'
 import { L2GatewayToken } from '@arbitrum/sdk/dist/lib/abi/L2GatewayToken'
+import { ChainId, Currency } from '@honeyswapr/sdk'
 import { TokenList } from '@uniswap/token-lists'
 import { BigNumber, Signer } from 'ethers'
 import request from 'graphql-request'

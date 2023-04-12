@@ -1,4 +1,4 @@
-import { ChainId, Currency } from '@swapr/sdk'
+import { ChainId, Currency } from '@honeyswapr/sdk'
 
 import { createSelector } from '@reduxjs/toolkit'
 import { type TokenInfo, type TokenList } from '@uniswap/token-lists/dist/types'

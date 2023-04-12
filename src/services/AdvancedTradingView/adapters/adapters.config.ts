@@ -1,4 +1,4 @@
-import { ChainId, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { ChainId, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { AppState } from '../../../state'
 import { AdapterKey, Adapters } from '../advancedTradingView.types'

@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { useCallback } from 'react'
 import { useSelector } from 'react-redux'
@@ -107,7 +107,7 @@ export const BridgeActionPanel = ({
         {label}
         {isLoading && (
           <div style={{ marginLeft: '5px', color: 'red' }}>
-            <Loader stroke="#C0BAF6" />
+            <Loader stroke="#f0f6ba" />
           </div>
         )}
       </BridgeButton>

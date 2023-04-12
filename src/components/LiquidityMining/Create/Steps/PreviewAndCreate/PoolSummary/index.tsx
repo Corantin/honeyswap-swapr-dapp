@@ -1,4 +1,4 @@
-import { Pair, Token } from '@swapr/sdk'
+import { Pair, Token } from '@honeyswapr/sdk'
 
 import { DateTime } from 'luxon'
 import { Flex } from 'rebass'

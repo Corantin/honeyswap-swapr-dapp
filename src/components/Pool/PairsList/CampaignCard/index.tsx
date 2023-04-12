@@ -1,4 +1,10 @@
-import { CurrencyAmount, LiquidityMiningCampaign, Percent, SingleSidedLiquidityMiningCampaign, Token } from '@swapr/sdk'
+import {
+  CurrencyAmount,
+  LiquidityMiningCampaign,
+  Percent,
+  SingleSidedLiquidityMiningCampaign,
+  Token,
+} from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { Card, Flex } from 'rebass'

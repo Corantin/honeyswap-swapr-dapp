@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { formatUnits, parseUnits } from '@ethersproject/units'
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import { TokenInfo, TokenList } from '@uniswap/token-lists'
 

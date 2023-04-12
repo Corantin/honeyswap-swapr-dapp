@@ -9,6 +9,10 @@ export const AutoRow = styled(AutoRowBase)`
   > div {
     width: 50%;
   }
+  #limitOrderExpiry,
+  #limitPrice {
+    color: ${({ theme }) => theme.text5};
+  }
 `
 
 export const MaxAlert = styled.div`

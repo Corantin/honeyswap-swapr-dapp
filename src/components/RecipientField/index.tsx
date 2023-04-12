@@ -10,7 +10,7 @@ import { SearchInput } from '../SearchModal/shared'
 
 const SearchInputStyled = styled(SearchInput)<{ error: boolean }>`
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding: ${({ error }) => error && '15px 19px'};
   && {
@@ -48,7 +48,7 @@ export const RecipientField = ({ recipient }: RecipientFieldProps) => {
 
   return (
     <div>
-      <TYPE.SubHeader lineHeight={'11px'} color={'purple3'}>
+      <TYPE.SubHeader lineHeight={'11px'} color={'yellow3'}>
         {t('recipientField.recipient')}
       </TYPE.SubHeader>
       <SearchInputStyled

@@ -44,7 +44,7 @@ export default function Governance() {
 
   return (
     <>
-      <PageMetaData title="Governance | Swapr" />
+      <PageMetaData title="Governance | Honeyswap" />
       <PageWrapper>
         <AutoColumn gap="lg" justify="center">
           <AutoColumn gap="lg" style={{ width: '100%' }}>

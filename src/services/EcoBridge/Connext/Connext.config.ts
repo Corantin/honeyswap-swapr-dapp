@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 export const connextSdkChainConfig = {
   [ChainId.MAINNET]: {

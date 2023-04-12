@@ -1,6 +1,6 @@
 import { AddressZero } from '@ethersproject/constants'
 import { formatUnits, parseUnits } from '@ethersproject/units'
-import { Token, TokenAmount } from '@swapr/sdk'
+import { Token, TokenAmount } from '@honeyswapr/sdk'
 
 import createDebugger from 'debug'
 

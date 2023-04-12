@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@swapr/sdk'
+import { Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

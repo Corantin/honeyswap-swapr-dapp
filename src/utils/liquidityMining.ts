@@ -12,7 +12,7 @@ import {
   Token,
   TokenAmount,
   USD,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { getAddress, parseUnits } from 'ethers/lib/utils'

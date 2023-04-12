@@ -1,4 +1,4 @@
-import { Token } from '@swapr/sdk'
+import { Token } from '@honeyswapr/sdk'
 
 export function currencyKey(index: number, data: any): string {
   const currency = data[index]

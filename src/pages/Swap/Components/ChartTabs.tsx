@@ -100,7 +100,7 @@ export const Tab = styled.button<{ active?: boolean }>`
   border-radius: 10px;
   font-size: 8px;
   font-weight: 600;
-  color: ${({ active, theme }) => (active ? 'white' : theme.purple5)};
+  color: ${({ active, theme }) => (active ? 'white' : theme.yellow5)};
   text-transform: uppercase;
   cursor: pointer;
   &:last-child {

@@ -35,7 +35,7 @@ export const ListHeader = styled(ListContentItem)`
   line-height: 12px;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
   &:first-child,
   &:last-child {
     padding: 0;

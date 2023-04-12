@@ -1,4 +1,4 @@
-import { _10000 } from '@swapr/sdk'
+import { _10000 } from '@honeyswapr/sdk'
 
 import { Trans } from 'react-i18next'
 import { useTheme } from 'styled-components'

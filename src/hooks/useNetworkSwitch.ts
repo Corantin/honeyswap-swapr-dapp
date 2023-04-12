@@ -1,4 +1,4 @@
-import { ChainId, SWPR } from '@swapr/sdk'
+import { ChainId, SWPR } from '@honeyswapr/sdk'
 
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { useCallback } from 'react'

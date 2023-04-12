@@ -1,6 +1,14 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { TransactionResponse } from '@ethersproject/providers'
-import { ChainId, Currency, currencyEquals, JSBI, Percent, TokenAmount, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import {
+  ChainId,
+  Currency,
+  currencyEquals,
+  JSBI,
+  Percent,
+  TokenAmount,
+  UniswapV2RoutablePlatform,
+} from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
@@ -316,7 +324,7 @@ export default function AddLiquidity() {
 
   return (
     <>
-      <PageMetaData title={`${isCreate ? 'Create a pair' : 'Add Liquidity'} | Swapr`} />
+      <PageMetaData title={`${isCreate ? 'Create a pair' : 'Add Liquidity'} | Honeyswap`} />
       <AppBody>
         <PoolLiquidityHeader creating={isCreate} adding={true} />
         <Wrapper>

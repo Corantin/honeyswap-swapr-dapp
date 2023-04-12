@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@swapr/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@honeyswapr/sdk'
 
 import { Text } from 'rebass'
 

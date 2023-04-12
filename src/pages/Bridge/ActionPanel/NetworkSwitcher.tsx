@@ -67,12 +67,12 @@ const Row = styled(RowBetween)`
     width: 100%;
     height: 1px;
     transform: translateY(-50%);
-    background: linear-gradient(-90deg, #2e17f2 -3.41%, rgba(46, 23, 242, 0.2) 29.26%, rgba(46, 23, 242, 0.6) 29.26%);
+    background: linear-gradient(-90deg, #e3f217 -3.41%, rgba(209, 242, 23, 0.2) 29.26%, rgba(220, 242, 23, 0.6) 29.26%);
     z-index: -1;
   }
 
   &.active::before {
-    background: linear-gradient(90deg, #0e9f6e 0.85%, #2e17f2 101.42%);
+    background: linear-gradient(90deg, #9f7d0e 0.85%, #f2ee17 101.42%);
   }
 `
 
@@ -90,10 +90,10 @@ const Number = styled.div`
   line-height: 12px;
 
   &.active {
-    background: #163430;
+    background: #342d16;
   }
   &.disabled {
-    background-color: ${({ theme }) => theme.purple5};
+    background-color: ${({ theme }) => theme.yellow5};
     color: ${({ theme }) => transparentize(0.28, theme.purpleBase)};
   }
 `

@@ -1,4 +1,4 @@
-import { CurrencyAmount, Pair, Price, Token } from '@swapr/sdk'
+import { CurrencyAmount, Pair, Price, Token } from '@honeyswapr/sdk'
 
 import _Decimal from 'decimal.js-light'
 import { useCallback, useEffect, useState } from 'react'

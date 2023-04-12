@@ -1,4 +1,4 @@
-import { currencyEquals, Token } from '@swapr/sdk'
+import { currencyEquals, Token } from '@honeyswapr/sdk'
 
 import { useCallback } from 'react'
 import { Text } from 'rebass'

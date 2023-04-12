@@ -1,7 +1,6 @@
 import { TransactionReceipt } from '@ethersproject/abstract-provider'
-import { ChainId } from '@swapr/sdk'
-
 import { L2ToL1MessageStatus } from '@arbitrum/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { BridgeList } from '../../services/EcoBridge/EcoBridge.types'
 

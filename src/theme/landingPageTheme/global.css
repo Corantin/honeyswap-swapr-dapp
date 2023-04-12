@@ -37,10 +37,10 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
 }
 
-#root {
+/* #root {
   color: white;
   background: var(--main-bg-color);
-}
+} */
 
 .full-width {
   width: 100%;

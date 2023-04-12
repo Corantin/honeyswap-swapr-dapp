@@ -1,4 +1,4 @@
-import { Currency, currencyEquals, Token, TokenAmount } from '@swapr/sdk'
+import { Currency, currencyEquals, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useMemo, useState } from 'react'
 import { Flex } from 'rebass/styled-components'

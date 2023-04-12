@@ -1,5 +1,5 @@
 import { parseUnits } from '@ethersproject/units'
-import { ChainId, CurrencyAmount, Pair } from '@swapr/sdk'
+import { ChainId, CurrencyAmount, Pair } from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { useMemo } from 'react'

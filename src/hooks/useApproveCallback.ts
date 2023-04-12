@@ -9,8 +9,8 @@ import {
   Trade,
   UniswapV2RoutablePlatform,
   UniswapV2Trade,
-} from '@swapr/sdk'
-import { wrappedAmount } from '@swapr/sdk/dist/entities/trades/utils'
+} from '@honeyswapr/sdk'
+import { wrappedAmount } from '@honeyswapr/sdk/dist/entities/trades/utils'
 
 import { useCallback, useMemo } from 'react'
 

@@ -1,5 +1,14 @@
 import { parseUnits } from '@ethersproject/units'
-import { JSBI, Pair, parseBigintIsh, Percent, Price, PricedToken, PricedTokenAmount, TokenAmount } from '@swapr/sdk'
+import {
+  JSBI,
+  Pair,
+  parseBigintIsh,
+  Percent,
+  Price,
+  PricedToken,
+  PricedTokenAmount,
+  TokenAmount,
+} from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { useMemo } from 'react'

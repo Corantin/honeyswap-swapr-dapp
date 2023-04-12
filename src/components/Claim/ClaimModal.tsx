@@ -1,4 +1,4 @@
-import { TokenAmount } from '@swapr/sdk'
+import { TokenAmount } from '@honeyswapr/sdk'
 
 import { transparentize } from 'polished'
 import { useCallback } from 'react'
@@ -9,7 +9,7 @@ import { useRouter } from '../../hooks/useRouter'
 import { useShowClaimPopup } from '../../state/application/hooks'
 import { CloseIcon, TYPE } from '../../theme'
 import { AddTokenButton } from '../AddTokenButton/AddTokenButton'
-import { ButtonDark1, ButtonPurple } from '../Button'
+import { ButtonDark1, ButtonYellow } from '../Button'
 import { AutoColumn } from '../Column'
 import Modal from '../Modal'
 import { RowBetween } from '../Row'
@@ -68,9 +68,9 @@ export default function ClaimModal({
               <TYPE.Body marginTop="4px" marginBottom="11px" fontWeight="600" fontSize="11px">
                 SWPR
               </TYPE.Body>
-              <ButtonPurple disabled={!singleSidedCampaignLink} onClick={handleStakeUnstakeClick}>
+              <ButtonYellow disabled={!singleSidedCampaignLink} onClick={handleStakeUnstakeClick}>
                 STAKE
-              </ButtonPurple>
+              </ButtonYellow>
             </Flex>
 
             <Flex width="50%" flexDirection="column">

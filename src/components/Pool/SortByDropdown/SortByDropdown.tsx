@@ -33,7 +33,7 @@ export function SortByDropdown({
                 <Text
                   fontWeight={600}
                   fontSize={10}
-                  color={theme.purple2}
+                  color={theme.yellow2}
                   onClick={() => {
                     onSortByChange(key)
                     setIsOpen(false)
@@ -47,10 +47,10 @@ export function SortByDropdown({
         }
       >
         <StyledFlex alignItems="center" onClick={() => setIsOpen(!isOpen)}>
-          <StyledText fontWeight={600} fontSize={10} color={theme.purple2}>
+          <StyledText fontWeight={600} fontSize={10} color={theme.yellow2}>
             {t('dropdown.sortBy', { option: LIQUIDITY_SORTING_TYPES[sortBy] })}
           </StyledText>
-          <ChevronDown color={theme.purple2} size={16} />
+          <ChevronDown color={theme.yellow2} size={16} />
         </StyledFlex>
       </Popover>
     </Flex>

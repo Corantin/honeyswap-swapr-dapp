@@ -2,7 +2,15 @@ import { BigNumber } from '@ethersproject/bignumber'
 import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { ChainId, Currency, CurrencyAmount, currencyEquals, JSBI, Percent, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import {
+  ChainId,
+  Currency,
+  CurrencyAmount,
+  currencyEquals,
+  JSBI,
+  Percent,
+  UniswapV2RoutablePlatform,
+} from '@honeyswapr/sdk'
 
 import { useCallback, useMemo, useState } from 'react'
 import { ArrowDown, Plus, Repeat } from 'react-feather'
@@ -501,7 +509,7 @@ export default function RemoveLiquidity() {
 
   return (
     <>
-      <PageMetaData title="Liquidity | Swapr" />
+      <PageMetaData title="Liquidity | Honeyswap" />
       <AppBody>
         <PoolLiquidityHeader creating={false} adding={false} />
         <Wrapper>

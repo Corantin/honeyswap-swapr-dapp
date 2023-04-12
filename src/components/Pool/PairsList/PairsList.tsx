@@ -1,4 +1,4 @@
-import { SingleSidedLiquidityMiningCampaign } from '@swapr/sdk'
+import { SingleSidedLiquidityMiningCampaign } from '@honeyswapr/sdk'
 
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -116,7 +116,7 @@ export function PairsList({ aggregatedPairs, loading, filter, singleSidedStake }
           </ListLayout>
         ) : (
           <Flex alignItems="center" justifyContent="center" flexDirection={'column'} my="50px">
-            <Text fontSize="16px" color="#BCB3F0" mb="24px">
+            <Text fontSize="16px" color="#70724d" mb="24px">
               {t('pairsList.noPoolsFound')}
             </Text>
             <div>

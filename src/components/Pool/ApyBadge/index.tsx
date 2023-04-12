@@ -1,4 +1,4 @@
-import { Percent } from '@swapr/sdk'
+import { Percent } from '@honeyswapr/sdk'
 
 import styled from 'styled-components'
 

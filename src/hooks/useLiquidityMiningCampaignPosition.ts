@@ -1,4 +1,9 @@
-import { LiquidityMiningCampaign, PricedToken, PricedTokenAmount, SingleSidedLiquidityMiningCampaign } from '@swapr/sdk'
+import {
+  LiquidityMiningCampaign,
+  PricedToken,
+  PricedTokenAmount,
+  SingleSidedLiquidityMiningCampaign,
+} from '@honeyswapr/sdk'
 
 import { BigNumber } from 'ethers'
 import { getAddress } from 'ethers/lib/utils'

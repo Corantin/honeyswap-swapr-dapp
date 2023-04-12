@@ -1,4 +1,4 @@
-import { Currency, Pair, Token } from '@swapr/sdk'
+import { Currency, Pair, Token } from '@honeyswapr/sdk'
 
 import { gql, useQuery } from '@apollo/client'
 import { useEffect, useState } from 'react'

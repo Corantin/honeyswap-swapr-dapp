@@ -1,5 +1,5 @@
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, Pair, Token, WETH } from '@swapr/sdk'
+import { Currency, Pair, Token, WETH } from '@honeyswapr/sdk'
 
 import { arrayify } from 'ethers/lib/utils'
 import { useMemo } from 'react'

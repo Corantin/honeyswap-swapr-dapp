@@ -1,5 +1,5 @@
 import { formatUnits } from '@ethersproject/units'
-import { ChainId, Currency, DAI, WETH } from '@swapr/sdk'
+import { ChainId, Currency, DAI, WETH } from '@honeyswapr/sdk'
 
 import { MATIC, SOCKET_NATIVE_TOKEN_ADDRESS } from '../../../constants'
 import { SupportedChainsConfig } from '../EcoBridge.types'

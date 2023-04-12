@@ -1,4 +1,4 @@
-import { ChainId, Currency } from '@swapr/sdk'
+import { ChainId, Currency } from '@honeyswapr/sdk'
 
 import { useActiveWeb3React } from './index'
 

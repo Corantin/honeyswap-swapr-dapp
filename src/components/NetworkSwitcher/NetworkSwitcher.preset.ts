@@ -1,9 +1,10 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import ArbitrumLogo from '../../assets/images/arbitrum-one-logo.svg'
 import BinanceChainLogo from '../../assets/images/binance-chain-logo.svg'
 import EthereumLogo from '../../assets/images/ethereum-logo.svg'
 import GnosisLogo from '../../assets/images/gnosis-chain-logo.svg'
+import ZkSyncChainLogo from '../../assets/images/logos/ZkSync.svg'
 import OptimismLogo from '../../assets/images/optimism-logo.svg'
 import PolygonMaticLogo from '../../assets/images/polygon-matic-logo.svg'
 import { NetworkOptionsPreset, NetworkSwitcherTags } from './NetworkSwitcher.types'
@@ -45,6 +46,12 @@ export const networkOptionsPreset: NetworkOptionsPreset[] = [
     name: 'Gnosis Chain',
     logoSrc: GnosisLogo,
     color: '#49A9A7',
+  },
+  {
+    chainId: ChainId.ZKSYNC_ERA_MAINNET,
+    name: 'ZkSync Era',
+    logoSrc: ZkSyncChainLogo,
+    color: '#363153',
   },
 
   // TESTNETS
@@ -88,6 +95,13 @@ export const networkOptionsPreset: NetworkOptionsPreset[] = [
     name: 'BNB Testnet',
     logoSrc: BinanceChainLogo,
     color: '#F3BA2F',
+    tag: NetworkSwitcherTags.TESTNETS,
+  },
+  {
+    chainId: ChainId.ZKSYNC_ERA_TESTNET,
+    name: 'ZkSync Testnet',
+    logoSrc: ZkSyncChainLogo,
+    color: '#363153',
     tag: NetworkSwitcherTags.TESTNETS,
   },
 ]

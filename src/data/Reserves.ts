@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
 import IDXswapPair from '@swapr/core/build/IDXswapPair.json'
-import { Currency, Pair, TokenAmount, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { Currency, Pair, TokenAmount, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { BigNumber } from 'ethers'
 import { useMemo } from 'react'

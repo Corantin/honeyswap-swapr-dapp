@@ -1,4 +1,4 @@
-import { JSBI, Pair, Percent, TokenAmount } from '@swapr/sdk'
+import { JSBI, Pair, Percent, TokenAmount } from '@honeyswapr/sdk'
 
 import { useState } from 'react'
 import { ArrowUpRight } from 'react-feather'

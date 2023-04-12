@@ -39,7 +39,7 @@ export const Button = styled.button.attrs<{ warning: boolean }, { backgroundColo
 `
 
 const StyledCloseIcon = styled(X)`
-  color: ${({ theme }) => theme.purple3};
+  color: ${({ theme }) => theme.yellow3};
   width: 16px;
   height: 16px;
   cursor: pointer;
@@ -59,7 +59,7 @@ export const LinkStyledButton = styled.button<{ disabled?: boolean }>`
   background: none;
 
   cursor: ${({ disabled }) => (disabled ? 'default' : 'pointer')};
-  color: ${({ theme, disabled }) => (disabled ? theme.text2 : theme.purple4)};
+  color: ${({ theme, disabled }) => (disabled ? theme.text2 : theme.yellow4)};
   font-weight: 500;
 
   :hover {

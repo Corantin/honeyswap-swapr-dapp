@@ -1,4 +1,4 @@
-import { ChainId, CoWTrade, Trade } from '@swapr/sdk'
+import { ChainId, CoWTrade, Trade } from '@honeyswapr/sdk'
 
 import { AlertTriangle, ArrowUpCircle } from 'react-feather'
 import { useTranslation } from 'react-i18next'

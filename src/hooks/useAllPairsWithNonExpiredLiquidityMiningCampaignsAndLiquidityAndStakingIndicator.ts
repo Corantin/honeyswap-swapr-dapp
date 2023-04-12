@@ -1,4 +1,4 @@
-import { CurrencyAmount, Pair, Token, USD } from '@swapr/sdk'
+import { CurrencyAmount, Pair, Token, USD } from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { parseUnits } from 'ethers/lib/utils'

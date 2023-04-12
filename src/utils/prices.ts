@@ -19,7 +19,7 @@ import {
   VelodromeTrade,
   ZERO,
   ZeroXTrade,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import _Decimal from 'decimal.js-light'
 import toFormat from 'toformat'

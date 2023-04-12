@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 /**
  * List of supported chainId
  * At the moment, only Ethereum and Gnosis are supported as CoW API is the

@@ -11,7 +11,7 @@ export const LimitLabel = styled(InputGroup.Label)`
 
 export const SetToMarket = styled.button`
   font-size: 10px;
-  color: #8c83c0;
+  color: #90966f;
   border: none;
   cursor: pointer;
   background-color: #2a2f41;
@@ -19,7 +19,7 @@ export const SetToMarket = styled.button`
   text-transform: uppercase;
   padding: 3px 8px;
   &:hover {
-    color: #736f96;
+    color: #8e966f;
   }
 `
 
@@ -51,21 +51,21 @@ export const SwapTokenIconWrapper = styled.div`
   height: 22px;
   background: rgba(104, 110, 148, 0.3);
   border-radius: 4.25926px;
-  color: #bcb3f0;
+  color: #70724d;
 `
 
 export const SwapTokenWrapper = styled(Flex)`
-  color: #8780bf;
+  color: #70724d;
   align-items: center;
   &:hover {
-    color: #736f96;
+    color: #90966f;
     & > div {
-      color: #736f96;
+      color: #90966f;
     }
   }
 `
 export const ToggleCurrencyButton = styled.span`
-  color: #464366;
+  color: #70724d;
   cursor: pointer;
 `
 

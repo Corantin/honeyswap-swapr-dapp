@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@swapr/sdk'
+import { Currency, Percent, Price } from '@honeyswapr/sdk'
 
 import { Text } from 'rebass'
 import { useTheme } from 'styled-components'

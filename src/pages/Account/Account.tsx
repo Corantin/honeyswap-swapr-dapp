@@ -128,7 +128,7 @@ export function Account() {
 
   return (
     <>
-      <PageMetaData title={`${accountName ?? 'User account'} | Swapr`} />
+      <PageMetaData title={`${accountName ?? 'User account'} | Honeyswap`} />
       <PageWrapper>
         <Flex sx={{ mb: 4 }}>
           <Flex>
@@ -141,13 +141,13 @@ export function Account() {
                 size={isMobile ? 80 : 120}
                 name={account}
                 variant="pixel"
-                colors={['#5400AA', '#A602A2', '#5921CB', '#5F1A69', '#FF008B']}
+                colors={['#aaa700', '#3f3f27', '#c0cb21', '#68691a', '#fbff00']}
               />
             )}
           </Flex>
           <Flex flexDirection="column" justifyContent="center" marginLeft={isMobile ? '16px' : '24px'}>
             <Box sx={{ mb: 1 }}>
-              <Text as="h1" fontSize={[4, 5]} sx={{ color: '#C0BAF7', mb: 2, textTransform: 'uppercase' }}>
+              <Text as="h1" fontSize={[4, 5]} sx={{ color: '#ffffff', mb: 2, textTransform: 'uppercase' }}>
                 {accountName ?? '--'}
               </Text>
               <FullAccount>{account}</FullAccount>
@@ -160,8 +160,14 @@ export function Account() {
               </StyledLink>
             </DetailActionWrapper>
             <CallToActionWrapper>
-              <Button onClick={toggleWalletSwitcherPopover}>{t('changeWallet')}</Button>
-              {active && <Button onClick={deactivate}>{t('disconnect')}</Button>}
+              <Button onClick={toggleWalletSwitcherPopover} backgroundColor="#242420 !important">
+                {t('changeWallet')}
+              </Button>
+              {active && (
+                <Button onClick={deactivate} backgroundColor="#242420 !important">
+                  {t('disconnect')}
+                </Button>
+              )}
             </CallToActionWrapper>
           </Flex>
         </Flex>
@@ -171,11 +177,12 @@ export function Account() {
               name="filter"
               sx={{
                 borderRadius: '8px',
-                border: 'solid 1px #3E4259',
+                border: 'solid 1px #59563e',
                 minWidth: '140px',
                 fontSize: '13px',
                 textTransform: 'uppercase',
-                color: '#c0baf5',
+                color: '#f4f5ba',
+                backgroundColor: '#1a1a1a',
               }}
               onChange={handleTransactionFilter}
             >

@@ -1,6 +1,6 @@
 import { Web3Provider } from '@ethersproject/providers'
 import { formatUnits } from '@ethersproject/units'
-import { CurrencyAmount, TokenAmount } from '@swapr/sdk'
+import { CurrencyAmount, TokenAmount } from '@honeyswapr/sdk'
 
 import { Dispatch, SetStateAction } from 'react'
 

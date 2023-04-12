@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@swapr/sdk'
+import { Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useEffect, useMemo, useState } from 'react'
 import { Box, Flex } from 'rebass'
@@ -49,7 +49,7 @@ const RelativeDismiss = styled(CloseIcon)`
   right: 3px;
 
   svg {
-    stroke: #464366;
+    stroke: #626643;
   }
 `
 
@@ -192,7 +192,7 @@ export default function AssetSelector({
                 letterSpacing={'0.08em'}
                 marginBottom={'4px'}
                 lineHeight="22px"
-                color={customAssetTitle || !tokenName ? '#8C83C0' : 'lightPurple'}
+                color={customAssetTitle || !tokenName ? '#FFE27087' : 'yellow6'}
                 fontSize={13}
                 data-testid={`${campaingType === CampaignType.TOKEN ? 'token' : 'pair'}${
                   isReward ? '-reward' : ''
@@ -204,7 +204,7 @@ export default function AssetSelector({
             {tokenName && (
               <TYPE.Small
                 letterSpacing={'0.05em'}
-                color="purple3"
+                color="yellow3"
                 fontSize={10}
                 fontWeight="600"
                 lineHeight={isReward ? '16px' : '12px'}

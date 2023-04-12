@@ -126,7 +126,7 @@ export function LimitTransactionRow({ transaction }: LimitTransactionRowProps) {
       </TransactionDetails>
 
       <TypeDetails>
-        <Box color="#8780BF" fontWeight="600">
+        <Box color="#afbf80" fontWeight="600">
           {type}
         </Box>
         <Box fontWeight="600">CoW</Box>
@@ -167,6 +167,6 @@ export const CancelIcon = styled(XCircle)`
 export const StyledSwitch = styled(Repeat)`
   width: 12px;
   height: 12px;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
   margin-left: 4px;
 `

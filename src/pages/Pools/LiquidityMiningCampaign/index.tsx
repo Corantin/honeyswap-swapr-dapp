@@ -82,7 +82,7 @@ export default function LiquidityMiningCampaign() {
 
   return (
     <>
-      <PageMetaData title="Rewards | Swapr" />
+      <PageMetaData title="Rewards | Honeyswap" />
       <PageWrapper>
         <AutoColumn gap="lg" justify="center">
           <AutoColumn gap="lg" style={{ width: '100%' }}>
@@ -135,7 +135,7 @@ export default function LiquidityMiningCampaign() {
                   }
                 >
                   <AddLiquidityButtonComponent padding="8px 14px">
-                    <Text fontWeight={700} fontSize={12}>
+                    <Text fontWeight={700} fontSize={12} color="">
                       {isSingleSidedCampaign ? `GET ${token0?.symbol ?? 'TOKEN'}` : 'ADD LIQUIDITY'}
                     </Text>
                   </AddLiquidityButtonComponent>

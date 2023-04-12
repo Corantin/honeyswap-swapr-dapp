@@ -14,7 +14,7 @@ import {
   UniswapV2Trade,
   VelodromeTrade,
   ZeroXTrade,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 // Low-level API for Uniswap V2
 import { getSupportedPlatformsByChainId } from './platforms'

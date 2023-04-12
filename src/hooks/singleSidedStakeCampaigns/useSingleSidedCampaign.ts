@@ -1,4 +1,4 @@
-import { SingleSidedLiquidityMiningCampaign, Token } from '@swapr/sdk'
+import { SingleSidedLiquidityMiningCampaign, Token } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

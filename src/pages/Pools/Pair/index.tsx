@@ -1,4 +1,4 @@
-import { JSBI, Pair as PairType, Percent } from '@swapr/sdk'
+import { JSBI, Pair as PairType, Percent } from '@honeyswapr/sdk'
 
 import { useCallback, useState } from 'react'
 import { ChevronDown } from 'react-feather'
@@ -66,7 +66,7 @@ export default function Pair() {
 
   return (
     <>
-      <PageMetaData title={`${tokenPair} Liquidity pool stats | Swapr`} />
+      <PageMetaData title={`${tokenPair} Liquidity pool stats | Honeyswap`} />
       <PageWrapper>
         <Box paddingX={2}>
           <TitleRow>

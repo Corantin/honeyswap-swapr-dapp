@@ -1,4 +1,4 @@
-import { ChainId, Currency, DXD, SWPR, Token } from '@swapr/sdk'
+import { ChainId, Currency, DXD, SWPR, Token } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

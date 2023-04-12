@@ -1,4 +1,4 @@
-import { ChainId, Trade } from '@swapr/sdk'
+import { ChainId, Trade } from '@honeyswapr/sdk'
 
 import { BridgeTransactionSummary } from '../../state/bridgeTransactions/types'
 import { ChartOption } from '../../state/user/reducer'
@@ -28,6 +28,8 @@ export function getProModeEventNameByChainId(chainId?: ChainId): string {
     [ChainId.BSC_TESTNET]: 'proMode/bsc-testnet/15seconds',
     [ChainId.OPTIMISM_MAINNET]: 'proMode/optimism/15seconds',
     [ChainId.OPTIMISM_GOERLI]: 'proMode/optimism-goerli/15seconds',
+    [ChainId.ZKSYNC_ERA_MAINNET]: 'proMode/zksync-mainnet/15seconds',
+    [ChainId.ZKSYNC_ERA_TESTNET]: 'proMode/zksync-testnet/15seconds',
   }[chainId]
 }
 

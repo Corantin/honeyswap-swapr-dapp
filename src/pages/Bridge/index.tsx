@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount } from '@swapr/sdk'
+import { ChainId, CurrencyAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
@@ -59,7 +59,7 @@ const Title = styled.p`
   font-size: 18px;
   line-height: 22px;
   letter-spacing: -0.01em;
-  color: ${({ theme }) => theme.purple2};
+  color: ${({ theme }) => theme.yellow2};
 `
 
 const Row = styled(RowBetween)`
@@ -318,7 +318,7 @@ export default function Bridge() {
 
   return (
     <>
-      <PageMetaData title="Bridge | Swapr" />
+      <PageMetaData title="Bridge | Honeyswap" />
       <Wrapper>
         <Tabs
           isCollecting={isCollecting}

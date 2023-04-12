@@ -26,7 +26,7 @@ export const ButtonGroupOption = styled.button<{
 
   font-size: 8px;
   font-weight: 600;
-  color: ${({ active, theme }) => (active ? 'white' : theme.purple5)};
+  color: ${({ active, theme }) => (active ? 'white' : theme.yellow5)};
   text-transform: uppercase;
 
   cursor: pointer;

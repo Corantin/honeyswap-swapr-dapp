@@ -1,4 +1,4 @@
-import { Currency, Token } from '@swapr/sdk'
+import { Currency, Token } from '@honeyswapr/sdk'
 
 import { useCallback, useState } from 'react'
 import { ChevronDown, Plus, X } from 'react-feather'
@@ -64,7 +64,7 @@ export const ResetFilterIconContainer = styled(Flex)`
 export const ResetFilterIcon = styled(X)`
   width: 12px;
   height: 12px;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
 `
 
 export const StyledMediumHeader = styled(TYPE.MediumHeader)`
@@ -117,7 +117,7 @@ function Title({
 
   return (
     <>
-      <PageMetaData title="Liquidity | Swapr" />
+      <PageMetaData title="Liquidity | Honeyswap" />
       <TitleRow style={{ marginTop: '1rem' }} padding={'0'}>
         <Flex alignItems="center" justifyContent="space-between" marginBottom={[3, 0]}>
           {aggregatedDataFilter === PairsFilterType.MY ? (

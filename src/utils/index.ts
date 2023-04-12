@@ -4,7 +4,16 @@ import { AddressZero } from '@ethersproject/constants'
 import { Contract } from '@ethersproject/contracts'
 import { JsonRpcProvider, JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
 import IDXswapRouter from '@swapr/periphery/build/IDXswapRouter.json'
-import { ChainId, Currency, CurrencyAmount, JSBI, Pair, Percent, Token, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import {
+  ChainId,
+  Currency,
+  CurrencyAmount,
+  JSBI,
+  Pair,
+  Percent,
+  Token,
+  UniswapV2RoutablePlatform,
+} from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { commify } from 'ethers/lib/utils'

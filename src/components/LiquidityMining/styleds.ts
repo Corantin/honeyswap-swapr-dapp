@@ -26,16 +26,11 @@ export const SmoothGradientCard = styled(DefaultCard)<{
   height: ${props => props.height || '100%'};
   text-align: center;
   cursor: ${props => props.selectable && 'pointer'};
-  border: 1.5px solid ${props => (props.active ? '#3A1D75' : '#464366')};
+  border: 1.5px solid ${props => (props.active ? '#71751d' : '#656643')};
   opacity: ${({ disabled }) => (disabled ? '0.3' : '1')};
   border-radius: 12px;
 
-  background: ${props =>
-    props.isToken && props.active
-      ? ' linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),linear-gradient(180deg, rgba(90, 12, 255, 0.8) -16.28%, rgba(17, 8, 35, 0) 100%)'
-      : props.active
-      ? 'linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(114.19deg, rgba(90, 12, 255, 0.9) -50%, rgba(17, 8, 35, 0) 80.1%);'
-      : 'linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(114.19deg, rgba(90, 12, 255, 0.1) -9%, rgba(17, 8, 35, 0) 113.1%)'};
+  background: ${props => (props.isToken && props.active ? '#90936b' : props.active ? '#90936b' : '#363636')};
 `
 
 export const Divider = styled.div`

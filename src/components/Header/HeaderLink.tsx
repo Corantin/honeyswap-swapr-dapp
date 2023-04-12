@@ -15,7 +15,7 @@ const StyledNavLink = styled(NavLink)`
   color: ${({ theme }) => theme.text5};
   width: fit-content;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 19.5px;
   position: relative;
 
@@ -33,7 +33,7 @@ const StyledExternalLink = styled(ExternalLink)`
   text-decoration: none;
   color: ${({ theme, disabled }) => (disabled ? transparentize(0.6, theme.text5) : theme.text5)};
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 19.5px;
   width: fit-content;
   text-decoration: none !important;
@@ -49,7 +49,7 @@ const StyledMobileLink = styled(NavLink)`
   ${({ theme }) => theme.mediaWidth.upToMedium`
     display: flex;
     font-weight:400;
-    font-size: 14px;
+    font-size: 16px;
     color:#C9C7DB;
     &.active {
       font-weight: 600;
@@ -63,7 +63,7 @@ const StyledExternalMobileLink = styled(ExternalLink)`
   ${({ theme }) => theme.mediaWidth.upToMedium`
     display: flex;
     font-weight:600;
-    font-size: 14px;
+    font-size: 16px;
     color:#C9C7DB;
   `};
   ${({ theme }) => theme.mediaWidth.upToSmall`

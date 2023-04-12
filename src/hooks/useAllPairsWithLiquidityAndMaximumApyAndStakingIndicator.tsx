@@ -1,4 +1,4 @@
-import { BigintIsh, CurrencyAmount, JSBI, KpiToken, Pair, Percent, Token, ZERO } from '@swapr/sdk'
+import { BigintIsh, CurrencyAmount, JSBI, KpiToken, Pair, Percent, Token, ZERO } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

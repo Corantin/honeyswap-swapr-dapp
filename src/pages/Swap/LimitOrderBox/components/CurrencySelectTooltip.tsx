@@ -1,4 +1,4 @@
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import { MouseoverTooltip } from '../../../../components/Tooltip'
 import { useActiveWeb3React } from '../../../../hooks'

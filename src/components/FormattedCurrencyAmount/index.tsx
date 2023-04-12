@@ -1,4 +1,4 @@
-import { CurrencyAmount, Fraction, JSBI } from '@swapr/sdk'
+import { CurrencyAmount, Fraction, JSBI } from '@honeyswapr/sdk'
 
 const CURRENCY_AMOUNT_MIN = new Fraction(JSBI.BigInt(1), JSBI.BigInt(1000000))
 

@@ -1,6 +1,6 @@
 import { Web3Provider } from '@ethersproject/providers'
 import { parseUnits } from '@ethersproject/units'
-import { ChainId, Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@swapr/sdk'
+import { ChainId, Currency, CurrencyAmount, JSBI, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import dayjs from 'dayjs'
 import dayjsUTCPlugin from 'dayjs/plugin/utc'
@@ -512,7 +512,7 @@ export function LimitOrderForm({ account, provider, chainId }: LimitOrderFormPro
 
   return (
     <>
-      <PageMetaData title="Limit | Swapr" />
+      <PageMetaData title="Limit | Honeyswap" />
       <AppBody>
         <ConfirmLimitOrderModal
           onConfirm={placeLimitOrder}

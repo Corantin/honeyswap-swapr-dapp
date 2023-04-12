@@ -1,4 +1,4 @@
-import { CurrencyAmount, Percent, RoutablePlatform, Trade, TradeType, UniswapV2Trade } from '@swapr/sdk'
+import { CurrencyAmount, Percent, RoutablePlatform, Trade, TradeType, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { ChevronsDown } from 'react-feather'
@@ -56,7 +56,7 @@ const StyledFlex = styled(Flex)`
 const StyledRouteFlex = styled(Flex)`
   align-items: center;
   background-color: rgba(25, 26, 36, 0.55);
-  boarder: 1px solid ${({ theme }) => theme.purple6};
+  boarder: 1px solid ${({ theme }) => theme.yellow6};
   border-radius: 12px;
   padding: 18px 16px;
   margin-bottom: 16px !important;
@@ -139,7 +139,7 @@ export function SwapPlatformSelector({
       {selectedTrade instanceof UniswapV2Trade && selectedTrade.route.path.length > 2 && (
         <StyledRouteFlex>
           {!isMobileByMedia && (
-            <TYPE.Body fontSize="14px" lineHeight="15px" fontWeight="400" minWidth="auto" color={theme.purple2}>
+            <TYPE.Body fontSize="14px" lineHeight="15px" fontWeight="400" minWidth="auto" color={theme.yellow2}>
               Route
             </TYPE.Body>
           )}
@@ -220,10 +220,10 @@ export function SwapPlatformSelector({
         <Flex justifyContent="center">
           {!showAllPlatformsTrades && (
             <MoreMarketsButton alignItems="center" onClick={() => setShowAllPlatformsTrades(true)}>
-              <TYPE.Main fontWeight={600} color={'purple3'} fontSize="10px" mr="8px">
+              <TYPE.Main fontWeight={600} color={'yellow3'} fontSize="10px" mr="8px">
                 {t('platfromSelector.showMore')}
               </TYPE.Main>
-              <ChevronsDown size={15} color={theme.purple3} />
+              <ChevronsDown size={15} color={theme.yellow3} />
             </MoreMarketsButton>
           )}
         </Flex>

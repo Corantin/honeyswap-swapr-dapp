@@ -60,15 +60,15 @@ export const CustomLinkIcon = styled(ExternalLink)`
 export const StyledLink = styled(Link)`
   font-size: inherit;
   display: flex;
-  color: ${({ theme }) => theme.text4};
+  color: ${({ theme }) => theme.text2};
   align-items: center;
   :hover,
   :active,
   :focus {
     text-decoration: none;
-    color: ${({ theme }) => theme.text2};
+    color: ${({ theme }) => theme.text1};
     & svg {
-      color: ${({ theme }) => theme.text2};
+      color: ${({ theme }) => theme.text1};
     }
   }
 `
@@ -77,8 +77,8 @@ export const GridCard = styled(Flex)<{ status?: string }>`
   padding: 20px 22px;
   line-height: 18px;
   align-items: center;
-  color: #c0baf6;
-  border-bottom: 1px solid #3e4259;
+  color: #f5f6ba;
+  border-bottom: 1px solid #59573e;
   font-size: 16px;
   ${({ theme }) => theme.mediaWidth.upToSmall`
     padding: 16px 10px;
@@ -87,7 +87,7 @@ export const GridCard = styled(Flex)<{ status?: string }>`
     }
     flex-wrap: wrap;
     gap: 12px 4px;
-    font-size: 14px;
+    font-size: 16px;
   `};
   background: ${({ status }) => {
     switch (status) {
@@ -176,7 +176,7 @@ export const FullAccount = styled(Text)`
   letter-spacing: 0.02em;
   text-transform: uppercase;
   font-feature-settings: 'tnum' on, 'lnum' on, 'zero' on;
-  color: #8780bf;
+  color: #b9bf80;
 `
 
 export const Button = styled(ButtonPurpleDim)`
@@ -185,11 +185,12 @@ export const Button = styled(ButtonPurpleDim)`
   line-height: 12px;
   font-size: 10px;
   backdrop-filter: none;
+  background-color: #f8f8e9;
   &:hover,
   &:active,
   &:focus {
     text-decoration: none;
-    color: #ebe9f8;
+    color: #f8f8e9;
   }
 `
 
@@ -203,7 +204,7 @@ export const ENSAvatar = styled.div<{ url: string }>`
 `
 
 export const AvatarWrapper = styled.div`
-  background-color: #48436d;
+  background-color: #6d6a43;
   height: 120px;
   width: 120px;
   border-radius: 120px;
@@ -254,7 +255,7 @@ export const NetworkName = styled(Flex)`
 `
 
 export const NetworkLink = styled(Link)`
-  color: #c0baf6;
+  color: #f0f6ba;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 10px;
@@ -268,9 +269,9 @@ export const NetworkLink = styled(Link)`
   &:active,
   &:focus {
     text-decoration: none;
-    color: #ebe9f8;
+    color: #f8f8e9;
     & > svg {
-      color: #ebe9f8;
+      color: #f7f8e9;
     }
   }
 `

@@ -38,7 +38,7 @@ const FadeTransactions = css`
 
 const TitleBase = css`
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: ${({ theme }) => theme.text4};
   text-transform: uppercase;
 `
@@ -82,7 +82,7 @@ export const PairInfo = styled.div`
 `
 
 export const PairTab = styled.div<{ size?: string }>`
-  color: ${({ theme }) => theme.purple3};
+  color: ${({ theme }) => theme.yellow3};
   font-size: ${({ size }) => (size ? size : '11px')};
   font-weight: 500;
   letter-spacing: 0.08em;
@@ -90,7 +90,7 @@ export const PairTab = styled.div<{ size?: string }>`
 `
 
 export const PairValue = styled.div`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: ${({ theme }) => theme.text3};
 `
@@ -160,7 +160,7 @@ export const AdvancedModeDetails = styled.div`
   justify-content: space-between;
   font-size: 12px;
   margin-top: 20px;
-  color: ${({ theme }) => theme.purple3};
+  color: ${({ theme }) => theme.yellow3};
 
   ${AdvancedModeDetailsItems};
 
@@ -201,10 +201,10 @@ export const SwitchButton = styled.button<{ active: boolean }>`
 `
 
 export const NoDataMessage = styled.p`
-  color: ${({ theme }) => theme.purple2};
+  color: ${({ theme }) => theme.yellow2};
   text-align: center;
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 16px;
 
   & > span {
     font-weight: 700;
@@ -218,7 +218,7 @@ export const OrderHistoryHeader = styled.div`
 
   & > div {
     flex: 2;
-    color: ${({ theme }) => theme.purple3};
+    color: ${({ theme }) => theme.yellow3};
     padding-right: 4px;
   }
 

@@ -1,4 +1,4 @@
-import { Pair, Percent, Token, TokenAmount } from '@swapr/sdk'
+import { Pair, Percent, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useMemo, useReducer, useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -216,7 +216,7 @@ export default function CreateLiquidityMining() {
 
   return (
     <>
-      <PageMetaData title="Create a Rewards Campaign | Swapr" />
+      <PageMetaData title="Create a Rewards Campaign | Honeyswap" />
       <PageWrapper>
         <AutoColumn gap="40px">
           <AutoColumn gap="8px">

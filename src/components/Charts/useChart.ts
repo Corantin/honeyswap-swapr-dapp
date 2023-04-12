@@ -13,8 +13,8 @@ import {
 
 const chartColors = {
   backgroundColor: 'transparent',
-  textColor: '#8780BF',
-  lineColor: '#c8bdff',
+  textColor: '#afbf80',
+  lineColor: '#bfb180',
   areaTopColor: 'rgba(255, 255, 255, 0.6)',
   areaBottomColor: 'rgba(204, 144, 255, 0)',
 }

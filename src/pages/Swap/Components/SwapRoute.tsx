@@ -1,4 +1,4 @@
-import { UniswapV2Trade } from '@swapr/sdk'
+import { UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { Fragment, memo } from 'react'
 import { ChevronRight } from 'react-feather'
@@ -11,7 +11,7 @@ import { TYPE } from '../../../theme'
 
 const StyledChevronRight = styled(ChevronRight)`
   height: 17px;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
 `
 
 export default memo(function SwapRoute({ trade }: { trade: UniswapV2Trade }) {

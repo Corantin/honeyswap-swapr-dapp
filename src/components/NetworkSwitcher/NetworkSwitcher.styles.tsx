@@ -86,7 +86,7 @@ export const NetworkTagRow = styled.div`
   font-size: 10px;
   line-height: 12px;
   text-transform: uppercase;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
 `
 
 export const Wrapper = styled.div`

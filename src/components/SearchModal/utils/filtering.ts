@@ -1,4 +1,4 @@
-import { Currency, Pair, Token } from '@swapr/sdk'
+import { Currency, Pair, Token } from '@honeyswapr/sdk'
 
 import { TokenInfo } from '@uniswap/token-lists'
 import { useMemo } from 'react'

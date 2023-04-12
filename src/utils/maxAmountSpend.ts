@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI } from '@swapr/sdk'
+import { Currency, CurrencyAmount, JSBI } from '@honeyswapr/sdk'
 
 import { MIN_ETH } from '../constants'
 

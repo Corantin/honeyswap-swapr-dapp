@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@swapr/sdk'
+import { Currency, CurrencyAmount, Token } from '@honeyswapr/sdk'
 
 import { CSSProperties, MutableRefObject } from 'react'
 import { FixedSizeList } from 'react-window'

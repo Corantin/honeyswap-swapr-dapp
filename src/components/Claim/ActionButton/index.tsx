@@ -1,4 +1,4 @@
-import { CurrencyAmount } from '@swapr/sdk'
+import { CurrencyAmount } from '@honeyswapr/sdk'
 
 import { InjectedConnector } from '@web3-react/injected-connector'
 import { useCallback, useEffect, useState } from 'react'

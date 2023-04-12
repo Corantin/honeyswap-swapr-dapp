@@ -28,7 +28,7 @@ const StyledLockText = styled(TYPE.Small)<{ active: boolean }>`
   font-weight: 600 !important;
   align-self: center;
   white-space: nowrap;
-  color: ${props => (props.active ? props.theme.white : props.theme.purple3)};
+  color: ${props => (props.active ? props.theme.white : props.theme.yellow3)};
 `
 const FlexWrapper = styled(Flex)`
   flex-wrap: wrap;

@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, Token } from '@swapr/sdk'
+import { ChainId, CurrencyAmount, Token } from '@honeyswapr/sdk'
 
 import Decimal from 'decimal.js-light'
 import { ethers } from 'ethers'

@@ -1,5 +1,5 @@
 import { Web3Provider } from '@ethersproject/providers'
-import { ChainId, Token, Trade, UniswapV2RoutablePlatform, UniswapV2Trade } from '@swapr/sdk'
+import { ChainId, Token, Trade, UniswapV2RoutablePlatform, UniswapV2Trade } from '@honeyswapr/sdk'
 
 import { BigNumber } from 'ethers'
 import { useCallback, useEffect, useMemo, useState } from 'react'

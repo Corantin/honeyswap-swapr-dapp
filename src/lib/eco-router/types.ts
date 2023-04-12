@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import type { Trade, CurrencyAmount, Currency, Percent } from '@swapr/sdk'
+import type { Trade, CurrencyAmount, Currency, Percent } from '@honeyswapr/sdk'
 
 export interface EcoRouterResults {
   trades: Trade[]

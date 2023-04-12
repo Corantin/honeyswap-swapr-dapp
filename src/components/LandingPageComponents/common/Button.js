@@ -229,7 +229,7 @@ const StyledButtonWrapper = styled.div`
     }
     #button-grad stop:nth-child(1) {
       /* stop-color: #374284; */
-      stop-color: rgba(135, 128, 191, 0);
+      stop-color: rgba(185, 191, 128, 0);
     }
     #button-grad stop:nth-child(2) {
       /* stop-color: rgba(61, 90, 254, 1); */
@@ -237,7 +237,7 @@ const StyledButtonWrapper = styled.div`
     }
     #button-grad stop:nth-child(3) {
       /* stop-color: rgba(169, 182, 255, 0.19); */
-      stop-color: rgba(135, 128, 191, 0);
+      stop-color: rgba(185, 191, 128, 0);
     }
   }
   &.dark-outline a {
@@ -275,13 +275,13 @@ const StyledButtonWrapper = styled.div`
       stroke-width: 2px;
     }
     #button-grad-dark-outline stop:nth-child(1) {
-      stop-color: rgba(135, 128, 191, 0.23);
+      stop-color: rgba(185, 191, 128, 0.23);
     }
     #button-grad-dark-outline stop:nth-child(2) {
       stop-color: rgba(197, 190, 255, 0.23);
     }
     #button-grad-dark-outline stop:nth-child(3) {
-      stop-color: rgba(135, 128, 191, 0.09);
+      stop-color: rgba(185, 191, 128, 0.09);
     }
   }
   &.secondary a {

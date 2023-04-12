@@ -4,7 +4,7 @@ import {
   parseBigintIsh,
   SingleSidedLiquidityMiningCampaign,
   TokenAmount,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
@@ -101,8 +101,8 @@ export const StyledButtonDark = styled(ButtonDark)`
   line-height: 15px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #c0baf7;
-  border: 1px solid #2a2f42;
+  color: #f1f7ba;
+  border: 1px solid #42422a;
   background: ${({ theme }) => theme.bg8};
 `
 

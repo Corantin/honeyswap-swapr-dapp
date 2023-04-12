@@ -1,4 +1,4 @@
-import { Pair } from '@swapr/sdk'
+import { Pair } from '@honeyswapr/sdk'
 
 import { CSSProperties, useCallback } from 'react'
 import { Plus, X } from 'react-feather'

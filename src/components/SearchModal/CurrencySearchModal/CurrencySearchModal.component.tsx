@@ -1,4 +1,4 @@
-import { Currency } from '@swapr/sdk'
+import { Currency } from '@honeyswapr/sdk'
 
 import React, { useCallback, useContext, useLayoutEffect } from 'react'
 import { usePrevious } from 'react-use'

@@ -18,7 +18,7 @@ import {
   WETH,
   WMATIC,
   WXDAI,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { AbstractConnector } from '@web3-react/abstract-connector'
 import { providers } from 'ethers'
@@ -106,12 +106,15 @@ export const PRE_SELECT_OUTPUT_CURRENCY_ID: { [chainId in ChainId]: string } = {
   [ChainId.POLYGON]: WETH[ChainId.POLYGON].address,
   [ChainId.OPTIMISM_MAINNET]: OP[ChainId.OPTIMISM_MAINNET].address,
   [ChainId.BSC_MAINNET]: BNB.address!,
+  [ChainId.BSC_TESTNET]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.ARBITRUM_RINKEBY]: '',
   [ChainId.GOERLI]: '',
   [ChainId.ARBITRUM_GOERLI]: '',
   [ChainId.OPTIMISM_GOERLI]: '',
   [ChainId.BSC_TESTNET]: '',
+  [ChainId.ZKSYNC_ERA_MAINNET]: '',
+  [ChainId.ZKSYNC_ERA_TESTNET]: '',
 }
 
 // used to construct intermediary pairs for trading
@@ -163,6 +166,8 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     USDT[ChainId.BSC_MAINNET],
   ],
   [ChainId.BSC_TESTNET]: [],
+  [ChainId.ZKSYNC_ERA_MAINNET]: [],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [],
 }
 
 // used for display in the default list when adding liquidity (native currency is already shown
@@ -213,6 +218,8 @@ export const SUGGESTED_BASES: ChainTokenList = {
     USDT[ChainId.BSC_MAINNET],
   ],
   [ChainId.BSC_TESTNET]: [],
+  [ChainId.ZKSYNC_ERA_MAINNET]: [],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [], // TODO: zkSync
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -235,6 +242,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.GOERLI]: [WETH[ChainId.OPTIMISM_MAINNET]],
   [ChainId.BSC_MAINNET]: [Token.WBNB[ChainId.BSC_MAINNET]],
   [ChainId.BSC_TESTNET]: [Token.WBNB[ChainId.BSC_TESTNET]],
+  [ChainId.ZKSYNC_ERA_MAINNET]: [WETH[ChainId.ZKSYNC_ERA_MAINNET]],
+  [ChainId.ZKSYNC_ERA_TESTNET]: [WETH[ChainId.ZKSYNC_ERA_TESTNET]],
 }
 
 export const PINNED_PAIRS: {
@@ -488,13 +497,35 @@ export const NETWORK_DETAIL: { [chainId: number]: NetworkDetails } = {
     rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545/'],
     blockExplorerUrls: ['https://testnet.bscscan.com/'],
   },
+  [ChainId.ZKSYNC_ERA_MAINNET]: {
+    chainId: `0x${ChainId.ZKSYNC_ERA_MAINNET.toString(16)}`,
+    chainName: 'ZkSync Era Mainnet',
+    nativeCurrency: {
+      name: Currency.ETHER.name || 'Ether',
+      symbol: Currency.ETHER.symbol || 'ETH',
+      decimals: Currency.ETHER.decimals || 18,
+    },
+    rpcUrls: ['https://mainnet.era.zksync.io'],
+    blockExplorerUrls: ['https://explorer.zksync.io/'],
+  },
+  [ChainId.ZKSYNC_ERA_TESTNET]: {
+    chainId: `0x${ChainId.ZKSYNC_ERA_TESTNET.toString(16)}`,
+    chainName: 'ZkSync Era Testnet',
+    nativeCurrency: {
+      name: Currency.ETHER.name || 'Ether',
+      symbol: Currency.ETHER.symbol || 'ETH',
+      decimals: Currency.ETHER.decimals || 18,
+    },
+    rpcUrls: ['https://testnet.era.zksync.dev'],
+    blockExplorerUrls: ['https://goerli.explorer.zksync.io/'],
+  },
 }
 
 export const NETWORK_OPTIONAL_DETAIL: {
   [chainId: number]: NetworkOptionalDetails
 } = {
   [ChainId.MAINNET]: {
-    partnerChainId: ChainId.ARBITRUM_ONE,
+    partnerChainId: ChainId.ZKSYNC_ERA_MAINNET,
     isArbitrum: false,
   },
   [ChainId.XDAI]: {
@@ -525,12 +556,20 @@ export const NETWORK_OPTIONAL_DETAIL: {
     isArbitrum: false,
   },
   [ChainId.GOERLI]: {
-    partnerChainId: ChainId.ARBITRUM_GOERLI,
+    partnerChainId: ChainId.ZKSYNC_ERA_TESTNET,
     isArbitrum: false,
   },
   [ChainId.ARBITRUM_GOERLI]: {
     partnerChainId: ChainId.GOERLI,
     isArbitrum: true,
+  },
+  [ChainId.ZKSYNC_ERA_MAINNET]: {
+    partnerChainId: ChainId.MAINNET,
+    isArbitrum: false,
+  },
+  [ChainId.ZKSYNC_ERA_TESTNET]: {
+    partnerChainId: ChainId.GOERLI,
+    isArbitrum: false,
   },
 }
 
@@ -609,104 +648,106 @@ export const RoutablePlatformKeysByNetwork = {
     RoutablePlatform.ONE_INCH.name,
   ],
   [ChainId.BSC_TESTNET]: [],
+  [ChainId.ZKSYNC_ERA_MAINNET]: [], // TODO: ZKSYNC
+  [ChainId.ZKSYNC_ERA_TESTNET]: [], // TODO: ZKSYNC
 }
 
 export const ROUTABLE_PLATFORM_STYLE: {
   [routablePaltformName: string]: {
     logo: string
     alt: string
-    gradientColor: string
+    color: string
     name: string
   }
 } = {
   [UniswapV2RoutablePlatform.UNISWAP.name]: {
     logo: UniswapLogo,
     alt: UniswapV2RoutablePlatform.UNISWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.UNISWAP.name,
   },
   [UniswapV2RoutablePlatform.SUSHISWAP.name]: {
     logo: SushiswapNewLogo,
     alt: UniswapV2RoutablePlatform.SUSHISWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: 'Sushi',
   },
   [UniswapV2RoutablePlatform.SWAPR.name]: {
     logo: SwaprLogo,
     alt: UniswapV2RoutablePlatform.SWAPR.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.SWAPR.name,
   },
   [UniswapV2RoutablePlatform.HONEYSWAP.name]: {
     logo: HoneyswapLogo,
     alt: UniswapV2RoutablePlatform.HONEYSWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.HONEYSWAP.name,
   },
   [UniswapV2RoutablePlatform.BAOSWAP.name]: {
     logo: BaoswapLogo,
     alt: UniswapV2RoutablePlatform.BAOSWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.BAOSWAP.name,
   },
   [UniswapV2RoutablePlatform.LEVINSWAP.name]: {
     logo: LevinswapLogo,
     alt: UniswapV2RoutablePlatform.LEVINSWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.LEVINSWAP.name,
   },
   [UniswapV2RoutablePlatform.QUICKSWAP.name]: {
     logo: QuickswapLogo,
     alt: UniswapV2RoutablePlatform.QUICKSWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.QUICKSWAP.name,
   },
   [UniswapV2RoutablePlatform.DFYN.name]: {
     logo: DFYNLogo,
     alt: UniswapV2RoutablePlatform.DFYN.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.DFYN.name,
   },
   [UniswapV2RoutablePlatform.PANCAKESWAP.name]: {
     logo: PancakeSwapLogo,
     alt: UniswapV2RoutablePlatform.PANCAKESWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: UniswapV2RoutablePlatform.PANCAKESWAP.name,
   },
   [RoutablePlatform.CURVE.name]: {
     logo: CurveLogo,
     alt: RoutablePlatform.CURVE.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: RoutablePlatform.CURVE.name,
   },
   [RoutablePlatform.ZEROX.name]: {
     logo: ZeroXLogo,
     alt: RoutablePlatform.ZEROX.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: RoutablePlatform.ZEROX.name,
   },
   [RoutablePlatform.GNOSIS_PROTOCOL.name]: {
     logo: CoWLogo,
     alt: RoutablePlatform.GNOSIS_PROTOCOL.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: RoutablePlatform.GNOSIS_PROTOCOL.name,
   },
   [RoutablePlatform.UNISWAP.name]: {
     logo: UniswapLogo,
     alt: RoutablePlatform.UNISWAP.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: RoutablePlatform.UNISWAP.name,
   },
   [RoutablePlatform.VELODROME.name]: {
     logo: VelodromeLogo,
     alt: RoutablePlatform.VELODROME.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: RoutablePlatform.VELODROME.name,
   },
   [RoutablePlatform.ONE_INCH.name]: {
     logo: OneInchLogo,
     alt: RoutablePlatform.ONE_INCH.name,
-    gradientColor: '#FB52A1',
+    color: '#dbc15cFA',
     name: RoutablePlatform.ONE_INCH.name,
   },
 }
@@ -716,7 +757,7 @@ export const ROUTABLE_PLATFORM_LOGO: {
 } = {
   [UniswapV2RoutablePlatform.UNISWAP.name]: <img width={16} height={16} src={UniswapLogo} alt="uniswap" />,
   [UniswapV2RoutablePlatform.SUSHISWAP.name]: <img width={16} height={16} src={SushiswapNewLogo} alt="sushiswap" />,
-  [UniswapV2RoutablePlatform.SWAPR.name]: <img width={16} height={16} src={SwaprLogo} alt="swapr" />,
+  [UniswapV2RoutablePlatform.SWAPR.name]: <img width={16} height={16} src={SwaprLogo} alt="honeyswap" />,
   [UniswapV2RoutablePlatform.HONEYSWAP.name]: <img width={16} height={16} src={HoneyswapLogo} alt="honeyswap" />,
   [UniswapV2RoutablePlatform.BAOSWAP.name]: <img width={16} height={16} src={BaoswapLogo} alt="baoswap" />,
   [UniswapV2RoutablePlatform.LEVINSWAP.name]: <img width={16} height={16} src={LevinswapLogo} alt="levinswap" />,
@@ -768,6 +809,7 @@ export const TESTNETS = [
   ChainId.OPTIMISM_GOERLI,
   ChainId.GOERLI,
   ChainId.BSC_TESTNET,
+  ChainId.ZKSYNC_ERA_TESTNET,
 ]
 
 export const SHOW_TESTNETS = false

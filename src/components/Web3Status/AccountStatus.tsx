@@ -1,4 +1,4 @@
-import { ChainId } from '@swapr/sdk'
+import { ChainId } from '@honeyswapr/sdk'
 
 import { AbstractConnector } from '@web3-react/abstract-connector'
 import { InjectedConnector } from '@web3-react/injected-connector'
@@ -7,9 +7,9 @@ import { Text } from 'rebass'
 import styled from 'styled-components'
 
 import ArbitrumLogo from '../../assets/images/arbitrum-one-logo.svg'
-import BSCLogo from '../../assets/images/binance-chain-logo.svg'
 import EthereumLogo from '../../assets/images/ethereum-logo.svg'
 import GnosisLogo from '../../assets/images/gnosis-chain-logo.svg'
+import ZkSyncLogo from '../../assets/images/logos/ZkSync.svg'
 import OptimismLogo from '../../assets/images/optimism-logo.svg'
 import PolygonMaticLogo from '../../assets/images/polygon-matic-logo.svg'
 import { CustomNetworkConnector } from '../../connectors/CustomNetworkConnector'
@@ -34,7 +34,8 @@ const ChainLogo: any = {
   [ChainId.OPTIMISM_MAINNET]: OptimismLogo,
   [ChainId.OPTIMISM_GOERLI]: OptimismLogo,
   [ChainId.ARBITRUM_GOERLI]: ArbitrumLogo,
-  [ChainId.BSC_MAINNET]: BSCLogo,
+  [ChainId.ZKSYNC_ERA_MAINNET]: ZkSyncLogo,
+  [ChainId.ZKSYNC_ERA_TESTNET]: ZkSyncLogo,
 }
 
 const View = styled.div`
@@ -44,7 +45,7 @@ const View = styled.div`
   margin-left: auto;
   background-color: ${({ theme }) => theme.dark1};
   border: solid 2px transparent;
-  color: ${({ theme }) => theme.purple2};
+  color: ${({ theme }) => theme.yellow2};
   border-radius: 12px;
   white-space: nowrap;
   margin-left: 8px;

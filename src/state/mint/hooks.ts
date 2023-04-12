@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI, Pair, Percent, Price, TokenAmount } from '@swapr/sdk'
+import { Currency, CurrencyAmount, JSBI, Pair, Percent, Price, TokenAmount } from '@honeyswapr/sdk'
 
 import { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'

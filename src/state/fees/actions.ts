@@ -1,4 +1,4 @@
-import { BigintIsh } from '@swapr/sdk'
+import { BigintIsh } from '@honeyswapr/sdk'
 
 import { createAction } from '@reduxjs/toolkit'
 

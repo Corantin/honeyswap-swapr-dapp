@@ -1,4 +1,4 @@
-import { KpiToken, Pair, Percent, PricedTokenAmount, Token, TokenAmount } from '@swapr/sdk'
+import { KpiToken, Pair, Percent, PricedTokenAmount, Token, TokenAmount } from '@honeyswapr/sdk'
 
 import { commify } from 'ethers/lib/utils'
 import { DateTime } from 'luxon'

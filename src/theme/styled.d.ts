@@ -6,6 +6,11 @@ export interface Colors {
   white: Color
   black: Color
 
+  // gradientes
+  grd1: Color
+  grd2: Color
+  grd3: Color
+
   // text
   text1: Color
   text2: Color
@@ -13,6 +18,7 @@ export interface Colors {
   text4: Color
   text5: Color
   text6: Color
+
   // backgrounds / greys
   bg1: Color
   bg1And2: Color
@@ -58,13 +64,14 @@ export interface Colors {
   mainPurple: Color
   purpleBase: Color
   purpleOverlay: Color
-  purple2: Color
-  purple3: Color
-  purple4: Color
-  purple5: Color
+  purple: Color
+  yellow2: Color
+  yellow3: Color
+  yellow4: Color
+  yellow5: Color
   lightPurple: Color
   lightPurple2: Color
-  purple6: Color
+  yellow6: Color
   boxShadow: Color
 
   // darkest // dark1.1

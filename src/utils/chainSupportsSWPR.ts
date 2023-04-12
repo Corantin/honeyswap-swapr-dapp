@@ -1,4 +1,4 @@
-import { ChainId, SWPR } from '@swapr/sdk'
+import { ChainId, SWPR } from '@honeyswapr/sdk'
 
 // Includes chains on which swpr has its infrastructure
 export type SWPRUnsupportedChains =
@@ -7,6 +7,8 @@ export type SWPRUnsupportedChains =
   | ChainId.OPTIMISM_GOERLI
   | ChainId.BSC_MAINNET
   | ChainId.BSC_TESTNET
+  | ChainId.RINKEBY
+
 export type SWPRSupportedChains = Exclude<ChainId, SWPRUnsupportedChains>
 
 export const chainSupportsSWPR = (chainId?: ChainId) => {

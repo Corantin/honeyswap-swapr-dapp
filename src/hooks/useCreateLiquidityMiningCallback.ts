@@ -1,6 +1,6 @@
 import { TransactionResponse } from '@ethersproject/providers'
 import { parseUnits } from '@ethersproject/units'
-import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@swapr/sdk'
+import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@honeyswapr/sdk'
 
 import { useMemo } from 'react'
 

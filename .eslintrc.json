@@ -45,7 +45,6 @@
           }
         ],
         "pathGroupsExcludedImportTypes": ["builtin"],
-        "newlines-between": "always",
         "alphabetize": {
           "caseInsensitive": true,
           "order": "asc"

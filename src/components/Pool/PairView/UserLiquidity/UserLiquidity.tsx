@@ -1,4 +1,4 @@
-import { JSBI, Pair, Percent, TokenAmount } from '@swapr/sdk'
+import { JSBI, Pair, Percent, TokenAmount } from '@honeyswapr/sdk'
 
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'

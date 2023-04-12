@@ -1,4 +1,4 @@
-import { Fetcher } from '@swapr/sdk'
+import { Fetcher } from '@honeyswapr/sdk'
 
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'

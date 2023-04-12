@@ -1,4 +1,4 @@
-import { ChainId, Token, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { ChainId, Token, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { configureStore, Store } from '@reduxjs/toolkit'
 

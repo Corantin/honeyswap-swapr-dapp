@@ -1,5 +1,5 @@
 import { formatEther, parseUnits } from '@ethersproject/units'
-import { ChainId, Currency } from '@swapr/sdk'
+import { ChainId, Currency } from '@honeyswapr/sdk'
 
 import { schema, TokenList } from '@uniswap/token-lists'
 import Ajv from 'ajv'

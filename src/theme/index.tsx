@@ -38,60 +38,69 @@ const black = '#000000'
 export function colors(darkMode: boolean): Colors {
   return {
     // base
-    white,
+    white: darkMode ? white : black,
     black,
 
+    // gradient colors
+    grd1: darkMode ? '#394F50' : '#FFC3AB',
+    grd2: darkMode ? '#212429' : '#FAFAE2',
+    grd3: darkMode ? '#394F50' : '#CBF3EF',
+
     // text
-    text1: darkMode ? '#FFFFFF' : '#14131D',
-    text2: darkMode ? '#EBE9F8' : '#464366',
-    text3: darkMode ? '#DDDAF8' : '#8E89C6',
-    text4: darkMode ? '#C0BAF6' : '#A7A0E4',
-    text5: darkMode ? '#8780BF' : '#C0BAF6',
-    text6: '#504D72',
+    text1: darkMode ? '#FFFFFF' : '#000000',
+    text2: darkMode ? '#cbcbc3' : '#565A69',
+    text3: darkMode ? '#d3d3bb' : '#888D9B',
+    text4: darkMode ? '#bdbc9c' : '#C3C5CB',
+    text5: darkMode ? '#cacbc3' : '#888d9b',
+    text6: '#afb18c',
 
     // backgrounds / greys
-    bg1: darkMode ? '#191A24' : '#FFFFFF',
-    bg1And2: darkMode ? '#1D202F' : '#FFFFFF',
-    bg2: darkMode ? '#2A2F42' : '#EBE9F8',
-    bg3: darkMode ? '#3E4259' : '#DDDAF8',
-    bg4: darkMode ? '#686E94' : '#C0BBE9',
-    bg5: darkMode ? '#9096BE' : '#7873A4',
-    bg6: '#171621',
-    bg7: '#2D3040',
-    bg8: '#191A24',
-    bg9: '#101019',
+    bg1: darkMode ? '#1d1f24' : '#FFFFFF',
+    bg1And2: darkMode ? '#212429' : '#FFFFFF',
+    bg2: darkMode ? '#2c2f36' : '#F7F8FA',
+    bg3: darkMode ? '#4f4d40' : '#EDEEF2',
+    bg4: darkMode ? '#686956' : '#CED0D9',
+    bg5: darkMode ? '#84846c' : '#888D9B',
+    bg6: darkMode ? '#323232' : '#888D9B',
+    bg7: '#403f2d',
+    bg8: '#242419',
+    bg9: '#171b26;',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#2E17F2' : '#551a8b',
-    primary2: darkMode ? '#3680E7' : '#F9F5FF',
-    primary3: darkMode ? '#4D8FEA' : '#D4C2FC',
-    primary4: darkMode ? '#376bad70' : '#998FC7',
-    primary5: darkMode ? '#153d6f70' : '#D6D3D9',
-
+    primary1: darkMode ? '#b9a552' : '#7CE0D6',
+    primary2: darkMode ? '#FFE270FD' : '#7CE0D6',
+    primary3: darkMode ? '#FFE270FC' : '#7CE0D6',
+    primary4: darkMode ? '#FFE270FB' : '#7CE0D6',
+    primary5: darkMode ? '#FFE270FA' : '#7CE0D6',
     // color text
-    primaryText1: darkMode ? '#6da8ff' : '#551a8b',
+    primaryText1: darkMode ? 'rgba(44, 52, 55, 0.8)' : '#ffff',
 
     // secondary colors
-    secondary1: darkMode ? '#2172E5' : '#551a8b',
-    secondary2: darkMode ? '#17000b26' : '#998FC7',
-    secondary3: darkMode ? '#17000b26' : '#D4C2FC',
+    secondary1: darkMode ? '#ffe27094' : '#7CE0D6',
+    secondary2: darkMode ? '#ffe27093' : '#7CE0D6',
+    secondary3: darkMode ? '#ffe27092' : '#7CE0D6',
 
     // other
-    red1: '#F02E51',
+    red1: '#FF6871',
     red2: '#F82D3A',
     orange1: '#f2994a',
     green1: '#27AE60',
     green2: '#0E9F6E',
-    yellow1: '#FFE270',
-    yellow2: '#F3841E',
+    yellow1: '#FFE27091',
+    yellow2: '#cecf9e',
+    yellow3: '#acad72',
+    yellow4: '#FFE27089',
+    yellow5: '#7e7e7c88',
+    yellow6: '#FFE27087',
     blue1: '#2172E5',
-    dark4: '#BCB3F0',
+    dark4: '#9c9e7e',
+    gray1: '#9d9d9d',
+    purple: '#2E17F2',
 
-    gray1: '#737798',
     // dont wanna forget these blue yet
     // blue4: darkMode ? '#153d6f70' : '#C4D9F8',
     // blue5: darkMode ? '#153d6f70' : '#EBF4FF',
@@ -100,19 +109,14 @@ export function colors(darkMode: boolean): Colors {
     mainPurple: '#2E17F2',
     purpleBase: '#101016',
     purpleOverlay: '#111018',
-    purple2: '#C0BAF6',
-    purple3: '#8780BF',
-    purple4: '#685EC6',
-    purple5: '#464366',
-    lightPurple: '#C0BAF7',
-    lightPurple2: '#8C83C0',
-    purple6: '#292643',
+    lightPurple: '#2E17F2',
+    lightPurple2: '#2E17F2',
     boxShadow: '#0A0A0F',
 
     // darkest // dark 1.1
-    darkest: '#161721',
-    dark1: '#191824',
-    dark2: '#2A2F42',
+    darkest: '#212116',
+    dark1: '#212429',
+    dark2: '#171a1e',
   }
 }
 
@@ -172,7 +176,7 @@ export const TYPE = {
     return <TextWrapper fontWeight={500} color={'white'} {...props} />
   },
   Body(props: TextProps) {
-    return <TextWrapper fontWeight={400} fontSize={14} lineHeight="20px" color={'text5'} {...props} />
+    return <TextWrapper fontWeight={400} fontSize={16} lineHeight="20px" color={'text5'} {...props} />
   },
   LargeHeader(props: TextProps) {
     return <TextWrapper fontWeight={600} fontSize={24} {...props} />
@@ -208,13 +212,12 @@ export const TYPE = {
 
 export const FixedGlobalStyle = createGlobalStyle`
 * {
-  font-family: 'Inter', Arial, Helvetica;
-  font-feature-settings: 'ss01', 'zero', 'tnum';
+  font-family: 'Montserrat', sans-serif;
+  font-display: fallback;
 }
 
 html,
 body {
-  margin: 0;
   padding: 0;
   margin: 0 !important;
 }
@@ -247,22 +250,21 @@ body.no-margin {
 export const ThemedGlobalStyle = createGlobalStyle`
 html {
   color: ${({ theme }) => theme.text1};
-  background-color: ${({ theme }) => theme.bg1};
-  color-scheme: ${props => (props.theme.darkMode ? 'dark' : 'light')};
+  background-color: ${({ theme }) => theme.grd1};
+  background: linear-gradient(111.63deg, ${({ theme }) => theme.grd1} 0%, ${({ theme }) => theme.grd2} 49.48%, ${({
+  theme,
+}) => theme.grd3} 100%);
 }
 
 body {
   min-height: 100vh;
-  background-position: 0 -20vh;
+  background-position: 0 -30vh;
   background-repeat: no-repeat;
   background-image: ${({ theme }) =>
-    `radial-gradient(80vw 100vh at 50vw 0vh, ${transparentize(0.7, theme.text5)} 0%, ${theme.bg1} 100%)`};
-  ${({ theme }) => theme.mediaWidth.upToMedium`
-    background-position: 0 -10vh;
-    background-image: radial-gradient(100vw 50vh at 50vw 50vh, ${transparentize(0.7, theme.text5)} 0%, ${
-    theme.bg1
-  } 100%);
-  `};
+    `radial-gradient(50% 50% at 50% 50%, ${transparentize(0.9, theme.primary1)} 0%, ${transparentize(
+      1,
+      theme.bg1
+    )} 100%)`};
   margin: 0 !important;
 }
 
@@ -271,17 +273,18 @@ body {
 }
 
 .react-datepicker {
+  font-family: Montserrat !important;
   border: solid 1px ${props => props.theme.bg5} !important;
   border-radius: 8px !important;
   color: ${props => props.theme.text4} !important;
-  background-color: ${props => props.theme.dark1} !important;
+  background-color: ${props => props.theme.bg1} !important;
   background: linear-gradient(113.18deg, rgba(255, 255, 255, 0.35) -0.1%, rgba(0, 0, 0, 0) 98.9%),
-  ${({ theme }) => theme.dark1} !important;
+  ${({ theme }) => theme.bg1} !important;
   background-blend-mode: overlay, normal !important;
 }
 
 .react-datepicker__triangle {
-  border-bottom-color: ${props => props.theme.dark1} !important;
+  border-bottom-color: ${props => props.theme.bg1} !important;
 }
 
 .react-datepicker__header {
@@ -357,7 +360,7 @@ body {
   user-select: none;
   border: solid 1px ${props => props.theme.bg3};
   transition: border 0.3s ease, color 0.3s ease;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 4px;
   text-align: center;
   line-height: 20px;
@@ -402,7 +405,7 @@ body {
 }
 
 .custom-toast-body a{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .Toastify__toast {

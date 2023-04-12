@@ -1,4 +1,4 @@
-import { Token } from '@swapr/sdk'
+import { Token } from '@honeyswapr/sdk'
 
 import { ChevronDown } from 'react-feather'
 import { useTranslation } from 'react-i18next'

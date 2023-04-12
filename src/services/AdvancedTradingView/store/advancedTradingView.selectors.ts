@@ -1,4 +1,4 @@
-import { Pair, RoutablePlatform, Token, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { Pair, RoutablePlatform, Token, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { createSelector } from '@reduxjs/toolkit'
 

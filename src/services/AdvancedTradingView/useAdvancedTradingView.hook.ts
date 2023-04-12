@@ -1,4 +1,4 @@
-import { ChainId, Currency, Pair, Token, WETH, WMATIC, WXDAI } from '@swapr/sdk'
+import { ChainId, Currency, Pair, Token, WETH, WMATIC, WXDAI } from '@honeyswapr/sdk'
 
 import { useContext, useEffect, useMemo, useRef, useState } from 'react'
 import { useDispatch } from 'react-redux'

@@ -6,10 +6,10 @@
  */
 
 import type { Signer } from '@ethersproject/abstract-signer'
-import { ChainId, CoWTrade } from '@swapr/sdk'
 
 import { SigningScheme } from '@cowprotocol/contracts'
 import { OrderKind as CoWOrderKind } from '@cowprotocol/cow-sdk'
+import { ChainId, CoWTrade } from '@honeyswapr/sdk'
 
 import { LimitOrderKind, SerializableSignedLimitOrder } from '../interfaces'
 

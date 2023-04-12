@@ -1,4 +1,4 @@
-import { currencyEquals, Trade, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { currencyEquals, Trade, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { useCallback, useMemo } from 'react'
 

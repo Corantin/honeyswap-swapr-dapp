@@ -93,7 +93,7 @@ export function SwapTransactionRow({ transaction, showBackgroundStatus }: SwapTr
       </TransactionDetails>
 
       <TypeDetails>
-        <Box color="#8780BF" fontWeight="600">
+        <Box color="#afbf80" fontWeight="600">
           {type}
         </Box>
         {swapProtocol && <Box fontWeight="600">{swapProtocol}</Box>}

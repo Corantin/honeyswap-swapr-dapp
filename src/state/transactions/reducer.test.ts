@@ -1,4 +1,4 @@
-import { ChainId, RoutablePlatform, UniswapV2RoutablePlatform } from '@swapr/sdk'
+import { ChainId, RoutablePlatform, UniswapV2RoutablePlatform } from '@honeyswapr/sdk'
 
 import { createStore, Store } from 'redux'
 

@@ -9,7 +9,7 @@ const QuestionWrapper = styled.div`
   align-items: center;
   justify-content: flex-end;
   background: none;
-  color: ${({ theme }) => theme.purple3};
+  color: ${({ theme }) => theme.yellow3};
   transition: opacity 0.3s ease;
   width: 20px;
   height: 16px;
@@ -23,7 +23,7 @@ const QuestionWrapper = styled.div`
 
 const LightQuestionWrapper = styled.div`
   background-color: none;
-  color: ${({ theme }) => theme.purple3};
+  color: ${({ theme }) => theme.yellow3};
   transition: opacity 0.3s ease;
 
   :hover,

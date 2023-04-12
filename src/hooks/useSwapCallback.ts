@@ -12,7 +12,7 @@ import {
   UniswapV2Trade,
   VelodromeTrade,
   ZeroXTrade,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { UnsignedTransaction } from 'ethers'
 import { useContext, useMemo } from 'react'

@@ -1,4 +1,4 @@
-import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@swapr/sdk'
+import { LiquidityMiningCampaign, SingleSidedLiquidityMiningCampaign } from '@honeyswapr/sdk'
 
 import { useCallback, useEffect, useState } from 'react'
 import { ChevronLeft, Repeat } from 'react-feather'
@@ -43,7 +43,7 @@ const StyledChevronLeft = styled(ChevronLeft)`
 export const StyledSwitch = styled(Repeat)`
   width: 12px;
   height: 12px;
-  color: ${props => props.theme.purple3};
+  color: ${props => props.theme.yellow3};
   margin-left: 4px;
 `
 

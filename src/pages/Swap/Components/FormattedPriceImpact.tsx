@@ -1,4 +1,4 @@
-import { Percent } from '@swapr/sdk'
+import { Percent } from '@honeyswapr/sdk'
 
 import { ONE_BIPS } from '../../../constants'
 import { warningSeverity } from '../../../utils/prices'

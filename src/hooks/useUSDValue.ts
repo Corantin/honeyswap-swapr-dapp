@@ -12,7 +12,7 @@ import {
   TokenAmount,
   UniswapV2RoutablePlatform,
   USDC,
-} from '@swapr/sdk'
+} from '@honeyswapr/sdk'
 
 import { useQuery } from '@tanstack/react-query'
 import { useMemo, useRef, useState } from 'react'

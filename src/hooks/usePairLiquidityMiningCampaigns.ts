@@ -1,4 +1,4 @@
-import { BigintIsh, Pair } from '@swapr/sdk'
+import { BigintIsh, Pair } from '@honeyswapr/sdk'
 
 import { useCallback, useMemo } from 'react'
 

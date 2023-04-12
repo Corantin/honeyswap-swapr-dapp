@@ -29,7 +29,7 @@ const TabsRow = styled(Row)`
   display: inline-flex;
   width: auto;
   padding: 2px 6px;
-  background: ${({ theme }) => theme.bg6};
+  background: ${({ theme }) => theme.dark1};
   border-radius: 12px;
 `
 
@@ -48,11 +48,10 @@ const Button = styled.button`
   background: none;
   cursor: pointer;
 
-  &.active {
+  &.active,
+  &:hover {
     color: #ffffff;
-    background: ${({ theme }) => theme.bg2};
-    font-size: 12px;
-    line-height: 14px;
+    background: ${({ theme }) => theme.dark2};
   }
 
   &:disabled {
@@ -94,7 +93,7 @@ export function Tabs() {
           Swap
         </Button>
         <LimitOrderTab className={activeTab === SwapTab.LIMIT_ORDER ? 'active' : ''} setActiveTab={setActiveTab} />
-        <Button
+        {/* <Button
           title="Bridge Swap"
           onClick={() => {
             dispatch(ecoBridgeUIActions.setBridgeSwapStatus(true))
@@ -104,7 +103,7 @@ export function Tabs() {
         >
           <StyledBridge height={11} />
           {t('tabs.bridgeSwap')}
-        </Button>
+        </Button> */}
       </TabsRow>
       <ChartTabs setActiveChartTab={setActiveChartTab} activeChartTab={activeChartTab} />
     </TabsColumn>
